@@ -1,0 +1,266 @@
+--------------------------------------------------------------------------------
+Handle table up_v_s of 26
+--------------------------------------------------------------------------------
+Cost =  0:  mins  = 1
+Cost =  0:  omins = v
+Cost =  0:  omaxs = v
+Cost =  0:  os    = 0
+----------
+Cost =  0:  maxs  = mins
+----------
+
+Cost =  0:  s =< v
+
+--------------------------------------------------------------------------------
+Handle table up_v_c_s of 20
+--------------------------------------------------------------------------------
+Cost =  0:  mins  = 1
+Cost =  0:  omins = v
+Cost =  0:  omaxs = v
+Cost =  0:  os    = 0
+----------
+Cost =  0:  maxs  = mins
+----------
+
+Cost =  0:  s =< v
+
+--------------------------------------------------------------------------------
+Handle table up_v_minc_s of 26
+--------------------------------------------------------------------------------
+Cost =  0:  mins  = 1
+Cost =  0:  omins = v
+Cost =  0:  omaxs = v
+Cost =  0:  os    = 0
+----------
+Cost =  0:  maxs  = mins
+----------
+
+Cost =  0:  s =< v
+
+--------------------------------------------------------------------------------
+Handle table up_v_maxc_s of 20
+--------------------------------------------------------------------------------
+Cost =  0:  mins  = 1
+Cost =  0:  omins = v
+Cost =  0:  omaxs = v
+Cost =  0:  os    = 0
+----------
+Cost =  0:  maxs  = mins
+----------
+
+Cost =  0:  s =< v
+
+--------------------------------------------------------------------------------
+Handle table up_v_mins_s of 26
+--------------------------------------------------------------------------------
+could not find a formula for os
+
+Cost =  1:  s =< (v div mins)
+
+--------------------------------------------------------------------------------
+Handle table up_v_maxs_s of 20
+--------------------------------------------------------------------------------
+Cost =  4:  mins  = max(maxs^2 - v.maxs + v,1)
+Cost =  7:  omins = max(max(maxs,2) - 2.maxs + v,1)
+Cost =  5:  omins = max([maxs in 1..1] - maxs + v,1)
+Cost =  6:  omaxs = max(-v.maxs - maxs + 2.v + 1,1)
+Cost =  4:  omaxs = max(-v.maxs + 2.v,1)
+Cost =  3:  os    = min(maxs - 1,1)
+Cost =  2:  os    = [-[maxs in 1..1] >= 0]
+----------
+Cost =  3:  omaxs = -v.os + os + v
+----------
+
+Cost =  3:  s =< -maxs + v + 1
+Cost =  3:  s =< os.[mins in 1..1] + omins
+
+--------------------------------------------------------------------------------
+Handle table up_c_maxc_s of 26
+--------------------------------------------------------------------------------
+Cost =  1:  v     = c.maxc
+Cost =  0:  mins  = 1
+Cost =  0:  os    = 0
+----------
+Cost =  0:  maxs  = mins
+Cost =  0:  omins = v
+Cost =  0:  omaxs = v
+----------
+
+Cost =  0:  s =< v
+
+--------------------------------------------------------------------------------
+Handle table up_v_c_minc_s of 15
+--------------------------------------------------------------------------------
+Cost =  0:  mins    = 1
+Cost =  2:  rminc   = -c.minc + v
+Cost =  0:  omins   = v
+Cost =  0:  omaxs   = v
+Cost =  0:  os      = 0
+----------
+Cost =  0:  maxs    = mins
+Cost =  4:  minmaxc = min(rminc,1)^2 + minc.min(rminc,1) - min(rminc,1)
+Cost =  2:  minmaxc = minc.min(rminc,1)
+----------
+
+Cost =  0:  s =< v
+
+--------------------------------------------------------------------------------
+Handle table up_v_c_maxc_s of 20
+--------------------------------------------------------------------------------
+Cost =  0:  mins  = 1
+Cost =  0:  omins = v
+Cost =  0:  omaxs = v
+Cost =  0:  os    = 0
+----------
+Cost =  0:  maxs  = mins
+----------
+
+Cost =  0:  s =< v
+
+--------------------------------------------------------------------------------
+Handle table up_v_c_mins_s of 14
+--------------------------------------------------------------------------------
+could not find a formula for os
+
+Cost =  1:  s =< (v div mins)
+
+--------------------------------------------------------------------------------
+Handle table up_v_c_maxs_s of 10
+--------------------------------------------------------------------------------
+Cost =  4:  mins  = max(maxs^2 - v.maxs + v,1)
+Cost =  7:  omins = max(max(maxs,2) - 2.maxs + v,1)
+Cost =  5:  omins = max([maxs in 1..1] - maxs + v,1)
+Cost =  6:  omaxs = max(-v.maxs + maxs + 2.v - 1,1)
+Cost =  4:  omaxs = max(-v.maxs + 2.v,1)
+Cost =  3:  os    = min(maxs - 1,1)
+Cost =  2:  os    = [-[maxs in 1..1] >= 0]
+----------
+Cost =  3:  omaxs = -v.os + os + v
+----------
+
+Cost =  3:  s =< -maxs + v + 1
+Cost =  3:  s =< os.[mins in 1..1] + omins
+
+--------------------------------------------------------------------------------
+Handle table up_v_minc_maxc_s of 14
+--------------------------------------------------------------------------------
+Cost =  0:  mins    = 1
+Cost =  7:  minmaxc = 2.max(maxc,2) mod (max(maxc,2) + maxc - minc)
+Cost =  5:  minmaxc = (maxc + minc) mod max(maxc,2)
+Cost =  3:  minmaxc = min(maxc^2 - minc.maxc,minc)
+Cost =  0:  omins   = v
+Cost =  0:  omaxs   = v
+Cost =  0:  os      = 0
+----------
+Cost =  0:  maxs    = mins
+----------
+
+Cost =  0:  s =< v
+
+--------------------------------------------------------------------------------
+Handle table up_v_minc_mins_s of 15
+--------------------------------------------------------------------------------
+could not find a formula for os
+
+Cost =  6:  s =< -os.min(os,1) - v.min(os,1) + 2.os + v
+Cost =  4:  s =< -v.min(os,1) + os + v
+Cost =  3:  s =< v.[os in 0..0] + os
+
+--------------------------------------------------------------------------------
+Handle table up_v_minc_maxs_s of 11
+--------------------------------------------------------------------------------
+Cost =  4:  mins  = max(maxs^2 - v.maxs + v,1)
+Cost =  7:  omins = max(max(maxs,2) - 2.maxs + v,1)
+Cost =  5:  omins = max([maxs in 1..1] - maxs + v,1)
+Cost =  6:  omaxs = max(-v.maxs + maxs + 2.v - 1,1)
+Cost =  4:  omaxs = max(-v.maxs + 2.v,1)
+Cost =  3:  os    = min(maxs - 1,1)
+Cost =  2:  os    = [-[maxs in 1..1] >= 0]
+----------
+Cost =  3:  omaxs = -v.os + os + v
+----------
+
+Cost =  3:  s =< -maxs + v + 1
+Cost =  3:  s =< os.[mins in 1..1] + omins
+
+--------------------------------------------------------------------------------
+Handle table up_v_maxc_mins_s of 13
+--------------------------------------------------------------------------------
+could not find a formula for os
+
+Cost =  6:  s =< -os.min(os,1) - v.min(os,1) + 2.os + v
+Cost =  4:  s =< -v.min(os,1) + os + v
+Cost =  3:  s =< v.[os in 0..0] + os
+
+--------------------------------------------------------------------------------
+Handle table up_v_maxc_maxs_s of 10
+--------------------------------------------------------------------------------
+Cost =  4:  mins  = max(maxs^2 - v.maxs + v,1)
+Cost =  7:  omins = max(max(maxs,2) - 2.maxs + v,1)
+Cost =  5:  omins = max([maxs in 1..1] - maxs + v,1)
+Cost =  6:  omaxs = max(-v.maxs + maxs + 2.v - 1,1)
+Cost =  4:  omaxs = max(-v.maxs + 2.v,1)
+Cost =  3:  os    = min(maxs - 1,1)
+Cost =  2:  os    = [-[maxs in 1..1] >= 0]
+----------
+Cost =  3:  omaxs = -v.os + os + v
+----------
+
+Cost =  3:  s =< -maxs + v + 1
+Cost =  3:  s =< os.[mins in 1..1] + omins
+
+--------------------------------------------------------------------------------
+Handle table up_v_mins_maxs_s of 16
+--------------------------------------------------------------------------------
+could not find a formula for os
+
+Cost =  4:  s =< (-maxs + mins + v) div mins
+Cost =  4:  s =< max(-maxs.os + os + v,os)
+
+--------------------------------------------------------------------------------
+Handle table up_c_minc_maxc_s of 24
+--------------------------------------------------------------------------------
+Cost =  3:  v       = c.maxc - maxc + minc
+Cost =  0:  mins    = 1
+Cost =  7:  minmaxc = 2.max(maxc,2) mod (max(maxc,2) + maxc - minc)
+Cost =  5:  minmaxc = (maxc + minc) mod max(maxc,2)
+Cost =  3:  minmaxc = min(maxc^2 - minc.maxc,minc)
+Cost =  4:  rminc   = c.maxc - c.minc - maxc + minc
+Cost =  0:  os      = 0
+----------
+Cost =  2:  v       = c.minc + rminc
+Cost =  2:  minmaxc = minc.min(rminc,1)
+----------
+Cost =  0:  maxs    = mins
+Cost =  0:  omins   = v
+Cost =  0:  omaxs   = v
+----------
+
+Cost =  0:  s =< v
+
+--------------------------------------------------------------------------------
+Handle table up_c_maxc_mins_s of 18
+--------------------------------------------------------------------------------
+could not find a formula for os
+
+Cost =  1:  s =< c.(maxc div mins)
+
+--------------------------------------------------------------------------------
+Handle table up_c_maxc_maxs_s of 16
+--------------------------------------------------------------------------------
+Cost =  1:  v     = c.maxc
+Cost =  8:  mins  = max(maxs^2 - maxc.maxs - c.maxs - c^2 + maxs + maxc + 1,1)
+Cost =  6:  mins  = max(maxs^2 - maxc.maxs - c.maxs + maxs + maxc,1)
+Cost =  4:  omaxs = max(-c.maxc.maxs + 2.c.maxc,1)
+Cost =  3:  os    = min(maxs - 1,1)
+Cost =  2:  os    = [-[maxs in 1..1] >= 0]
+----------
+Cost =  4:  mins  = max(-maxs.v + maxs^2 + maxs,1)
+Cost =  3:  omaxs = -v.os + os + v
+----------
+Cost =  7:  omins = max(max(maxs,2) + v - 2.maxs,1)
+Cost =  5:  omins = max([maxs in 1..1] + v - maxs,1)
+----------
+
+Cost =  3:  s =< c.maxc - maxs + 1
+Cost =  3:  s =< v - maxs + 1

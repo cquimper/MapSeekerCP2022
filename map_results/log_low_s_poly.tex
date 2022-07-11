@@ -1,0 +1,634 @@
+--------------------------------------------------------------------------------
+Handle table low_v_s of 26
+--------------------------------------------------------------------------------
+Cost =  0:  c       = 1
+Cost =  0:  minc    = v
+Cost =  0:  maxc    = v
+Cost =  0:  mins    = v
+Cost =  0:  maxs    = v
+Cost =  0:  minmaxc = 0
+Cost =  3:  oc      = min(v - 1,1)
+Cost =  2:  oc      = [-[v in 1..1] >= 0]
+----------
+Cost =  0:  midc    = minmaxc
+Cost =  0:  rminc   = minmaxc
+Cost =  0:  ominc   = c
+Cost =  0:  omaxc   = c
+Cost =  0:  omidc   = minmaxc
+Cost =  0:  oc23    = minmaxc
+Cost =  0:  omins   = c
+Cost =  0:  omaxs   = c
+Cost =  0:  os      = oc
+----------
+
+Cost =  0:  s >= 1
+
+--------------------------------------------------------------------------------
+Handle table low_c_s of 26
+--------------------------------------------------------------------------------
+Cost =  0:  oc23 = 0
+----------
+
+Cost =  0:  s >= c
+
+--------------------------------------------------------------------------------
+Handle table low_minc_s of 26
+--------------------------------------------------------------------------------
+Cost =  0:  v       = minc
+Cost =  0:  c       = 1
+Cost =  0:  maxc    = minc
+Cost =  0:  mins    = minc
+Cost =  0:  maxs    = minc
+Cost =  0:  minmaxc = 0
+Cost =  3:  oc      = min(minc - 1,1)
+Cost =  2:  oc      = [-[minc in 1..1] >= 0]
+----------
+Cost =  0:  midc    = minmaxc
+Cost =  0:  rminc   = minmaxc
+Cost =  0:  ominc   = c
+Cost =  0:  omaxc   = c
+Cost =  0:  omidc   = minmaxc
+Cost =  0:  oc23    = minmaxc
+Cost =  0:  omins   = c
+Cost =  0:  omaxs   = c
+Cost =  0:  os      = oc
+----------
+
+Cost =  0:  s >= 1
+
+--------------------------------------------------------------------------------
+Handle table low_maxc_s of 26
+--------------------------------------------------------------------------------
+Cost =  0:  v       = maxc
+Cost =  0:  c       = 1
+Cost =  0:  minc    = maxc
+Cost =  0:  mins    = maxc
+Cost =  0:  maxs    = maxc
+Cost =  0:  minmaxc = 0
+Cost =  3:  oc      = min(maxc - 1,1)
+Cost =  2:  oc      = [-[maxc in 1..1] >= 0]
+----------
+Cost =  0:  midc    = minmaxc
+Cost =  0:  rminc   = minmaxc
+Cost =  0:  ominc   = c
+Cost =  0:  omaxc   = c
+Cost =  0:  omidc   = minmaxc
+Cost =  0:  oc23    = minmaxc
+Cost =  0:  omins   = c
+Cost =  0:  omaxs   = c
+Cost =  0:  os      = oc
+----------
+
+Cost =  0:  s >= 1
+
+--------------------------------------------------------------------------------
+Handle table low_mins_s of 26
+--------------------------------------------------------------------------------
+Cost =  0:  v       = mins
+Cost =  0:  c       = 1
+Cost =  0:  minc    = mins
+Cost =  0:  maxc    = mins
+Cost =  0:  maxs    = mins
+Cost =  0:  minmaxc = 0
+Cost =  3:  oc      = min(mins - 1,1)
+Cost =  2:  oc      = [-[mins in 1..1] >= 0]
+----------
+Cost =  0:  midc    = minmaxc
+Cost =  0:  rminc   = minmaxc
+Cost =  0:  ominc   = c
+Cost =  0:  omaxc   = c
+Cost =  0:  omidc   = minmaxc
+Cost =  0:  oc23    = minmaxc
+Cost =  0:  omins   = c
+Cost =  0:  omaxs   = c
+Cost =  0:  os      = oc
+----------
+
+Cost =  0:  s >= 1
+
+--------------------------------------------------------------------------------
+Handle table low_maxs_s of 26
+--------------------------------------------------------------------------------
+Cost =  0:  v       = maxs
+Cost =  0:  c       = 1
+Cost =  0:  minc    = maxs
+Cost =  0:  maxc    = maxs
+Cost =  0:  mins    = maxs
+Cost =  0:  minmaxc = 0
+Cost =  3:  oc      = min(maxs - 1,1)
+Cost =  2:  oc      = [-[maxs in 1..1] >= 0]
+----------
+Cost =  0:  midc    = minmaxc
+Cost =  0:  rminc   = minmaxc
+Cost =  0:  ominc   = c
+Cost =  0:  omaxc   = c
+Cost =  0:  omidc   = minmaxc
+Cost =  0:  oc23    = minmaxc
+Cost =  0:  omins   = c
+Cost =  0:  omaxs   = c
+Cost =  0:  os      = oc
+----------
+
+Cost =  0:  s >= 1
+
+--------------------------------------------------------------------------------
+Handle table low_v_c_s of 20
+--------------------------------------------------------------------------------
+Cost =  0:  oc23 = 0
+----------
+
+Cost =  0:  s >= c
+
+--------------------------------------------------------------------------------
+Handle table low_v_minc_s of 26
+--------------------------------------------------------------------------------
+Cost =  5:  c       = min(-minc + v + 1,2)
+Cost =  3:  maxc    = max(-minc + v,minc)
+Cost =  0:  mins    = minc
+Cost =  0:  midc    = 0
+Cost =  3:  rminc   = max(-2.minc + v,0)
+----------
+Cost =  1:  c       = ((v+maxc-1) div maxc)
+Cost =  2:  maxc    = rminc + minc
+Cost =  2:  rminc   = maxc - minc
+----------
+Cost =  0:  maxs    = maxc
+Cost =  4:  minmaxc = min(rminc,1)^2 + minc.min(rminc,1) - min(rminc,1)
+Cost =  2:  minmaxc = minc.min(rminc,1)
+Cost =  1:  minmaxc = (v mod maxc)
+Cost =  7:  ominc   = max(min(v,2) - 2.maxc + v,1)
+Cost =  1:  ominc   = (v div maxc)
+Cost =  0:  omidc   = midc
+Cost =  8:  oc      = (maxc + v) div (2.max(maxc,2) - maxc + 1)
+Cost =  7:  oc      = (maxc + v) div (2.[maxc in 1..1] + maxc + 1)
+Cost =  0:  oc23    = midc
+----------
+Cost =  0:  omaxc   = ominc
+Cost =  0:  omins   = ominc
+Cost =  0:  omaxs   = ominc
+Cost =  0:  os      = oc
+----------
+
+Cost =  0:  s >= c
+
+--------------------------------------------------------------------------------
+Handle table low_v_maxc_s of 20
+--------------------------------------------------------------------------------
+Cost =  1:  c    = ((v+maxc-1) div maxc)
+Cost =  0:  maxs = maxc
+Cost =  0:  oc23 = 0
+----------
+
+Cost =  0:  s >= c
+
+--------------------------------------------------------------------------------
+Handle table low_v_mins_s of 26
+--------------------------------------------------------------------------------
+Cost =  3:  maxs  = max(-mins + v,mins)
+Cost =  0:  midc  = 0
+----------
+Cost =  0:  omidc = midc
+Cost =  7:  omins = max(min(v,2) - 2.maxs + v,1)
+Cost =  1:  omins = (v div maxs)
+Cost =  8:  os    = (maxs + v) div (2.max(maxs,2) - maxs + 1)
+Cost =  7:  os    = (maxs + v) div (2.[maxs in 1..1] + maxs + 1)
+----------
+Cost =  0:  omaxs = omins
+----------
+
+Cost =  5:  s >= min(-mins + v + 1,2)
+Cost =  5:  s >= min(-maxs + v + 1,2)
+Cost =  3:  s >= omins.[mins in 1..1] + os
+Cost =  1:  s >= ((v+maxs-1) div maxs)
+
+--------------------------------------------------------------------------------
+Handle table low_v_maxs_s of 20
+--------------------------------------------------------------------------------
+
+Cost =  1:  s >= ((v+maxs-1) div maxs)
+
+--------------------------------------------------------------------------------
+Handle table low_c_minc_s of 26
+--------------------------------------------------------------------------------
+Cost =  0:  mins = minc
+Cost =  0:  oc23 = 0
+----------
+
+Cost =  0:  s >= c
+
+--------------------------------------------------------------------------------
+Handle table low_c_maxc_s of 20
+--------------------------------------------------------------------------------
+Cost =  0:  maxs = maxc
+Cost =  0:  oc23 = 0
+----------
+
+Cost =  0:  s >= c
+
+--------------------------------------------------------------------------------
+Handle table low_c_mins_s of 26
+--------------------------------------------------------------------------------
+Cost =  0:  minc = mins
+Cost =  0:  oc23 = 0
+----------
+
+Cost =  0:  s >= c
+
+--------------------------------------------------------------------------------
+Handle table low_c_maxs_s of 20
+--------------------------------------------------------------------------------
+Cost =  0:  maxc = maxs
+Cost =  0:  oc23 = 0
+----------
+
+Cost =  0:  s >= c
+
+--------------------------------------------------------------------------------
+Handle table low_minc_maxc_s of 26
+--------------------------------------------------------------------------------
+Cost =  5:  v       = min(maxc^2 - minc.maxc + minc,maxc + minc)
+Cost =  5:  c       = min(maxc - minc + 1,2)
+Cost =  0:  mins    = minc
+Cost =  0:  maxs    = maxc
+Cost =  7:  minmaxc = 2.max(maxc,2) mod (max(maxc,2) + maxc - minc)
+Cost =  5:  minmaxc = (maxc + minc) mod max(maxc,2)
+Cost =  3:  minmaxc = min(maxc^2 - minc.maxc,minc)
+Cost =  0:  midc    = 0
+Cost =  2:  rminc   = maxc - minc
+Cost =  0:  ominc   = 1
+Cost =  7:  oc      = min(min(minc,2),min(minc,2) + maxc - minc - 1)
+----------
+Cost =  2:  v       = minmaxc + maxc
+Cost =  4:  c       = min(minmaxc + 1,2)
+Cost =  3:  c       = min(minmaxc,1) + 1
+Cost =  2:  minmaxc = v - maxc
+Cost =  6:  oc      = min(-[minc in 1..1] + minmaxc + 1,2)
+Cost =  5:  oc      = (minmaxc + minc) div max(minc,2)
+----------
+Cost =  0:  omaxc   = ominc
+Cost =  0:  omidc   = midc
+Cost =  0:  oc23    = midc
+Cost =  0:  omins   = ominc
+Cost =  0:  omaxs   = ominc
+Cost =  0:  os      = oc
+----------
+
+Cost =  0:  s >= c
+
+--------------------------------------------------------------------------------
+Handle table low_minc_mins_s of 25
+--------------------------------------------------------------------------------
+Cost =  0:  midc    = 0
+Cost =  0:  ominc   = 1
+Cost =  3:  oc23    = [(mins + minc) in 3..3]
+Cost =  2:  oc23    = [minc.mins in 2..2]
+----------
+Cost =  0:  omaxc   = ominc
+Cost =  0:  omidc   = midc
+----------
+could not find a formula for c, minmaxc, oc and os
+
+Cost =  4:  s >= [mins in 1..1] + os + oc23
+
+--------------------------------------------------------------------------------
+Handle table low_minc_maxs_s of 17
+--------------------------------------------------------------------------------
+Cost =  9:  c       = (max(maxs,2) + 2.maxs + minc - 1) div (max(maxs,2) + minc)
+Cost =  7:  c       = (2.((maxs.(maxs+1)) div 2) + maxs + minc - 1) div (((maxs.(maxs+1)) div 2) + minc)
+Cost =  3:  maxc    = -min(minc,maxs) + maxs + minc
+Cost =  1:  maxc    = max(minc,maxs)
+Cost =  0:  midc    = 0
+Cost =  2:  rminc   = max(maxs - minc,0)
+Cost =  0:  ominc   = 1
+Cost =  3:  oc23    = [(maxs^2 + minc) in 3..4]
+Cost =  2:  oc23    = [minc.maxs^2 in 2..3]
+----------
+Cost =  4:  c       = min(rminc + 1,2)
+Cost =  3:  c       = min(rminc,1) + 1
+----------
+Cost =  6:  v       = -rminc.min(rminc,1) + minc.min(rminc,1) + 2.rminc + minc
+Cost =  4:  v       = minc.min(rminc,1) + rminc + minc
+Cost =  2:  minmaxc = minc.c - minc
+Cost =  0:  omaxc   = ominc
+Cost =  0:  omidc   = midc
+Cost =  5:  oc      = -max(minc,2) + c + minc
+Cost =  3:  oc      = -[minc in 1..1] + c
+----------
+Cost =  2:  v       = minmaxc + maxc
+Cost =  1:  minmaxc = (v mod maxc)
+----------
+
+Cost =  2:  s >= ((v+maxs-1) div maxs)
+Cost =  1:  s >= c.((minc+maxs-1) div maxs)
+
+--------------------------------------------------------------------------------
+Handle table low_maxc_mins_s of 24
+--------------------------------------------------------------------------------
+Cost =  0:  midc  = 0
+Cost =  0:  ominc = 1
+----------
+Cost =  0:  omaxc = ominc
+Cost =  0:  omidc = midc
+----------
+
+Cost =  5:  s >= min(-mins + maxc + 1,2)
+
+--------------------------------------------------------------------------------
+Handle table low_maxc_maxs_s of 20
+--------------------------------------------------------------------------------
+Cost =  0:  v       = maxc
+Cost =  0:  c       = 1
+Cost =  0:  minc    = maxc
+Cost =  0:  minmaxc = 0
+Cost =  3:  oc      = min(maxc - 1,1)
+Cost =  2:  oc      = [-[maxc in 1..1] >= 0]
+Cost =  4:  oc23    = [(2.maxs + maxc) in 4..5]
+Cost =  3:  oc23    = [(maxs^2 + maxc) in 3..4]
+Cost =  2:  oc23    = [maxc.maxs in 2..3]
+----------
+Cost =  0:  midc    = minmaxc
+Cost =  0:  rminc   = minmaxc
+Cost =  0:  ominc   = c
+Cost =  0:  omaxc   = c
+Cost =  0:  omidc   = minmaxc
+----------
+
+Cost =  1:  s >= ((maxc+maxs-1) div maxs)
+
+--------------------------------------------------------------------------------
+Handle table low_mins_maxs_s of 26
+--------------------------------------------------------------------------------
+Cost =  5:  v     = min(maxs^2 - mins.maxs + mins,maxs + mins)
+Cost =  0:  midc  = 0
+Cost =  0:  ominc = 1
+Cost =  7:  os    = min(min(mins,2),min(mins,2) + maxs - mins - 1)
+----------
+Cost =  6:  os    = (v + maxs) div (max(maxs,2) + 1)
+----------
+Cost =  0:  omaxc = ominc
+Cost =  0:  omidc = midc
+Cost =  0:  oc23  = midc
+Cost =  0:  omins = ominc
+Cost =  0:  omaxs = ominc
+----------
+
+Cost =  5:  s >= min(maxs - mins + 1,2)
+Cost =  5:  s >= min(v - mins + 1,2)
+Cost =  3:  s >= [mins in 1..1] + os
+Cost =  2:  s >= ((v+maxs-1) div maxs)
+
+--------------------------------------------------------------------------------
+Handle table low_v_c_minc_s of 15
+--------------------------------------------------------------------------------
+Cost =  0:  mins    = minc
+Cost =  2:  rminc   = -c.minc + v
+Cost =  0:  oc23    = 0
+----------
+Cost =  4:  minmaxc = min(rminc,1)^2 + minc.min(rminc,1) - min(rminc,1)
+Cost =  2:  minmaxc = minc.min(rminc,1)
+----------
+
+Cost =  0:  s >= c
+
+--------------------------------------------------------------------------------
+Handle table low_v_c_maxc_s of 12
+--------------------------------------------------------------------------------
+Cost =  0:  maxs = maxc
+Cost =  0:  oc23 = 0
+----------
+
+Cost =  0:  s >= c
+
+--------------------------------------------------------------------------------
+Handle table low_v_c_mins_s of 14
+--------------------------------------------------------------------------------
+Cost =  7:  minc    = mins.min(c,2) - v.min(c,2) - mins + 2.v
+Cost =  4:  minc    = -mins.[c in 1..1] + v.[c in 1..1] + mins
+Cost =  5:  rminc   = mins.[c in 1..1] - c.mins - v.[c in 1..1] + v
+Cost =  4:  oc23    = [(mins + c + v) in 4..4]
+Cost =  3:  oc23    = [(mins^2 + v.c) in 3..3]
+Cost =  2:  oc23    = [v.c.mins in 2..2]
+----------
+Cost =  3:  minc    = (-rminc + v) div c
+Cost =  2:  rminc   = -c.minc + v
+----------
+Cost =  4:  minmaxc = min(rminc,1)^2 + mins.min(rminc,1) - min(rminc,1)
+Cost =  2:  minmaxc = mins.min(rminc,1)
+----------
+
+Cost =  6:  s >= min(-mins + v + 1,max(c,2))
+Cost =  5:  s >= min(c + 1,minc - mins + c)
+
+--------------------------------------------------------------------------------
+Handle table low_v_c_maxs_s of 10
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Handle table low_v_minc_maxc_s of 14
+--------------------------------------------------------------------------------
+Cost =  6:  c       = (2.maxc - minc + v - 1) div maxc
+Cost =  0:  mins    = minc
+Cost =  0:  maxs    = maxc
+Cost =  7:  minmaxc = 2.max(maxc,2) mod (max(maxc,2) + maxc - minc)
+Cost =  5:  minmaxc = (maxc + minc) mod max(maxc,2)
+Cost =  3:  minmaxc = min(maxc^2 - minc.maxc,minc)
+Cost =  0:  oc23    = 0
+----------
+could not find a formula for rminc
+
+Cost =  0:  s >= c
+
+--------------------------------------------------------------------------------
+Handle table low_v_minc_mins_s of 15
+--------------------------------------------------------------------------------
+Cost =  5:  c       = min(-minc + v + 1,2)
+Cost =  3:  maxc    = max(-minc + v,minc)
+Cost =  0:  midc    = 0
+Cost =  3:  rminc   = max(-2.minc + v,0)
+----------
+Cost =  1:  c       = ((v+maxc-1) div maxc)
+Cost =  2:  maxc    = rminc + minc
+Cost =  2:  rminc   = maxc - minc
+----------
+Cost =  4:  minmaxc = min(rminc,1)^2 + minc.min(rminc,1) - min(rminc,1)
+Cost =  2:  minmaxc = minc.min(rminc,1)
+Cost =  1:  minmaxc = (v mod maxc)
+Cost =  3:  ominc   = max(-rminc + c,1)
+Cost =  1:  ominc   = (v div maxc)
+Cost =  0:  omidc   = midc
+Cost =  8:  oc      = (maxc + v) div (2.max(maxc,2) - maxc + 1)
+Cost =  7:  oc      = (maxc + v) div (2.[maxc in 1..1] + maxc + 1)
+----------
+Cost =  0:  omaxc   = ominc
+----------
+
+Cost =  5:  s >= min(c - mins + minc,c + 1)
+
+--------------------------------------------------------------------------------
+Handle table low_v_minc_maxs_s of 11
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Handle table low_v_maxc_mins_s of 13
+--------------------------------------------------------------------------------
+
+Cost =  6:  s >= (-mins + 2.maxc + v - 1) div maxc
+
+--------------------------------------------------------------------------------
+Handle table low_v_maxc_maxs_s of 10
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Handle table low_v_mins_maxs_s of 14
+--------------------------------------------------------------------------------
+
+Cost =  6:  s >= (2.maxs - mins + v - 1) div maxs
+
+--------------------------------------------------------------------------------
+Handle table low_c_minc_maxc_s of 15
+--------------------------------------------------------------------------------
+Cost =  0:  mins    = minc
+Cost =  0:  maxs    = maxc
+Cost =  7:  minmaxc = 2.max(maxc,2) mod (max(maxc,2) + maxc - minc)
+Cost =  5:  minmaxc = (maxc + minc) mod max(maxc,2)
+Cost =  3:  minmaxc = min(maxc^2 - minc.maxc,minc)
+Cost =  0:  oc23    = 0
+----------
+
+Cost =  0:  s >= c
+
+--------------------------------------------------------------------------------
+Handle table low_c_minc_mins_s of 19
+--------------------------------------------------------------------------------
+
+Cost =  5:  s >= min(-mins + minc + c,c + 1)
+
+--------------------------------------------------------------------------------
+Handle table low_c_minc_maxs_s of 12
+--------------------------------------------------------------------------------
+could not find a formula for oc23
+
+Cost =  1:  s >= c.((minc+maxs-1) div maxs)
+
+--------------------------------------------------------------------------------
+Handle table low_c_maxc_mins_s of 14
+--------------------------------------------------------------------------------
+Cost =  7:  minc    = mins.min(c,2) - maxc.min(c,2) - mins + 2.maxc
+Cost =  4:  minc    = -mins.[c in 1..1] + maxc.[c in 1..1] + mins
+Cost =  5:  oc23    = [(mins + maxc + 2.c) in 5..5]
+Cost =  4:  oc23    = [(mins^2 + maxc^2 - c.maxc) in 3..3]
+Cost =  3:  oc23    = [(-c.mins + c.maxc) in 1..1]
+----------
+Cost =  2:  oc23    = [mins.minc in 2..2]
+----------
+Cost =  5:  maxs    = max(-minc + mins + maxc,minc - mins)
+Cost =  7:  minmaxc = 2.max(maxc,2) mod (max(maxc,2) - minc + maxc)
+Cost =  5:  minmaxc = (minc + maxc) mod max(maxc,2)
+Cost =  3:  minmaxc = min(-maxc.minc + maxc^2,minc)
+----------
+Cost =  4:  maxs    = max(mins,minmaxc - mins + maxc)
+----------
+
+Cost =  6:  s >= min(-mins + maxc + c,max(c,2))
+Cost =  3:  s >= ((maxc+maxs-1) div maxs) + c - 1
+Cost =  1:  s >= c.((maxc+maxs-1) div maxs)
+
+--------------------------------------------------------------------------------
+Handle table low_c_maxc_maxs_s of 10
+--------------------------------------------------------------------------------
+Cost =  4:  oc23 = [(2.maxs + maxc) in 4..5]
+Cost =  3:  oc23 = [(maxs^2 + maxc) in 3..4]
+Cost =  2:  oc23 = [maxc.maxs in 2..3]
+----------
+
+Cost =  3:  s >= ((maxc+maxs-1) div maxs) + c - 1
+
+--------------------------------------------------------------------------------
+Handle table low_c_mins_maxs_s of 14
+--------------------------------------------------------------------------------
+Cost =  0:  oc23    = 0
+----------
+could not find a formula for minc, maxc and minmaxc
+
+Cost =  6:  s >= min(maxs - mins + c,max(c,2))
+Cost =  4:  s >= ((minc+maxs-1) div maxs) + c - 1
+Cost =  2:  s >= c.((minc+maxs-1) div maxs)
+
+--------------------------------------------------------------------------------
+Handle table low_minc_maxc_mins_s of 15
+--------------------------------------------------------------------------------
+Cost =  5:  v       = min(maxc^2 - minc.maxc + minc,maxc + minc)
+Cost =  5:  c       = min(maxc - minc + 1,2)
+Cost =  7:  minmaxc = 2.max(maxc,2) mod (max(maxc,2) + maxc - minc)
+Cost =  5:  minmaxc = (maxc + minc) mod max(maxc,2)
+Cost =  3:  minmaxc = min(maxc^2 - minc.maxc,minc)
+Cost =  0:  midc    = 0
+Cost =  2:  rminc   = maxc - minc
+Cost =  0:  ominc   = 1
+Cost =  7:  oc      = min(min(minc,2),min(minc,2) + maxc - minc - 1)
+----------
+Cost =  2:  v       = minmaxc + maxc
+Cost =  4:  c       = min(minmaxc + 1,2)
+Cost =  3:  c       = min(minmaxc,1) + 1
+Cost =  2:  minmaxc = v - maxc
+Cost =  5:  oc      = -max(minc,2) + c + minc
+Cost =  3:  oc      = -[minc in 1..1] + c
+----------
+Cost =  0:  omaxc   = ominc
+Cost =  0:  omidc   = midc
+----------
+
+Cost =  6:  s >= (v - mins + 2.maxc - 1) div maxc
+Cost =  5:  s >= min(c - mins + minc,c + 1)
+
+--------------------------------------------------------------------------------
+Handle table low_minc_maxc_maxs_s of 11
+--------------------------------------------------------------------------------
+Cost =  5:  v       = min(maxc^2 - minc.maxc + minc,maxc + minc)
+Cost =  5:  c       = min(maxc - minc + 1,2)
+Cost =  7:  minmaxc = 2.max(maxc,2) mod (max(maxc,2) + maxc - minc)
+Cost =  5:  minmaxc = (maxc + minc) mod max(maxc,2)
+Cost =  3:  minmaxc = min(maxc^2 - minc.maxc,minc)
+Cost =  0:  midc    = 0
+Cost =  2:  rminc   = maxc - minc
+Cost =  0:  ominc   = 1
+Cost =  7:  oc      = min(min(minc,2),min(minc,2) + maxc - minc - 1)
+----------
+Cost =  2:  v       = minmaxc + maxc
+Cost =  4:  c       = min(minmaxc + 1,2)
+Cost =  3:  c       = min(minmaxc,1) + 1
+Cost =  2:  minmaxc = v - maxc
+Cost =  5:  oc      = -max(minc,2) + c + minc
+Cost =  3:  oc      = -[minc in 1..1] + c
+----------
+Cost =  0:  omaxc   = ominc
+Cost =  0:  omidc   = midc
+----------
+could not find a formula for oc23
+
+
+--------------------------------------------------------------------------------
+Handle table low_minc_mins_maxs_s of 12
+--------------------------------------------------------------------------------
+Cost =  0:  midc  = 0
+----------
+Cost =  0:  omidc = midc
+----------
+could not find a formula for c and oc
+
+
+--------------------------------------------------------------------------------
+Handle table low_maxc_mins_maxs_s of 13
+--------------------------------------------------------------------------------
+Cost =  0:  midc  = 0
+Cost =  0:  ominc = 1
+Cost =  4:  oc23  = [(2.maxs + maxc) in 4..5]
+Cost =  3:  oc23  = [(maxs^2 + maxc) in 3..4]
+Cost =  2:  oc23  = [maxc.maxs in 2..3]
+----------
+Cost =  0:  omaxc = ominc
+Cost =  0:  omidc = midc
+----------

@@ -1,0 +1,314 @@
+--------------------------------------------------------------------------------
+Handle table up_v_maxc of 26
+--------------------------------------------------------------------------------
+Cost =  0:  c       = 1
+Cost =  0:  minc    = v
+Cost =  0:  minmaxc = 0
+Cost =  3:  oc      = [v>=2]
+----------
+Cost =  0:  midc    = minmaxc
+Cost =  0:  rminc   = minmaxc
+Cost =  0:  ominc   = c
+Cost =  0:  omaxc   = c
+Cost =  0:  omidc   = minmaxc
+----------
+
+Cost =  0:  maxc =< v
+
+--------------------------------------------------------------------------------
+Handle table up_v_c_maxc of 20
+--------------------------------------------------------------------------------
+Cost =  2:  minc    = (c=1 ? v : 1)
+Cost =  8:  minmaxc = [c>=2] and [(v-c)>=1]
+Cost =  3:  minmaxc = [v=c] <=> [c=1] <=> [v=2]
+Cost =  0:  midc    = 0
+Cost =  3:  rminc   = (c=1 ? 0 : v-c)
+Cost =  3:  ominc   = (v=c ? v : max(c-1,1))
+Cost =  2:  omaxc   = (v=c ? v : 1)
+Cost =  5:  oc      = [(v-c)>=1]
+Cost =  0:  oc      = not [v=c]
+----------
+Cost =  0:  omidc   = midc
+----------
+
+Cost =  3:  maxc =< -c + v + 1
+Cost =  2:  maxc =< rminc + minc
+
+--------------------------------------------------------------------------------
+Handle table up_v_minc_maxc of 26
+--------------------------------------------------------------------------------
+Cost =  2:  c       = 1 + [2.minc=<v]
+Cost =  0:  c       = 1 + not [v=minc]
+Cost =  2:  minmaxc = (v=<2.minc ? 0 : minc)
+Cost =  0:  midc    = 0
+Cost =  4:  rminc   = (v=minc ? 0 : v-2.minc)
+Cost =  3:  rminc   = max(-2.minc + v,0)
+Cost =  2:  ominc   = 1 + [v=2.minc]
+Cost =  9:  oc      = [minc>=2] + [(v-minc)>=2]
+Cost =  6:  oc      = (v-minc=<1 ? (v+minc-2) div v : min(minc,2))
+----------
+Cost =  0:  omaxc   = ominc
+Cost =  0:  omidc   = midc
+----------
+
+Cost =  3:  maxc =< (v=minc ? v : v-minc)
+Cost =  2:  maxc =< rminc + minc
+
+--------------------------------------------------------------------------------
+Handle table up_v_s_maxc of 20
+--------------------------------------------------------------------------------
+Cost =  0:  c       = 1
+Cost =  0:  minc    = v
+Cost =  0:  minmaxc = 0
+Cost =  3:  oc      = [v>=2]
+Cost =  4:  oc23    = [v=s] and [v in 2..3]
+----------
+Cost =  0:  midc    = minmaxc
+Cost =  0:  rminc   = minmaxc
+Cost =  0:  ominc   = c
+Cost =  0:  omaxc   = c
+Cost =  0:  omidc   = minmaxc
+----------
+
+Cost =  0:  maxc =< v
+
+--------------------------------------------------------------------------------
+Handle table up_v_mins_maxc of 26
+--------------------------------------------------------------------------------
+Cost =  0:  c       = 1
+Cost =  0:  minc    = v
+Cost =  0:  minmaxc = 0
+Cost =  3:  oc      = [v>=2]
+----------
+Cost =  0:  midc    = minmaxc
+Cost =  0:  rminc   = minmaxc
+Cost =  0:  ominc   = c
+Cost =  0:  omaxc   = c
+Cost =  0:  omidc   = minmaxc
+----------
+
+Cost =  0:  maxc =< v
+
+--------------------------------------------------------------------------------
+Handle table up_v_maxs_maxc of 20
+--------------------------------------------------------------------------------
+Cost =  0:  c       = 1
+Cost =  0:  minc    = v
+Cost =  0:  minmaxc = 0
+Cost =  3:  oc      = [v>=2]
+Cost =  5:  oc23    = [maxs=1] and [v in 2..3]
+Cost =  4:  oc23    = (v.maxs=<3 ? min(maxs+v-2,maxs) : 0)
+Cost =  3:  oc23    = [(maxs^2 + v) in 3..4]
+Cost =  2:  oc23    = [v.maxs in 2..3]
+----------
+Cost =  0:  midc    = minmaxc
+Cost =  0:  rminc   = minmaxc
+Cost =  0:  ominc   = c
+Cost =  0:  omaxc   = c
+Cost =  0:  omidc   = minmaxc
+----------
+
+Cost =  0:  maxc =< v
+
+--------------------------------------------------------------------------------
+Handle table up_v_c_minc_maxc of 15
+--------------------------------------------------------------------------------
+Cost =  0:  midc    = 0
+Cost =  2:  rminc   = -c.minc + v
+Cost =  5:  ominc   = max(c.minc + c - v,c - 1)
+Cost =  4:  ominc   = (c.minc + v.c - v) div v
+----------
+Cost =  3:  ominc   = -min(rminc,1) + c
+----------
+Cost =  2:  minmaxc = (rminc=0 ? 0 : minc)
+Cost =  2:  omaxc   = (rminc=0 ? c : 1)
+Cost =  0:  omidc   = midc
+Cost =  4:  oc      = (c+rminc-v=0 ? min(rminc,1) : c)
+Cost =  3:  oc      = (minc=1 ? min(minc,rminc) : c)
+----------
+Cost =  2:  oc      = (minc=1 ? minmaxc : c)
+----------
+
+Cost =  3:  maxc =< -c.minc + minc + v
+Cost =  2:  maxc =< rminc + minc
+
+--------------------------------------------------------------------------------
+Handle table up_v_c_s_maxc of 10
+--------------------------------------------------------------------------------
+Cost =  2:  minc    = (c=1 ? v : 1)
+Cost =  8:  minmaxc = [c>=2] and [(v-c)>=1]
+Cost =  3:  minmaxc = [v=c] <=> [c=1] <=> [v=2]
+Cost =  0:  midc    = 0
+Cost =  3:  rminc   = (c=1 ? 0 : v-c)
+Cost =  3:  ominc   = (v=c ? v : max(c-1,1))
+Cost =  2:  omaxc   = (v=c ? v : 1)
+Cost =  5:  oc      = [(v-c)>=1]
+Cost =  0:  oc      = not [v=c]
+Cost = 12:  oc23    = [v=<s] and [(v-c)=<2] and [(s-c)>=1]
+Cost = 11:  oc23    = [c=s] <=> [(v-s)=1] <=> [(v-c)>=3]
+----------
+Cost =  0:  omidc   = midc
+----------
+
+Cost =  3:  maxc =< -c + v + 1
+Cost =  2:  maxc =< rminc + minc
+
+--------------------------------------------------------------------------------
+Handle table up_v_c_mins_maxc of 14
+--------------------------------------------------------------------------------
+Cost =  2:  minc    = (c=1 ? v : mins)
+Cost =  0:  midc    = 0
+Cost =  5:  rminc   = mins.[c in 1..1] - c.mins - v.[c in 1..1] + v
+----------
+Cost =  2:  rminc   = -c.minc + v
+----------
+Cost =  2:  minmaxc = (rminc=0 ? 0 : mins)
+Cost =  3:  ominc   = -min(rminc,1) + c
+Cost =  2:  omaxc   = (rminc=0 ? c : 1)
+Cost =  0:  omidc   = midc
+Cost =  4:  oc      = (c+rminc-v=0 ? min(rminc,1) : c)
+Cost =  3:  oc      = (minc=1 ? min(minc,rminc) : c)
+----------
+Cost =  2:  oc      = (minc=1 ? minmaxc : c)
+----------
+
+Cost =  3:  maxc =< -c.mins + mins + v
+Cost =  2:  maxc =< rminc + minc
+
+--------------------------------------------------------------------------------
+Handle table up_v_c_maxs_maxc of 10
+--------------------------------------------------------------------------------
+Cost =  2:  minc    = (c=1 ? v : 1)
+Cost =  8:  minmaxc = [c>=2] and [(v-c)>=1]
+Cost =  3:  minmaxc = [v=c] <=> [c=1] <=> [v=2]
+Cost =  0:  midc    = 0
+Cost =  3:  rminc   = (c=1 ? 0 : v-c)
+Cost =  3:  ominc   = (v=c ? v : max(c-1,1))
+Cost =  2:  omaxc   = (v=c ? v : 1)
+Cost =  5:  oc      = [(v-c)>=1]
+Cost =  0:  oc      = not [v=c]
+Cost = 12:  oc23    = [maxs=1] and [(v-c)=<2] and [(v-c)>=1]
+Cost = 10:  oc23    = [v=c] <=> [maxs>=2] <=> [(v-c)>=3]
+----------
+Cost =  0:  omidc   = midc
+----------
+
+Cost =  3:  maxc =< -c + v + 1
+Cost =  2:  maxc =< rminc + minc
+
+--------------------------------------------------------------------------------
+Handle table up_v_minc_s_maxc of 10
+--------------------------------------------------------------------------------
+Cost =  2:  c       = 1 + [2.minc=<v]
+Cost =  0:  c       = 1 + not [v=minc]
+Cost =  2:  minmaxc = (v=<2.minc ? 0 : minc)
+Cost =  0:  midc    = 0
+Cost =  4:  rminc   = (v=minc ? 0 : v-2.minc)
+Cost =  3:  rminc   = max(-2.minc + v,0)
+Cost =  2:  ominc   = 1 + [v=2.minc]
+Cost =  9:  oc      = [minc>=2] + [(v-minc)>=2]
+Cost =  6:  oc      = (v-minc=<1 ? (v+minc-2) div v : min(minc,2))
+----------
+Cost =  0:  omaxc   = ominc
+Cost =  0:  omidc   = midc
+----------
+
+Cost =  3:  maxc =< (v=minc ? v : v-minc)
+Cost =  2:  maxc =< rminc + minc
+
+--------------------------------------------------------------------------------
+Handle table up_v_minc_mins_maxc of 15
+--------------------------------------------------------------------------------
+Cost =  2:  c       = 1 + [2.minc=<v]
+Cost =  0:  c       = 1 + not [v=minc]
+Cost =  2:  minmaxc = (v=<2.minc ? 0 : minc)
+Cost =  0:  midc    = 0
+Cost =  4:  rminc   = (v=minc ? 0 : v-2.minc)
+Cost =  3:  rminc   = max(-2.minc + v,0)
+Cost =  2:  ominc   = 1 + [v=2.minc]
+Cost =  9:  oc      = [minc>=2] + [(v-minc)>=2]
+Cost =  6:  oc      = (v-minc=<1 ? (v+minc-2) div v : min(minc,2))
+----------
+Cost =  0:  omaxc   = ominc
+Cost =  0:  omidc   = midc
+----------
+
+Cost =  3:  maxc =< (v=minc ? v : v-minc)
+Cost =  2:  maxc =< rminc + minc
+
+--------------------------------------------------------------------------------
+Handle table up_v_minc_maxs_maxc of 11
+--------------------------------------------------------------------------------
+Cost =  2:  c       = 1 + [2.minc=<v]
+Cost =  0:  c       = 1 + not [v=minc]
+Cost =  2:  minmaxc = (v=<2.minc ? 0 : minc)
+Cost =  0:  midc    = 0
+Cost =  4:  rminc   = (v=minc ? 0 : v-2.minc)
+Cost =  3:  rminc   = max(-2.minc + v,0)
+Cost =  2:  ominc   = 1 + [v=2.minc]
+Cost =  9:  oc      = [minc>=2] + [(v-minc)>=2]
+Cost =  6:  oc      = (v-minc=<1 ? (v+minc-2) div v : min(minc,2))
+----------
+Cost =  0:  omaxc   = ominc
+Cost =  0:  omidc   = midc
+----------
+
+Cost =  3:  maxc =< (v=minc ? v : v-minc)
+Cost =  2:  maxc =< rminc + minc
+
+--------------------------------------------------------------------------------
+Handle table up_v_s_mins_maxc of 15
+--------------------------------------------------------------------------------
+Cost =  0:  c       = 1
+Cost =  0:  minc    = v
+Cost =  0:  minmaxc = 0
+Cost =  3:  oc      = [v>=2]
+Cost =  4:  oc23    = [v=s] and [v in 2..3]
+----------
+Cost =  0:  midc    = minmaxc
+Cost =  0:  rminc   = minmaxc
+Cost =  0:  ominc   = c
+Cost =  0:  omaxc   = c
+Cost =  0:  omidc   = minmaxc
+----------
+
+Cost =  0:  maxc =< v
+
+--------------------------------------------------------------------------------
+Handle table up_v_s_maxs_maxc of 20
+--------------------------------------------------------------------------------
+Cost =  0:  c       = 1
+Cost =  0:  minc    = v
+Cost =  0:  minmaxc = 0
+Cost =  3:  oc      = [v>=2]
+Cost =  4:  oc23    = [v=s] and [v in 2..3]
+----------
+Cost =  0:  midc    = minmaxc
+Cost =  0:  rminc   = minmaxc
+Cost =  0:  ominc   = c
+Cost =  0:  omaxc   = c
+Cost =  0:  omidc   = minmaxc
+----------
+
+Cost =  0:  maxc =< v
+
+--------------------------------------------------------------------------------
+Handle table up_v_mins_maxs_maxc of 14
+--------------------------------------------------------------------------------
+Cost =  0:  c       = 1
+Cost =  0:  minc    = v
+Cost =  0:  minmaxc = 0
+Cost =  3:  oc      = [v>=2]
+Cost =  5:  oc23    = [maxs=1] and [v in 2..3]
+Cost =  4:  oc23    = (v.maxs=<3 ? min(maxs+v-2,maxs) : 0)
+Cost =  3:  oc23    = [(maxs^2 + v) in 3..4]
+Cost =  2:  oc23    = [v.maxs in 2..3]
+----------
+Cost =  0:  midc    = minmaxc
+Cost =  0:  rminc   = minmaxc
+Cost =  0:  ominc   = c
+Cost =  0:  omaxc   = c
+Cost =  0:  omidc   = minmaxc
+----------
+
+Cost =  0:  maxc =< v
