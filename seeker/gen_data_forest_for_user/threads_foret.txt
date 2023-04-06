@@ -1,0 +1,7820 @@
+2 v maxt
+2 v mint
+2 v maxp
+2 v minp
+2 v maxd
+2 v mind
+2 v maxf
+2 v minf
+2 v f
+2 v t
+2 v maxt t
+2 v maxt f
+2 v maxt minf
+2 v maxt maxf
+2 v maxt mind
+2 v maxt maxd
+2 v maxt minp
+2 v maxt maxp
+2 v maxt mint
+2 v mint maxt
+2 v mint t
+2 v mint f
+2 v mint minf
+2 v mint maxf
+2 v mint mind
+2 v mint maxd
+2 v mint minp
+2 v mint maxp
+2 v maxp mint
+2 v maxp maxt
+2 v maxp t
+2 v maxp f
+2 v maxp minf
+2 v maxp maxf
+2 v maxp mind
+2 v maxp maxd
+2 v maxp minp
+2 v minp maxp
+2 v minp mint
+2 v minp maxt
+2 v minp t
+2 v minp f
+2 v minp minf
+2 v minp maxf
+2 v minp mind
+2 v minp maxd
+2 v maxd minp
+2 v maxd maxp
+2 v maxd mint
+2 v maxd maxt
+2 v maxd t
+2 v maxd f
+2 v maxd minf
+2 v maxd maxf
+2 v maxd mind
+2 v mind maxd
+2 v mind minp
+2 v mind maxp
+2 v mind mint
+2 v mind maxt
+2 v mind t
+2 v mind f
+2 v mind minf
+2 v mind maxf
+2 v maxf mind
+2 v maxf maxd
+2 v maxf minp
+2 v maxf maxp
+2 v maxf mint
+2 v maxf maxt
+2 v maxf t
+2 v maxf f
+2 v maxf minf
+2 v minf maxf
+2 v minf mind
+2 v minf maxd
+2 v minf minp
+2 v minf maxp
+2 v minf mint
+2 v minf maxt
+2 v minf t
+2 v minf f
+2 v f minf
+2 v f maxf
+2 v f mind
+2 v f maxd
+2 v f minp
+2 v f maxp
+2 v f mint
+2 v f maxt
+2 v f t
+2 v t f
+2 v t minf
+2 v t maxf
+2 v t mind
+2 v t maxd
+2 v t minp
+2 v t maxp
+2 v t mint
+2 v t maxt
+2 v mint maxt t
+2 v mint maxt f
+2 v mint maxt minf
+2 v mint maxt maxf
+2 v mint maxt mind
+2 v mint maxt maxd
+2 v mint maxt minp
+2 v mint maxt maxp
+2 v maxp mint maxt
+2 v maxp mint t
+2 v maxp mint f
+2 v maxp mint minf
+2 v maxp mint maxf
+2 v maxp mint mind
+2 v maxp mint maxd
+2 v maxp mint minp
+2 v maxp maxt mint
+2 v maxp maxt t
+2 v maxp maxt f
+2 v maxp maxt minf
+2 v maxp maxt maxf
+2 v maxp maxt mind
+2 v maxp maxt maxd
+2 v maxp maxt minp
+2 v minp maxp maxt
+2 v minp maxp mint
+2 v minp maxp t
+2 v minp maxp f
+2 v minp maxp minf
+2 v minp maxp maxf
+2 v minp maxp mind
+2 v minp maxp maxd
+2 v minp mint maxp
+2 v minp mint maxt
+2 v minp mint t
+2 v minp mint f
+2 v minp mint minf
+2 v minp mint maxf
+2 v minp mint mind
+2 v minp mint maxd
+2 v minp maxt mint
+2 v minp maxt maxp
+2 v minp maxt t
+2 v minp maxt f
+2 v minp maxt minf
+2 v minp maxt maxf
+2 v minp maxt mind
+2 v minp maxt maxd
+2 v maxd minp maxt
+2 v maxd minp mint
+2 v maxd minp maxp
+2 v maxd minp t
+2 v maxd minp f
+2 v maxd minp minf
+2 v maxd minp maxf
+2 v maxd minp mind
+2 v maxd maxp minp
+2 v maxd maxp maxt
+2 v maxd maxp mint
+2 v maxd maxp t
+2 v maxd maxp f
+2 v maxd maxp minf
+2 v maxd maxp maxf
+2 v maxd maxp mind
+2 v maxd mint maxp
+2 v maxd mint minp
+2 v maxd mint maxt
+2 v maxd mint t
+2 v maxd mint f
+2 v maxd mint minf
+2 v maxd mint maxf
+2 v maxd mint mind
+2 v maxd maxt mint
+2 v maxd maxt maxp
+2 v maxd maxt minp
+2 v maxd maxt t
+2 v maxd maxt f
+2 v maxd maxt minf
+2 v maxd maxt maxf
+2 v maxd maxt mind
+2 v mind maxd maxt
+2 v mind maxd mint
+2 v mind maxd maxp
+2 v mind maxd minp
+2 v mind maxd t
+2 v mind maxd f
+2 v mind maxd minf
+2 v mind maxd maxf
+2 v mind minp maxd
+2 v mind minp maxt
+2 v mind minp mint
+2 v mind minp maxp
+2 v mind minp t
+2 v mind minp f
+2 v mind minp minf
+2 v mind minp maxf
+2 v mind maxp minp
+2 v mind maxp maxd
+2 v mind maxp maxt
+2 v mind maxp mint
+2 v mind maxp t
+2 v mind maxp f
+2 v mind maxp minf
+2 v mind maxp maxf
+2 v mind mint maxp
+2 v mind mint minp
+2 v mind mint maxd
+2 v mind mint maxt
+2 v mind mint t
+2 v mind mint f
+2 v mind mint minf
+2 v mind mint maxf
+2 v mind maxt mint
+2 v mind maxt maxp
+2 v mind maxt minp
+2 v mind maxt maxd
+2 v mind maxt t
+2 v mind maxt f
+2 v mind maxt minf
+2 v mind maxt maxf
+2 v maxf mind maxt
+2 v maxf mind mint
+2 v maxf mind maxp
+2 v maxf mind minp
+2 v maxf mind maxd
+2 v maxf mind t
+2 v maxf mind f
+2 v maxf mind minf
+2 v maxf maxd mind
+2 v maxf maxd maxt
+2 v maxf maxd mint
+2 v maxf maxd maxp
+2 v maxf maxd minp
+2 v maxf maxd t
+2 v maxf maxd f
+2 v maxf maxd minf
+2 v maxf minp maxd
+2 v maxf minp mind
+2 v maxf minp maxt
+2 v maxf minp mint
+2 v maxf minp maxp
+2 v maxf minp t
+2 v maxf minp f
+2 v maxf minp minf
+2 v maxf maxp minp
+2 v maxf maxp maxd
+2 v maxf maxp mind
+2 v maxf maxp maxt
+2 v maxf maxp mint
+2 v maxf maxp t
+2 v maxf maxp f
+2 v maxf maxp minf
+2 v maxf mint maxp
+2 v maxf mint minp
+2 v maxf mint maxd
+2 v maxf mint mind
+2 v maxf mint maxt
+2 v maxf mint t
+2 v maxf mint f
+2 v maxf mint minf
+2 v maxf maxt mint
+2 v maxf maxt maxp
+2 v maxf maxt minp
+2 v maxf maxt maxd
+2 v maxf maxt mind
+2 v maxf maxt t
+2 v maxf maxt f
+2 v maxf maxt minf
+2 v minf maxf maxt
+2 v minf maxf mint
+2 v minf maxf maxp
+2 v minf maxf minp
+2 v minf maxf maxd
+2 v minf maxf mind
+2 v minf maxf t
+2 v minf maxf f
+2 v minf mind maxf
+2 v minf mind maxt
+2 v minf mind mint
+2 v minf mind maxp
+2 v minf mind minp
+2 v minf mind maxd
+2 v minf mind t
+2 v minf mind f
+2 v minf maxd mind
+2 v minf maxd maxf
+2 v minf maxd maxt
+2 v minf maxd mint
+2 v minf maxd maxp
+2 v minf maxd minp
+2 v minf maxd t
+2 v minf maxd f
+2 v minf minp maxd
+2 v minf minp mind
+2 v minf minp maxf
+2 v minf minp maxt
+2 v minf minp mint
+2 v minf minp maxp
+2 v minf minp t
+2 v minf minp f
+2 v minf maxp minp
+2 v minf maxp maxd
+2 v minf maxp mind
+2 v minf maxp maxf
+2 v minf maxp maxt
+2 v minf maxp mint
+2 v minf maxp t
+2 v minf maxp f
+2 v minf mint maxp
+2 v minf mint minp
+2 v minf mint maxd
+2 v minf mint mind
+2 v minf mint maxf
+2 v minf mint maxt
+2 v minf mint t
+2 v minf mint f
+2 v minf maxt mint
+2 v minf maxt maxp
+2 v minf maxt minp
+2 v minf maxt maxd
+2 v minf maxt mind
+2 v minf maxt maxf
+2 v minf maxt t
+2 v minf maxt f
+2 v f minf maxt
+2 v f minf mint
+2 v f minf maxp
+2 v f minf minp
+2 v f minf maxd
+2 v f minf mind
+2 v f minf maxf
+2 v f minf t
+2 v f maxf minf
+2 v f maxf maxt
+2 v f maxf mint
+2 v f maxf maxp
+2 v f maxf minp
+2 v f maxf maxd
+2 v f maxf mind
+2 v f maxf t
+2 v f mind maxf
+2 v f mind minf
+2 v f mind maxt
+2 v f mind mint
+2 v f mind maxp
+2 v f mind minp
+2 v f mind maxd
+2 v f mind t
+2 v f maxd mind
+2 v f maxd maxf
+2 v f maxd minf
+2 v f maxd maxt
+2 v f maxd mint
+2 v f maxd maxp
+2 v f maxd minp
+2 v f maxd t
+2 v f minp maxd
+2 v f minp mind
+2 v f minp maxf
+2 v f minp minf
+2 v f minp maxt
+2 v f minp mint
+2 v f minp maxp
+2 v f minp t
+2 v f maxp minp
+2 v f maxp maxd
+2 v f maxp mind
+2 v f maxp maxf
+2 v f maxp minf
+2 v f maxp maxt
+2 v f maxp mint
+2 v f maxp t
+2 v f mint maxp
+2 v f mint minp
+2 v f mint maxd
+2 v f mint mind
+2 v f mint maxf
+2 v f mint minf
+2 v f mint maxt
+2 v f mint t
+2 v f maxt mint
+2 v f maxt maxp
+2 v f maxt minp
+2 v f maxt maxd
+2 v f maxt mind
+2 v f maxt maxf
+2 v f maxt minf
+2 v f maxt t
+2 v t f maxt
+2 v t f mint
+2 v t f maxp
+2 v t f minp
+2 v t f maxd
+2 v t f mind
+2 v t f maxf
+2 v t f minf
+2 v t minf f
+2 v t minf maxt
+2 v t minf mint
+2 v t minf maxp
+2 v t minf minp
+2 v t minf maxd
+2 v t minf mind
+2 v t minf maxf
+2 v t maxf minf
+2 v t maxf f
+2 v t maxf maxt
+2 v t maxf mint
+2 v t maxf maxp
+2 v t maxf minp
+2 v t maxf maxd
+2 v t maxf mind
+2 v t mind maxf
+2 v t mind minf
+2 v t mind f
+2 v t mind maxt
+2 v t mind mint
+2 v t mind maxp
+2 v t mind minp
+2 v t mind maxd
+2 v t maxd mind
+2 v t maxd maxf
+2 v t maxd minf
+2 v t maxd f
+2 v t maxd maxt
+2 v t maxd mint
+2 v t maxd maxp
+2 v t maxd minp
+2 v t minp maxd
+2 v t minp mind
+2 v t minp maxf
+2 v t minp minf
+2 v t minp f
+2 v t minp maxt
+2 v t minp mint
+2 v t minp maxp
+2 v t maxp minp
+2 v t maxp maxd
+2 v t maxp mind
+2 v t maxp maxf
+2 v t maxp minf
+2 v t maxp f
+2 v t maxp maxt
+2 v t maxp mint
+2 v t mint maxp
+2 v t mint minp
+2 v t mint maxd
+2 v t mint mind
+2 v t mint maxf
+2 v t mint minf
+2 v t mint f
+2 v t mint maxt
+2 v t maxt mint
+2 v t maxt maxp
+2 v t maxt minp
+2 v t maxt maxd
+2 v t maxt mind
+2 v t maxt maxf
+2 v t maxt minf
+2 v t maxt f
+3 v maxt
+3 v mint
+3 v maxp
+3 v minp
+3 v maxd
+3 v mind
+3 v maxf
+3 v minf
+3 v f
+3 v t
+3 v maxt t
+3 v maxt f
+3 v maxt minf
+3 v maxt maxf
+3 v maxt mind
+3 v maxt maxd
+3 v maxt minp
+3 v maxt maxp
+3 v maxt mint
+3 v mint maxt
+3 v mint t
+3 v mint f
+3 v mint minf
+3 v mint maxf
+3 v mint mind
+3 v mint maxd
+3 v mint minp
+3 v mint maxp
+3 v maxp mint
+3 v maxp maxt
+3 v maxp t
+3 v maxp f
+3 v maxp minf
+3 v maxp maxf
+3 v maxp mind
+3 v maxp maxd
+3 v maxp minp
+3 v minp maxp
+3 v minp mint
+3 v minp maxt
+3 v minp t
+3 v minp f
+3 v minp minf
+3 v minp maxf
+3 v minp mind
+3 v minp maxd
+3 v maxd minp
+3 v maxd maxp
+3 v maxd mint
+3 v maxd maxt
+3 v maxd t
+3 v maxd f
+3 v maxd minf
+3 v maxd maxf
+3 v maxd mind
+3 v mind maxd
+3 v mind minp
+3 v mind maxp
+3 v mind mint
+3 v mind maxt
+3 v mind t
+3 v mind f
+3 v mind minf
+3 v mind maxf
+3 v maxf mind
+3 v maxf maxd
+3 v maxf minp
+3 v maxf maxp
+3 v maxf mint
+3 v maxf maxt
+3 v maxf t
+3 v maxf f
+3 v maxf minf
+3 v minf maxf
+3 v minf mind
+3 v minf maxd
+3 v minf minp
+3 v minf maxp
+3 v minf mint
+3 v minf maxt
+3 v minf t
+3 v minf f
+3 v f minf
+3 v f maxf
+3 v f mind
+3 v f maxd
+3 v f minp
+3 v f maxp
+3 v f mint
+3 v f maxt
+3 v f t
+3 v t f
+3 v t minf
+3 v t maxf
+3 v t mind
+3 v t maxd
+3 v t minp
+3 v t maxp
+3 v t mint
+3 v t maxt
+3 v mint maxt t
+3 v mint maxt f
+3 v mint maxt minf
+3 v mint maxt maxf
+3 v mint maxt mind
+3 v mint maxt maxd
+3 v mint maxt minp
+3 v mint maxt maxp
+3 v maxp mint maxt
+3 v maxp mint t
+3 v maxp mint f
+3 v maxp mint minf
+3 v maxp mint maxf
+3 v maxp mint mind
+3 v maxp mint maxd
+3 v maxp mint minp
+3 v maxp maxt mint
+3 v maxp maxt t
+3 v maxp maxt f
+3 v maxp maxt minf
+3 v maxp maxt maxf
+3 v maxp maxt mind
+3 v maxp maxt maxd
+3 v maxp maxt minp
+3 v minp maxp maxt
+3 v minp maxp mint
+3 v minp maxp t
+3 v minp maxp f
+3 v minp maxp minf
+3 v minp maxp maxf
+3 v minp maxp mind
+3 v minp maxp maxd
+3 v minp mint maxp
+3 v minp mint maxt
+3 v minp mint t
+3 v minp mint f
+3 v minp mint minf
+3 v minp mint maxf
+3 v minp mint mind
+3 v minp mint maxd
+3 v minp maxt mint
+3 v minp maxt maxp
+3 v minp maxt t
+3 v minp maxt f
+3 v minp maxt minf
+3 v minp maxt maxf
+3 v minp maxt mind
+3 v minp maxt maxd
+3 v maxd minp maxt
+3 v maxd minp mint
+3 v maxd minp maxp
+3 v maxd minp t
+3 v maxd minp f
+3 v maxd minp minf
+3 v maxd minp maxf
+3 v maxd minp mind
+3 v maxd maxp minp
+3 v maxd maxp maxt
+3 v maxd maxp mint
+3 v maxd maxp t
+3 v maxd maxp f
+3 v maxd maxp minf
+3 v maxd maxp maxf
+3 v maxd maxp mind
+3 v maxd mint maxp
+3 v maxd mint minp
+3 v maxd mint maxt
+3 v maxd mint t
+3 v maxd mint f
+3 v maxd mint minf
+3 v maxd mint maxf
+3 v maxd mint mind
+3 v maxd maxt mint
+3 v maxd maxt maxp
+3 v maxd maxt minp
+3 v maxd maxt t
+3 v maxd maxt f
+3 v maxd maxt minf
+3 v maxd maxt maxf
+3 v maxd maxt mind
+3 v mind maxd maxt
+3 v mind maxd mint
+3 v mind maxd maxp
+3 v mind maxd minp
+3 v mind maxd t
+3 v mind maxd f
+3 v mind maxd minf
+3 v mind maxd maxf
+3 v mind minp maxd
+3 v mind minp maxt
+3 v mind minp mint
+3 v mind minp maxp
+3 v mind minp t
+3 v mind minp f
+3 v mind minp minf
+3 v mind minp maxf
+3 v mind maxp minp
+3 v mind maxp maxd
+3 v mind maxp maxt
+3 v mind maxp mint
+3 v mind maxp t
+3 v mind maxp f
+3 v mind maxp minf
+3 v mind maxp maxf
+3 v mind mint maxp
+3 v mind mint minp
+3 v mind mint maxd
+3 v mind mint maxt
+3 v mind mint t
+3 v mind mint f
+3 v mind mint minf
+3 v mind mint maxf
+3 v mind maxt mint
+3 v mind maxt maxp
+3 v mind maxt minp
+3 v mind maxt maxd
+3 v mind maxt t
+3 v mind maxt f
+3 v mind maxt minf
+3 v mind maxt maxf
+3 v maxf mind maxt
+3 v maxf mind mint
+3 v maxf mind maxp
+3 v maxf mind minp
+3 v maxf mind maxd
+3 v maxf mind t
+3 v maxf mind f
+3 v maxf mind minf
+3 v maxf maxd mind
+3 v maxf maxd maxt
+3 v maxf maxd mint
+3 v maxf maxd maxp
+3 v maxf maxd minp
+3 v maxf maxd t
+3 v maxf maxd f
+3 v maxf maxd minf
+3 v maxf minp maxd
+3 v maxf minp mind
+3 v maxf minp maxt
+3 v maxf minp mint
+3 v maxf minp maxp
+3 v maxf minp t
+3 v maxf minp f
+3 v maxf minp minf
+3 v maxf maxp minp
+3 v maxf maxp maxd
+3 v maxf maxp mind
+3 v maxf maxp maxt
+3 v maxf maxp mint
+3 v maxf maxp t
+3 v maxf maxp f
+3 v maxf maxp minf
+3 v maxf mint maxp
+3 v maxf mint minp
+3 v maxf mint maxd
+3 v maxf mint mind
+3 v maxf mint maxt
+3 v maxf mint t
+3 v maxf mint f
+3 v maxf mint minf
+3 v maxf maxt mint
+3 v maxf maxt maxp
+3 v maxf maxt minp
+3 v maxf maxt maxd
+3 v maxf maxt mind
+3 v maxf maxt t
+3 v maxf maxt f
+3 v maxf maxt minf
+3 v minf maxf maxt
+3 v minf maxf mint
+3 v minf maxf maxp
+3 v minf maxf minp
+3 v minf maxf maxd
+3 v minf maxf mind
+3 v minf maxf t
+3 v minf maxf f
+3 v minf mind maxf
+3 v minf mind maxt
+3 v minf mind mint
+3 v minf mind maxp
+3 v minf mind minp
+3 v minf mind maxd
+3 v minf mind t
+3 v minf mind f
+3 v minf maxd mind
+3 v minf maxd maxf
+3 v minf maxd maxt
+3 v minf maxd mint
+3 v minf maxd maxp
+3 v minf maxd minp
+3 v minf maxd t
+3 v minf maxd f
+3 v minf minp maxd
+3 v minf minp mind
+3 v minf minp maxf
+3 v minf minp maxt
+3 v minf minp mint
+3 v minf minp maxp
+3 v minf minp t
+3 v minf minp f
+3 v minf maxp minp
+3 v minf maxp maxd
+3 v minf maxp mind
+3 v minf maxp maxf
+3 v minf maxp maxt
+3 v minf maxp mint
+3 v minf maxp t
+3 v minf maxp f
+3 v minf mint maxp
+3 v minf mint minp
+3 v minf mint maxd
+3 v minf mint mind
+3 v minf mint maxf
+3 v minf mint maxt
+3 v minf mint t
+3 v minf mint f
+3 v minf maxt mint
+3 v minf maxt maxp
+3 v minf maxt minp
+3 v minf maxt maxd
+3 v minf maxt mind
+3 v minf maxt maxf
+3 v minf maxt t
+3 v minf maxt f
+3 v f minf maxt
+3 v f minf mint
+3 v f minf maxp
+3 v f minf minp
+3 v f minf maxd
+3 v f minf mind
+3 v f minf maxf
+3 v f minf t
+3 v f maxf minf
+3 v f maxf maxt
+3 v f maxf mint
+3 v f maxf maxp
+3 v f maxf minp
+3 v f maxf maxd
+3 v f maxf mind
+3 v f maxf t
+3 v f mind maxf
+3 v f mind minf
+3 v f mind maxt
+3 v f mind mint
+3 v f mind maxp
+3 v f mind minp
+3 v f mind maxd
+3 v f mind t
+3 v f maxd mind
+3 v f maxd maxf
+3 v f maxd minf
+3 v f maxd maxt
+3 v f maxd mint
+3 v f maxd maxp
+3 v f maxd minp
+3 v f maxd t
+3 v f minp maxd
+3 v f minp mind
+3 v f minp maxf
+3 v f minp minf
+3 v f minp maxt
+3 v f minp mint
+3 v f minp maxp
+3 v f minp t
+3 v f maxp minp
+3 v f maxp maxd
+3 v f maxp mind
+3 v f maxp maxf
+3 v f maxp minf
+3 v f maxp maxt
+3 v f maxp mint
+3 v f maxp t
+3 v f mint maxp
+3 v f mint minp
+3 v f mint maxd
+3 v f mint mind
+3 v f mint maxf
+3 v f mint minf
+3 v f mint maxt
+3 v f mint t
+3 v f maxt mint
+3 v f maxt maxp
+3 v f maxt minp
+3 v f maxt maxd
+3 v f maxt mind
+3 v f maxt maxf
+3 v f maxt minf
+3 v f maxt t
+3 v t f maxt
+3 v t f mint
+3 v t f maxp
+3 v t f minp
+3 v t f maxd
+3 v t f mind
+3 v t f maxf
+3 v t f minf
+3 v t minf f
+3 v t minf maxt
+3 v t minf mint
+3 v t minf maxp
+3 v t minf minp
+3 v t minf maxd
+3 v t minf mind
+3 v t minf maxf
+3 v t maxf minf
+3 v t maxf f
+3 v t maxf maxt
+3 v t maxf mint
+3 v t maxf maxp
+3 v t maxf minp
+3 v t maxf maxd
+3 v t maxf mind
+3 v t mind maxf
+3 v t mind minf
+3 v t mind f
+3 v t mind maxt
+3 v t mind mint
+3 v t mind maxp
+3 v t mind minp
+3 v t mind maxd
+3 v t maxd mind
+3 v t maxd maxf
+3 v t maxd minf
+3 v t maxd f
+3 v t maxd maxt
+3 v t maxd mint
+3 v t maxd maxp
+3 v t maxd minp
+3 v t minp maxd
+3 v t minp mind
+3 v t minp maxf
+3 v t minp minf
+3 v t minp f
+3 v t minp maxt
+3 v t minp mint
+3 v t minp maxp
+3 v t maxp minp
+3 v t maxp maxd
+3 v t maxp mind
+3 v t maxp maxf
+3 v t maxp minf
+3 v t maxp f
+3 v t maxp maxt
+3 v t maxp mint
+3 v t mint maxp
+3 v t mint minp
+3 v t mint maxd
+3 v t mint mind
+3 v t mint maxf
+3 v t mint minf
+3 v t mint f
+3 v t mint maxt
+3 v t maxt mint
+3 v t maxt maxp
+3 v t maxt minp
+3 v t maxt maxd
+3 v t maxt mind
+3 v t maxt maxf
+3 v t maxt minf
+3 v t maxt f
+4 v maxt
+4 v mint
+4 v maxp
+4 v minp
+4 v maxd
+4 v mind
+4 v maxf
+4 v minf
+4 v f
+4 v t
+4 v maxt t
+4 v maxt f
+4 v maxt minf
+4 v maxt maxf
+4 v maxt mind
+4 v maxt maxd
+4 v maxt minp
+4 v maxt maxp
+4 v maxt mint
+4 v mint maxt
+4 v mint t
+4 v mint f
+4 v mint minf
+4 v mint maxf
+4 v mint mind
+4 v mint maxd
+4 v mint minp
+4 v mint maxp
+4 v maxp mint
+4 v maxp maxt
+4 v maxp t
+4 v maxp f
+4 v maxp minf
+4 v maxp maxf
+4 v maxp mind
+4 v maxp maxd
+4 v maxp minp
+4 v minp maxp
+4 v minp mint
+4 v minp maxt
+4 v minp t
+4 v minp f
+4 v minp minf
+4 v minp maxf
+4 v minp mind
+4 v minp maxd
+4 v maxd minp
+4 v maxd maxp
+4 v maxd mint
+4 v maxd maxt
+4 v maxd t
+4 v maxd f
+4 v maxd minf
+4 v maxd maxf
+4 v maxd mind
+4 v mind maxd
+4 v mind minp
+4 v mind maxp
+4 v mind mint
+4 v mind maxt
+4 v mind t
+4 v mind f
+4 v mind minf
+4 v mind maxf
+4 v maxf mind
+4 v maxf maxd
+4 v maxf minp
+4 v maxf maxp
+4 v maxf mint
+4 v maxf maxt
+4 v maxf t
+4 v maxf f
+4 v maxf minf
+4 v minf maxf
+4 v minf mind
+4 v minf maxd
+4 v minf minp
+4 v minf maxp
+4 v minf mint
+4 v minf maxt
+4 v minf t
+4 v minf f
+4 v f minf
+4 v f maxf
+4 v f mind
+4 v f maxd
+4 v f minp
+4 v f maxp
+4 v f mint
+4 v f maxt
+4 v f t
+4 v t f
+4 v t minf
+4 v t maxf
+4 v t mind
+4 v t maxd
+4 v t minp
+4 v t maxp
+4 v t mint
+4 v t maxt
+4 v mint maxt t
+4 v mint maxt f
+4 v mint maxt minf
+4 v mint maxt maxf
+4 v mint maxt mind
+4 v mint maxt maxd
+4 v mint maxt minp
+4 v mint maxt maxp
+4 v maxp mint maxt
+4 v maxp mint t
+4 v maxp mint f
+4 v maxp mint minf
+4 v maxp mint maxf
+4 v maxp mint mind
+4 v maxp mint maxd
+4 v maxp mint minp
+4 v maxp maxt mint
+4 v maxp maxt t
+4 v maxp maxt f
+4 v maxp maxt minf
+4 v maxp maxt maxf
+4 v maxp maxt mind
+4 v maxp maxt maxd
+4 v maxp maxt minp
+4 v minp maxp maxt
+4 v minp maxp mint
+4 v minp maxp t
+4 v minp maxp f
+4 v minp maxp minf
+4 v minp maxp maxf
+4 v minp maxp mind
+4 v minp maxp maxd
+4 v minp mint maxp
+4 v minp mint maxt
+4 v minp mint t
+4 v minp mint f
+4 v minp mint minf
+4 v minp mint maxf
+4 v minp mint mind
+4 v minp mint maxd
+4 v minp maxt mint
+4 v minp maxt maxp
+4 v minp maxt t
+4 v minp maxt f
+4 v minp maxt minf
+4 v minp maxt maxf
+4 v minp maxt mind
+4 v minp maxt maxd
+4 v maxd minp maxt
+4 v maxd minp mint
+4 v maxd minp maxp
+4 v maxd minp t
+4 v maxd minp f
+4 v maxd minp minf
+4 v maxd minp maxf
+4 v maxd minp mind
+4 v maxd maxp minp
+4 v maxd maxp maxt
+4 v maxd maxp mint
+4 v maxd maxp t
+4 v maxd maxp f
+4 v maxd maxp minf
+4 v maxd maxp maxf
+4 v maxd maxp mind
+4 v maxd mint maxp
+4 v maxd mint minp
+4 v maxd mint maxt
+4 v maxd mint t
+4 v maxd mint f
+4 v maxd mint minf
+4 v maxd mint maxf
+4 v maxd mint mind
+4 v maxd maxt mint
+4 v maxd maxt maxp
+4 v maxd maxt minp
+4 v maxd maxt t
+4 v maxd maxt f
+4 v maxd maxt minf
+4 v maxd maxt maxf
+4 v maxd maxt mind
+4 v mind maxd maxt
+4 v mind maxd mint
+4 v mind maxd maxp
+4 v mind maxd minp
+4 v mind maxd t
+4 v mind maxd f
+4 v mind maxd minf
+4 v mind maxd maxf
+4 v mind minp maxd
+4 v mind minp maxt
+4 v mind minp mint
+4 v mind minp maxp
+4 v mind minp t
+4 v mind minp f
+4 v mind minp minf
+4 v mind minp maxf
+4 v mind maxp minp
+4 v mind maxp maxd
+4 v mind maxp maxt
+4 v mind maxp mint
+4 v mind maxp t
+4 v mind maxp f
+4 v mind maxp minf
+4 v mind maxp maxf
+4 v mind mint maxp
+4 v mind mint minp
+4 v mind mint maxd
+4 v mind mint maxt
+4 v mind mint t
+4 v mind mint f
+4 v mind mint minf
+4 v mind mint maxf
+4 v mind maxt mint
+4 v mind maxt maxp
+4 v mind maxt minp
+4 v mind maxt maxd
+4 v mind maxt t
+4 v mind maxt f
+4 v mind maxt minf
+4 v mind maxt maxf
+4 v maxf mind maxt
+4 v maxf mind mint
+4 v maxf mind maxp
+4 v maxf mind minp
+4 v maxf mind maxd
+4 v maxf mind t
+4 v maxf mind f
+4 v maxf mind minf
+4 v maxf maxd mind
+4 v maxf maxd maxt
+4 v maxf maxd mint
+4 v maxf maxd maxp
+4 v maxf maxd minp
+4 v maxf maxd t
+4 v maxf maxd f
+4 v maxf maxd minf
+4 v maxf minp maxd
+4 v maxf minp mind
+4 v maxf minp maxt
+4 v maxf minp mint
+4 v maxf minp maxp
+4 v maxf minp t
+4 v maxf minp f
+4 v maxf minp minf
+4 v maxf maxp minp
+4 v maxf maxp maxd
+4 v maxf maxp mind
+4 v maxf maxp maxt
+4 v maxf maxp mint
+4 v maxf maxp t
+4 v maxf maxp f
+4 v maxf maxp minf
+4 v maxf mint maxp
+4 v maxf mint minp
+4 v maxf mint maxd
+4 v maxf mint mind
+4 v maxf mint maxt
+4 v maxf mint t
+4 v maxf mint f
+4 v maxf mint minf
+4 v maxf maxt mint
+4 v maxf maxt maxp
+4 v maxf maxt minp
+4 v maxf maxt maxd
+4 v maxf maxt mind
+4 v maxf maxt t
+4 v maxf maxt f
+4 v maxf maxt minf
+4 v minf maxf maxt
+4 v minf maxf mint
+4 v minf maxf maxp
+4 v minf maxf minp
+4 v minf maxf maxd
+4 v minf maxf mind
+4 v minf maxf t
+4 v minf maxf f
+4 v minf mind maxf
+4 v minf mind maxt
+4 v minf mind mint
+4 v minf mind maxp
+4 v minf mind minp
+4 v minf mind maxd
+4 v minf mind t
+4 v minf mind f
+4 v minf maxd mind
+4 v minf maxd maxf
+4 v minf maxd maxt
+4 v minf maxd mint
+4 v minf maxd maxp
+4 v minf maxd minp
+4 v minf maxd t
+4 v minf maxd f
+4 v minf minp maxd
+4 v minf minp mind
+4 v minf minp maxf
+4 v minf minp maxt
+4 v minf minp mint
+4 v minf minp maxp
+4 v minf minp t
+4 v minf minp f
+4 v minf maxp minp
+4 v minf maxp maxd
+4 v minf maxp mind
+4 v minf maxp maxf
+4 v minf maxp maxt
+4 v minf maxp mint
+4 v minf maxp t
+4 v minf maxp f
+4 v minf mint maxp
+4 v minf mint minp
+4 v minf mint maxd
+4 v minf mint mind
+4 v minf mint maxf
+4 v minf mint maxt
+4 v minf mint t
+4 v minf mint f
+4 v minf maxt mint
+4 v minf maxt maxp
+4 v minf maxt minp
+4 v minf maxt maxd
+4 v minf maxt mind
+4 v minf maxt maxf
+4 v minf maxt t
+4 v minf maxt f
+4 v f minf maxt
+4 v f minf mint
+4 v f minf maxp
+4 v f minf minp
+4 v f minf maxd
+4 v f minf mind
+4 v f minf maxf
+4 v f minf t
+4 v f maxf minf
+4 v f maxf maxt
+4 v f maxf mint
+4 v f maxf maxp
+4 v f maxf minp
+4 v f maxf maxd
+4 v f maxf mind
+4 v f maxf t
+4 v f mind maxf
+4 v f mind minf
+4 v f mind maxt
+4 v f mind mint
+4 v f mind maxp
+4 v f mind minp
+4 v f mind maxd
+4 v f mind t
+4 v f maxd mind
+4 v f maxd maxf
+4 v f maxd minf
+4 v f maxd maxt
+4 v f maxd mint
+4 v f maxd maxp
+4 v f maxd minp
+4 v f maxd t
+4 v f minp maxd
+4 v f minp mind
+4 v f minp maxf
+4 v f minp minf
+4 v f minp maxt
+4 v f minp mint
+4 v f minp maxp
+4 v f minp t
+4 v f maxp minp
+4 v f maxp maxd
+4 v f maxp mind
+4 v f maxp maxf
+4 v f maxp minf
+4 v f maxp maxt
+4 v f maxp mint
+4 v f maxp t
+4 v f mint maxp
+4 v f mint minp
+4 v f mint maxd
+4 v f mint mind
+4 v f mint maxf
+4 v f mint minf
+4 v f mint maxt
+4 v f mint t
+4 v f maxt mint
+4 v f maxt maxp
+4 v f maxt minp
+4 v f maxt maxd
+4 v f maxt mind
+4 v f maxt maxf
+4 v f maxt minf
+4 v f maxt t
+4 v t f maxt
+4 v t f mint
+4 v t f maxp
+4 v t f minp
+4 v t f maxd
+4 v t f mind
+4 v t f maxf
+4 v t f minf
+4 v t minf f
+4 v t minf maxt
+4 v t minf mint
+4 v t minf maxp
+4 v t minf minp
+4 v t minf maxd
+4 v t minf mind
+4 v t minf maxf
+4 v t maxf minf
+4 v t maxf f
+4 v t maxf maxt
+4 v t maxf mint
+4 v t maxf maxp
+4 v t maxf minp
+4 v t maxf maxd
+4 v t maxf mind
+4 v t mind maxf
+4 v t mind minf
+4 v t mind f
+4 v t mind maxt
+4 v t mind mint
+4 v t mind maxp
+4 v t mind minp
+4 v t mind maxd
+4 v t maxd mind
+4 v t maxd maxf
+4 v t maxd minf
+4 v t maxd f
+4 v t maxd maxt
+4 v t maxd mint
+4 v t maxd maxp
+4 v t maxd minp
+4 v t minp maxd
+4 v t minp mind
+4 v t minp maxf
+4 v t minp minf
+4 v t minp f
+4 v t minp maxt
+4 v t minp mint
+4 v t minp maxp
+4 v t maxp minp
+4 v t maxp maxd
+4 v t maxp mind
+4 v t maxp maxf
+4 v t maxp minf
+4 v t maxp f
+4 v t maxp maxt
+4 v t maxp mint
+4 v t mint maxp
+4 v t mint minp
+4 v t mint maxd
+4 v t mint mind
+4 v t mint maxf
+4 v t mint minf
+4 v t mint f
+4 v t mint maxt
+4 v t maxt mint
+4 v t maxt maxp
+4 v t maxt minp
+4 v t maxt maxd
+4 v t maxt mind
+4 v t maxt maxf
+4 v t maxt minf
+4 v t maxt f
+5 v maxt
+5 v mint
+5 v maxp
+5 v minp
+5 v maxd
+5 v mind
+5 v maxf
+5 v minf
+5 v f
+5 v t
+5 v maxt t
+5 v maxt f
+5 v maxt minf
+5 v maxt maxf
+5 v maxt mind
+5 v maxt maxd
+5 v maxt minp
+5 v maxt maxp
+5 v maxt mint
+5 v mint maxt
+5 v mint t
+5 v mint f
+5 v mint minf
+5 v mint maxf
+5 v mint mind
+5 v mint maxd
+5 v mint minp
+5 v mint maxp
+5 v maxp mint
+5 v maxp maxt
+5 v maxp t
+5 v maxp f
+5 v maxp minf
+5 v maxp maxf
+5 v maxp mind
+5 v maxp maxd
+5 v maxp minp
+5 v minp maxp
+5 v minp mint
+5 v minp maxt
+5 v minp t
+5 v minp f
+5 v minp minf
+5 v minp maxf
+5 v minp mind
+5 v minp maxd
+5 v maxd minp
+5 v maxd maxp
+5 v maxd mint
+5 v maxd maxt
+5 v maxd t
+5 v maxd f
+5 v maxd minf
+5 v maxd maxf
+5 v maxd mind
+5 v mind maxd
+5 v mind minp
+5 v mind maxp
+5 v mind mint
+5 v mind maxt
+5 v mind t
+5 v mind f
+5 v mind minf
+5 v mind maxf
+5 v maxf mind
+5 v maxf maxd
+5 v maxf minp
+5 v maxf maxp
+5 v maxf mint
+5 v maxf maxt
+5 v maxf t
+5 v maxf f
+5 v maxf minf
+5 v minf maxf
+5 v minf mind
+5 v minf maxd
+5 v minf minp
+5 v minf maxp
+5 v minf mint
+5 v minf maxt
+5 v minf t
+5 v minf f
+5 v f minf
+5 v f maxf
+5 v f mind
+5 v f maxd
+5 v f minp
+5 v f maxp
+5 v f mint
+5 v f maxt
+5 v f t
+5 v t f
+5 v t minf
+5 v t maxf
+5 v t mind
+5 v t maxd
+5 v t minp
+5 v t maxp
+5 v t mint
+5 v t maxt
+5 v mint maxt t
+5 v mint maxt f
+5 v mint maxt minf
+5 v mint maxt maxf
+5 v mint maxt mind
+5 v mint maxt maxd
+5 v mint maxt minp
+5 v mint maxt maxp
+5 v maxp mint maxt
+5 v maxp mint t
+5 v maxp mint f
+5 v maxp mint minf
+5 v maxp mint maxf
+5 v maxp mint mind
+5 v maxp mint maxd
+5 v maxp mint minp
+5 v maxp maxt mint
+5 v maxp maxt t
+5 v maxp maxt f
+5 v maxp maxt minf
+5 v maxp maxt maxf
+5 v maxp maxt mind
+5 v maxp maxt maxd
+5 v maxp maxt minp
+5 v minp maxp maxt
+5 v minp maxp mint
+5 v minp maxp t
+5 v minp maxp f
+5 v minp maxp minf
+5 v minp maxp maxf
+5 v minp maxp mind
+5 v minp maxp maxd
+5 v minp mint maxp
+5 v minp mint maxt
+5 v minp mint t
+5 v minp mint f
+5 v minp mint minf
+5 v minp mint maxf
+5 v minp mint mind
+5 v minp mint maxd
+5 v minp maxt mint
+5 v minp maxt maxp
+5 v minp maxt t
+5 v minp maxt f
+5 v minp maxt minf
+5 v minp maxt maxf
+5 v minp maxt mind
+5 v minp maxt maxd
+5 v maxd minp maxt
+5 v maxd minp mint
+5 v maxd minp maxp
+5 v maxd minp t
+5 v maxd minp f
+5 v maxd minp minf
+5 v maxd minp maxf
+5 v maxd minp mind
+5 v maxd maxp minp
+5 v maxd maxp maxt
+5 v maxd maxp mint
+5 v maxd maxp t
+5 v maxd maxp f
+5 v maxd maxp minf
+5 v maxd maxp maxf
+5 v maxd maxp mind
+5 v maxd mint maxp
+5 v maxd mint minp
+5 v maxd mint maxt
+5 v maxd mint t
+5 v maxd mint f
+5 v maxd mint minf
+5 v maxd mint maxf
+5 v maxd mint mind
+5 v maxd maxt mint
+5 v maxd maxt maxp
+5 v maxd maxt minp
+5 v maxd maxt t
+5 v maxd maxt f
+5 v maxd maxt minf
+5 v maxd maxt maxf
+5 v maxd maxt mind
+5 v mind maxd maxt
+5 v mind maxd mint
+5 v mind maxd maxp
+5 v mind maxd minp
+5 v mind maxd t
+5 v mind maxd f
+5 v mind maxd minf
+5 v mind maxd maxf
+5 v mind minp maxd
+5 v mind minp maxt
+5 v mind minp mint
+5 v mind minp maxp
+5 v mind minp t
+5 v mind minp f
+5 v mind minp minf
+5 v mind minp maxf
+5 v mind maxp minp
+5 v mind maxp maxd
+5 v mind maxp maxt
+5 v mind maxp mint
+5 v mind maxp t
+5 v mind maxp f
+5 v mind maxp minf
+5 v mind maxp maxf
+5 v mind mint maxp
+5 v mind mint minp
+5 v mind mint maxd
+5 v mind mint maxt
+5 v mind mint t
+5 v mind mint f
+5 v mind mint minf
+5 v mind mint maxf
+5 v mind maxt mint
+5 v mind maxt maxp
+5 v mind maxt minp
+5 v mind maxt maxd
+5 v mind maxt t
+5 v mind maxt f
+5 v mind maxt minf
+5 v mind maxt maxf
+5 v maxf mind maxt
+5 v maxf mind mint
+5 v maxf mind maxp
+5 v maxf mind minp
+5 v maxf mind maxd
+5 v maxf mind t
+5 v maxf mind f
+5 v maxf mind minf
+5 v maxf maxd mind
+5 v maxf maxd maxt
+5 v maxf maxd mint
+5 v maxf maxd maxp
+5 v maxf maxd minp
+5 v maxf maxd t
+5 v maxf maxd f
+5 v maxf maxd minf
+5 v maxf minp maxd
+5 v maxf minp mind
+5 v maxf minp maxt
+5 v maxf minp mint
+5 v maxf minp maxp
+5 v maxf minp t
+5 v maxf minp f
+5 v maxf minp minf
+5 v maxf maxp minp
+5 v maxf maxp maxd
+5 v maxf maxp mind
+5 v maxf maxp maxt
+5 v maxf maxp mint
+5 v maxf maxp t
+5 v maxf maxp f
+5 v maxf maxp minf
+5 v maxf mint maxp
+5 v maxf mint minp
+5 v maxf mint maxd
+5 v maxf mint mind
+5 v maxf mint maxt
+5 v maxf mint t
+5 v maxf mint f
+5 v maxf mint minf
+5 v maxf maxt mint
+5 v maxf maxt maxp
+5 v maxf maxt minp
+5 v maxf maxt maxd
+5 v maxf maxt mind
+5 v maxf maxt t
+5 v maxf maxt f
+5 v maxf maxt minf
+5 v minf maxf maxt
+5 v minf maxf mint
+5 v minf maxf maxp
+5 v minf maxf minp
+5 v minf maxf maxd
+5 v minf maxf mind
+5 v minf maxf t
+5 v minf maxf f
+5 v minf mind maxf
+5 v minf mind maxt
+5 v minf mind mint
+5 v minf mind maxp
+5 v minf mind minp
+5 v minf mind maxd
+5 v minf mind t
+5 v minf mind f
+5 v minf maxd mind
+5 v minf maxd maxf
+5 v minf maxd maxt
+5 v minf maxd mint
+5 v minf maxd maxp
+5 v minf maxd minp
+5 v minf maxd t
+5 v minf maxd f
+5 v minf minp maxd
+5 v minf minp mind
+5 v minf minp maxf
+5 v minf minp maxt
+5 v minf minp mint
+5 v minf minp maxp
+5 v minf minp t
+5 v minf minp f
+5 v minf maxp minp
+5 v minf maxp maxd
+5 v minf maxp mind
+5 v minf maxp maxf
+5 v minf maxp maxt
+5 v minf maxp mint
+5 v minf maxp t
+5 v minf maxp f
+5 v minf mint maxp
+5 v minf mint minp
+5 v minf mint maxd
+5 v minf mint mind
+5 v minf mint maxf
+5 v minf mint maxt
+5 v minf mint t
+5 v minf mint f
+5 v minf maxt mint
+5 v minf maxt maxp
+5 v minf maxt minp
+5 v minf maxt maxd
+5 v minf maxt mind
+5 v minf maxt maxf
+5 v minf maxt t
+5 v minf maxt f
+5 v f minf maxt
+5 v f minf mint
+5 v f minf maxp
+5 v f minf minp
+5 v f minf maxd
+5 v f minf mind
+5 v f minf maxf
+5 v f minf t
+5 v f maxf minf
+5 v f maxf maxt
+5 v f maxf mint
+5 v f maxf maxp
+5 v f maxf minp
+5 v f maxf maxd
+5 v f maxf mind
+5 v f maxf t
+5 v f mind maxf
+5 v f mind minf
+5 v f mind maxt
+5 v f mind mint
+5 v f mind maxp
+5 v f mind minp
+5 v f mind maxd
+5 v f mind t
+5 v f maxd mind
+5 v f maxd maxf
+5 v f maxd minf
+5 v f maxd maxt
+5 v f maxd mint
+5 v f maxd maxp
+5 v f maxd minp
+5 v f maxd t
+5 v f minp maxd
+5 v f minp mind
+5 v f minp maxf
+5 v f minp minf
+5 v f minp maxt
+5 v f minp mint
+5 v f minp maxp
+5 v f minp t
+5 v f maxp minp
+5 v f maxp maxd
+5 v f maxp mind
+5 v f maxp maxf
+5 v f maxp minf
+5 v f maxp maxt
+5 v f maxp mint
+5 v f maxp t
+5 v f mint maxp
+5 v f mint minp
+5 v f mint maxd
+5 v f mint mind
+5 v f mint maxf
+5 v f mint minf
+5 v f mint maxt
+5 v f mint t
+5 v f maxt mint
+5 v f maxt maxp
+5 v f maxt minp
+5 v f maxt maxd
+5 v f maxt mind
+5 v f maxt maxf
+5 v f maxt minf
+5 v f maxt t
+5 v t f maxt
+5 v t f mint
+5 v t f maxp
+5 v t f minp
+5 v t f maxd
+5 v t f mind
+5 v t f maxf
+5 v t f minf
+5 v t minf f
+5 v t minf maxt
+5 v t minf mint
+5 v t minf maxp
+5 v t minf minp
+5 v t minf maxd
+5 v t minf mind
+5 v t minf maxf
+5 v t maxf minf
+5 v t maxf f
+5 v t maxf maxt
+5 v t maxf mint
+5 v t maxf maxp
+5 v t maxf minp
+5 v t maxf maxd
+5 v t maxf mind
+5 v t mind maxf
+5 v t mind minf
+5 v t mind f
+5 v t mind maxt
+5 v t mind mint
+5 v t mind maxp
+5 v t mind minp
+5 v t mind maxd
+5 v t maxd mind
+5 v t maxd maxf
+5 v t maxd minf
+5 v t maxd f
+5 v t maxd maxt
+5 v t maxd mint
+5 v t maxd maxp
+5 v t maxd minp
+5 v t minp maxd
+5 v t minp mind
+5 v t minp maxf
+5 v t minp minf
+5 v t minp f
+5 v t minp maxt
+5 v t minp mint
+5 v t minp maxp
+5 v t maxp minp
+5 v t maxp maxd
+5 v t maxp mind
+5 v t maxp maxf
+5 v t maxp minf
+5 v t maxp f
+5 v t maxp maxt
+5 v t maxp mint
+5 v t mint maxp
+5 v t mint minp
+5 v t mint maxd
+5 v t mint mind
+5 v t mint maxf
+5 v t mint minf
+5 v t mint f
+5 v t mint maxt
+5 v t maxt mint
+5 v t maxt maxp
+5 v t maxt minp
+5 v t maxt maxd
+5 v t maxt mind
+5 v t maxt maxf
+5 v t maxt minf
+5 v t maxt f
+6 v maxt
+6 v mint
+6 v maxp
+6 v minp
+6 v maxd
+6 v mind
+6 v maxf
+6 v minf
+6 v f
+6 v t
+6 v maxt t
+6 v maxt f
+6 v maxt minf
+6 v maxt maxf
+6 v maxt mind
+6 v maxt maxd
+6 v maxt minp
+6 v maxt maxp
+6 v maxt mint
+6 v mint maxt
+6 v mint t
+6 v mint f
+6 v mint minf
+6 v mint maxf
+6 v mint mind
+6 v mint maxd
+6 v mint minp
+6 v mint maxp
+6 v maxp mint
+6 v maxp maxt
+6 v maxp t
+6 v maxp f
+6 v maxp minf
+6 v maxp maxf
+6 v maxp mind
+6 v maxp maxd
+6 v maxp minp
+6 v minp maxp
+6 v minp mint
+6 v minp maxt
+6 v minp t
+6 v minp f
+6 v minp minf
+6 v minp maxf
+6 v minp mind
+6 v minp maxd
+6 v maxd minp
+6 v maxd maxp
+6 v maxd mint
+6 v maxd maxt
+6 v maxd t
+6 v maxd f
+6 v maxd minf
+6 v maxd maxf
+6 v maxd mind
+6 v mind maxd
+6 v mind minp
+6 v mind maxp
+6 v mind mint
+6 v mind maxt
+6 v mind t
+6 v mind f
+6 v mind minf
+6 v mind maxf
+6 v maxf mind
+6 v maxf maxd
+6 v maxf minp
+6 v maxf maxp
+6 v maxf mint
+6 v maxf maxt
+6 v maxf t
+6 v maxf f
+6 v maxf minf
+6 v minf maxf
+6 v minf mind
+6 v minf maxd
+6 v minf minp
+6 v minf maxp
+6 v minf mint
+6 v minf maxt
+6 v minf t
+6 v minf f
+6 v f minf
+6 v f maxf
+6 v f mind
+6 v f maxd
+6 v f minp
+6 v f maxp
+6 v f mint
+6 v f maxt
+6 v f t
+6 v t f
+6 v t minf
+6 v t maxf
+6 v t mind
+6 v t maxd
+6 v t minp
+6 v t maxp
+6 v t mint
+6 v t maxt
+6 v mint maxt t
+6 v mint maxt f
+6 v mint maxt minf
+6 v mint maxt maxf
+6 v mint maxt mind
+6 v mint maxt maxd
+6 v mint maxt minp
+6 v mint maxt maxp
+6 v maxp mint maxt
+6 v maxp mint t
+6 v maxp mint f
+6 v maxp mint minf
+6 v maxp mint maxf
+6 v maxp mint mind
+6 v maxp mint maxd
+6 v maxp mint minp
+6 v maxp maxt mint
+6 v maxp maxt t
+6 v maxp maxt f
+6 v maxp maxt minf
+6 v maxp maxt maxf
+6 v maxp maxt mind
+6 v maxp maxt maxd
+6 v maxp maxt minp
+6 v minp maxp maxt
+6 v minp maxp mint
+6 v minp maxp t
+6 v minp maxp f
+6 v minp maxp minf
+6 v minp maxp maxf
+6 v minp maxp mind
+6 v minp maxp maxd
+6 v minp mint maxp
+6 v minp mint maxt
+6 v minp mint t
+6 v minp mint f
+6 v minp mint minf
+6 v minp mint maxf
+6 v minp mint mind
+6 v minp mint maxd
+6 v minp maxt mint
+6 v minp maxt maxp
+6 v minp maxt t
+6 v minp maxt f
+6 v minp maxt minf
+6 v minp maxt maxf
+6 v minp maxt mind
+6 v minp maxt maxd
+6 v maxd minp maxt
+6 v maxd minp mint
+6 v maxd minp maxp
+6 v maxd minp t
+6 v maxd minp f
+6 v maxd minp minf
+6 v maxd minp maxf
+6 v maxd minp mind
+6 v maxd maxp minp
+6 v maxd maxp maxt
+6 v maxd maxp mint
+6 v maxd maxp t
+6 v maxd maxp f
+6 v maxd maxp minf
+6 v maxd maxp maxf
+6 v maxd maxp mind
+6 v maxd mint maxp
+6 v maxd mint minp
+6 v maxd mint maxt
+6 v maxd mint t
+6 v maxd mint f
+6 v maxd mint minf
+6 v maxd mint maxf
+6 v maxd mint mind
+6 v maxd maxt mint
+6 v maxd maxt maxp
+6 v maxd maxt minp
+6 v maxd maxt t
+6 v maxd maxt f
+6 v maxd maxt minf
+6 v maxd maxt maxf
+6 v maxd maxt mind
+6 v mind maxd maxt
+6 v mind maxd mint
+6 v mind maxd maxp
+6 v mind maxd minp
+6 v mind maxd t
+6 v mind maxd f
+6 v mind maxd minf
+6 v mind maxd maxf
+6 v mind minp maxd
+6 v mind minp maxt
+6 v mind minp mint
+6 v mind minp maxp
+6 v mind minp t
+6 v mind minp f
+6 v mind minp minf
+6 v mind minp maxf
+6 v mind maxp minp
+6 v mind maxp maxd
+6 v mind maxp maxt
+6 v mind maxp mint
+6 v mind maxp t
+6 v mind maxp f
+6 v mind maxp minf
+6 v mind maxp maxf
+6 v mind mint maxp
+6 v mind mint minp
+6 v mind mint maxd
+6 v mind mint maxt
+6 v mind mint t
+6 v mind mint f
+6 v mind mint minf
+6 v mind mint maxf
+6 v mind maxt mint
+6 v mind maxt maxp
+6 v mind maxt minp
+6 v mind maxt maxd
+6 v mind maxt t
+6 v mind maxt f
+6 v mind maxt minf
+6 v mind maxt maxf
+6 v maxf mind maxt
+6 v maxf mind mint
+6 v maxf mind maxp
+6 v maxf mind minp
+6 v maxf mind maxd
+6 v maxf mind t
+6 v maxf mind f
+6 v maxf mind minf
+6 v maxf maxd mind
+6 v maxf maxd maxt
+6 v maxf maxd mint
+6 v maxf maxd maxp
+6 v maxf maxd minp
+6 v maxf maxd t
+6 v maxf maxd f
+6 v maxf maxd minf
+6 v maxf minp maxd
+6 v maxf minp mind
+6 v maxf minp maxt
+6 v maxf minp mint
+6 v maxf minp maxp
+6 v maxf minp t
+6 v maxf minp f
+6 v maxf minp minf
+6 v maxf maxp minp
+6 v maxf maxp maxd
+6 v maxf maxp mind
+6 v maxf maxp maxt
+6 v maxf maxp mint
+6 v maxf maxp t
+6 v maxf maxp f
+6 v maxf maxp minf
+6 v maxf mint maxp
+6 v maxf mint minp
+6 v maxf mint maxd
+6 v maxf mint mind
+6 v maxf mint maxt
+6 v maxf mint t
+6 v maxf mint f
+6 v maxf mint minf
+6 v maxf maxt mint
+6 v maxf maxt maxp
+6 v maxf maxt minp
+6 v maxf maxt maxd
+6 v maxf maxt mind
+6 v maxf maxt t
+6 v maxf maxt f
+6 v maxf maxt minf
+6 v minf maxf maxt
+6 v minf maxf mint
+6 v minf maxf maxp
+6 v minf maxf minp
+6 v minf maxf maxd
+6 v minf maxf mind
+6 v minf maxf t
+6 v minf maxf f
+6 v minf mind maxf
+6 v minf mind maxt
+6 v minf mind mint
+6 v minf mind maxp
+6 v minf mind minp
+6 v minf mind maxd
+6 v minf mind t
+6 v minf mind f
+6 v minf maxd mind
+6 v minf maxd maxf
+6 v minf maxd maxt
+6 v minf maxd mint
+6 v minf maxd maxp
+6 v minf maxd minp
+6 v minf maxd t
+6 v minf maxd f
+6 v minf minp maxd
+6 v minf minp mind
+6 v minf minp maxf
+6 v minf minp maxt
+6 v minf minp mint
+6 v minf minp maxp
+6 v minf minp t
+6 v minf minp f
+6 v minf maxp minp
+6 v minf maxp maxd
+6 v minf maxp mind
+6 v minf maxp maxf
+6 v minf maxp maxt
+6 v minf maxp mint
+6 v minf maxp t
+6 v minf maxp f
+6 v minf mint maxp
+6 v minf mint minp
+6 v minf mint maxd
+6 v minf mint mind
+6 v minf mint maxf
+6 v minf mint maxt
+6 v minf mint t
+6 v minf mint f
+6 v minf maxt mint
+6 v minf maxt maxp
+6 v minf maxt minp
+6 v minf maxt maxd
+6 v minf maxt mind
+6 v minf maxt maxf
+6 v minf maxt t
+6 v minf maxt f
+6 v f minf maxt
+6 v f minf mint
+6 v f minf maxp
+6 v f minf minp
+6 v f minf maxd
+6 v f minf mind
+6 v f minf maxf
+6 v f minf t
+6 v f maxf minf
+6 v f maxf maxt
+6 v f maxf mint
+6 v f maxf maxp
+6 v f maxf minp
+6 v f maxf maxd
+6 v f maxf mind
+6 v f maxf t
+6 v f mind maxf
+6 v f mind minf
+6 v f mind maxt
+6 v f mind mint
+6 v f mind maxp
+6 v f mind minp
+6 v f mind maxd
+6 v f mind t
+6 v f maxd mind
+6 v f maxd maxf
+6 v f maxd minf
+6 v f maxd maxt
+6 v f maxd mint
+6 v f maxd maxp
+6 v f maxd minp
+6 v f maxd t
+6 v f minp maxd
+6 v f minp mind
+6 v f minp maxf
+6 v f minp minf
+6 v f minp maxt
+6 v f minp mint
+6 v f minp maxp
+6 v f minp t
+6 v f maxp minp
+6 v f maxp maxd
+6 v f maxp mind
+6 v f maxp maxf
+6 v f maxp minf
+6 v f maxp maxt
+6 v f maxp mint
+6 v f maxp t
+6 v f mint maxp
+6 v f mint minp
+6 v f mint maxd
+6 v f mint mind
+6 v f mint maxf
+6 v f mint minf
+6 v f mint maxt
+6 v f mint t
+6 v f maxt mint
+6 v f maxt maxp
+6 v f maxt minp
+6 v f maxt maxd
+6 v f maxt mind
+6 v f maxt maxf
+6 v f maxt minf
+6 v f maxt t
+6 v t f maxt
+6 v t f mint
+6 v t f maxp
+6 v t f minp
+6 v t f maxd
+6 v t f mind
+6 v t f maxf
+6 v t f minf
+6 v t minf f
+6 v t minf maxt
+6 v t minf mint
+6 v t minf maxp
+6 v t minf minp
+6 v t minf maxd
+6 v t minf mind
+6 v t minf maxf
+6 v t maxf minf
+6 v t maxf f
+6 v t maxf maxt
+6 v t maxf mint
+6 v t maxf maxp
+6 v t maxf minp
+6 v t maxf maxd
+6 v t maxf mind
+6 v t mind maxf
+6 v t mind minf
+6 v t mind f
+6 v t mind maxt
+6 v t mind mint
+6 v t mind maxp
+6 v t mind minp
+6 v t mind maxd
+6 v t maxd mind
+6 v t maxd maxf
+6 v t maxd minf
+6 v t maxd f
+6 v t maxd maxt
+6 v t maxd mint
+6 v t maxd maxp
+6 v t maxd minp
+6 v t minp maxd
+6 v t minp mind
+6 v t minp maxf
+6 v t minp minf
+6 v t minp f
+6 v t minp maxt
+6 v t minp mint
+6 v t minp maxp
+6 v t maxp minp
+6 v t maxp maxd
+6 v t maxp mind
+6 v t maxp maxf
+6 v t maxp minf
+6 v t maxp f
+6 v t maxp maxt
+6 v t maxp mint
+6 v t mint maxp
+6 v t mint minp
+6 v t mint maxd
+6 v t mint mind
+6 v t mint maxf
+6 v t mint minf
+6 v t mint f
+6 v t mint maxt
+6 v t maxt mint
+6 v t maxt maxp
+6 v t maxt minp
+6 v t maxt maxd
+6 v t maxt mind
+6 v t maxt maxf
+6 v t maxt minf
+6 v t maxt f
+7 v maxt
+7 v mint
+7 v maxp
+7 v minp
+7 v maxd
+7 v mind
+7 v maxf
+7 v minf
+7 v f
+7 v t
+7 v maxt t
+7 v maxt f
+7 v maxt minf
+7 v maxt maxf
+7 v maxt mind
+7 v maxt maxd
+7 v maxt minp
+7 v maxt maxp
+7 v maxt mint
+7 v mint maxt
+7 v mint t
+7 v mint f
+7 v mint minf
+7 v mint maxf
+7 v mint mind
+7 v mint maxd
+7 v mint minp
+7 v mint maxp
+7 v maxp mint
+7 v maxp maxt
+7 v maxp t
+7 v maxp f
+7 v maxp minf
+7 v maxp maxf
+7 v maxp mind
+7 v maxp maxd
+7 v maxp minp
+7 v minp maxp
+7 v minp mint
+7 v minp maxt
+7 v minp t
+7 v minp f
+7 v minp minf
+7 v minp maxf
+7 v minp mind
+7 v minp maxd
+7 v maxd minp
+7 v maxd maxp
+7 v maxd mint
+7 v maxd maxt
+7 v maxd t
+7 v maxd f
+7 v maxd minf
+7 v maxd maxf
+7 v maxd mind
+7 v mind maxd
+7 v mind minp
+7 v mind maxp
+7 v mind mint
+7 v mind maxt
+7 v mind t
+7 v mind f
+7 v mind minf
+7 v mind maxf
+7 v maxf mind
+7 v maxf maxd
+7 v maxf minp
+7 v maxf maxp
+7 v maxf mint
+7 v maxf maxt
+7 v maxf t
+7 v maxf f
+7 v maxf minf
+7 v minf maxf
+7 v minf mind
+7 v minf maxd
+7 v minf minp
+7 v minf maxp
+7 v minf mint
+7 v minf maxt
+7 v minf t
+7 v minf f
+7 v f minf
+7 v f maxf
+7 v f mind
+7 v f maxd
+7 v f minp
+7 v f maxp
+7 v f mint
+7 v f maxt
+7 v f t
+7 v t f
+7 v t minf
+7 v t maxf
+7 v t mind
+7 v t maxd
+7 v t minp
+7 v t maxp
+7 v t mint
+7 v t maxt
+7 v mint maxt t
+7 v mint maxt f
+7 v mint maxt minf
+7 v mint maxt maxf
+7 v mint maxt mind
+7 v mint maxt maxd
+7 v mint maxt minp
+7 v mint maxt maxp
+7 v maxp mint maxt
+7 v maxp mint t
+7 v maxp mint f
+7 v maxp mint minf
+7 v maxp mint maxf
+7 v maxp mint mind
+7 v maxp mint maxd
+7 v maxp mint minp
+7 v maxp maxt mint
+7 v maxp maxt t
+7 v maxp maxt f
+7 v maxp maxt minf
+7 v maxp maxt maxf
+7 v maxp maxt mind
+7 v maxp maxt maxd
+7 v maxp maxt minp
+7 v minp maxp maxt
+7 v minp maxp mint
+7 v minp maxp t
+7 v minp maxp f
+7 v minp maxp minf
+7 v minp maxp maxf
+7 v minp maxp mind
+7 v minp maxp maxd
+7 v minp mint maxp
+7 v minp mint maxt
+7 v minp mint t
+7 v minp mint f
+7 v minp mint minf
+7 v minp mint maxf
+7 v minp mint mind
+7 v minp mint maxd
+7 v minp maxt mint
+7 v minp maxt maxp
+7 v minp maxt t
+7 v minp maxt f
+7 v minp maxt minf
+7 v minp maxt maxf
+7 v minp maxt mind
+7 v minp maxt maxd
+7 v maxd minp maxt
+7 v maxd minp mint
+7 v maxd minp maxp
+7 v maxd minp t
+7 v maxd minp f
+7 v maxd minp minf
+7 v maxd minp maxf
+7 v maxd minp mind
+7 v maxd maxp minp
+7 v maxd maxp maxt
+7 v maxd maxp mint
+7 v maxd maxp t
+7 v maxd maxp f
+7 v maxd maxp minf
+7 v maxd maxp maxf
+7 v maxd maxp mind
+7 v maxd mint maxp
+7 v maxd mint minp
+7 v maxd mint maxt
+7 v maxd mint t
+7 v maxd mint f
+7 v maxd mint minf
+7 v maxd mint maxf
+7 v maxd mint mind
+7 v maxd maxt mint
+7 v maxd maxt maxp
+7 v maxd maxt minp
+7 v maxd maxt t
+7 v maxd maxt f
+7 v maxd maxt minf
+7 v maxd maxt maxf
+7 v maxd maxt mind
+7 v mind maxd maxt
+7 v mind maxd mint
+7 v mind maxd maxp
+7 v mind maxd minp
+7 v mind maxd t
+7 v mind maxd f
+7 v mind maxd minf
+7 v mind maxd maxf
+7 v mind minp maxd
+7 v mind minp maxt
+7 v mind minp mint
+7 v mind minp maxp
+7 v mind minp t
+7 v mind minp f
+7 v mind minp minf
+7 v mind minp maxf
+7 v mind maxp minp
+7 v mind maxp maxd
+7 v mind maxp maxt
+7 v mind maxp mint
+7 v mind maxp t
+7 v mind maxp f
+7 v mind maxp minf
+7 v mind maxp maxf
+7 v mind mint maxp
+7 v mind mint minp
+7 v mind mint maxd
+7 v mind mint maxt
+7 v mind mint t
+7 v mind mint f
+7 v mind mint minf
+7 v mind mint maxf
+7 v mind maxt mint
+7 v mind maxt maxp
+7 v mind maxt minp
+7 v mind maxt maxd
+7 v mind maxt t
+7 v mind maxt f
+7 v mind maxt minf
+7 v mind maxt maxf
+7 v maxf mind maxt
+7 v maxf mind mint
+7 v maxf mind maxp
+7 v maxf mind minp
+7 v maxf mind maxd
+7 v maxf mind t
+7 v maxf mind f
+7 v maxf mind minf
+7 v maxf maxd mind
+7 v maxf maxd maxt
+7 v maxf maxd mint
+7 v maxf maxd maxp
+7 v maxf maxd minp
+7 v maxf maxd t
+7 v maxf maxd f
+7 v maxf maxd minf
+7 v maxf minp maxd
+7 v maxf minp mind
+7 v maxf minp maxt
+7 v maxf minp mint
+7 v maxf minp maxp
+7 v maxf minp t
+7 v maxf minp f
+7 v maxf minp minf
+7 v maxf maxp minp
+7 v maxf maxp maxd
+7 v maxf maxp mind
+7 v maxf maxp maxt
+7 v maxf maxp mint
+7 v maxf maxp t
+7 v maxf maxp f
+7 v maxf maxp minf
+7 v maxf mint maxp
+7 v maxf mint minp
+7 v maxf mint maxd
+7 v maxf mint mind
+7 v maxf mint maxt
+7 v maxf mint t
+7 v maxf mint f
+7 v maxf mint minf
+7 v maxf maxt mint
+7 v maxf maxt maxp
+7 v maxf maxt minp
+7 v maxf maxt maxd
+7 v maxf maxt mind
+7 v maxf maxt t
+7 v maxf maxt f
+7 v maxf maxt minf
+7 v minf maxf maxt
+7 v minf maxf mint
+7 v minf maxf maxp
+7 v minf maxf minp
+7 v minf maxf maxd
+7 v minf maxf mind
+7 v minf maxf t
+7 v minf maxf f
+7 v minf mind maxf
+7 v minf mind maxt
+7 v minf mind mint
+7 v minf mind maxp
+7 v minf mind minp
+7 v minf mind maxd
+7 v minf mind t
+7 v minf mind f
+7 v minf maxd mind
+7 v minf maxd maxf
+7 v minf maxd maxt
+7 v minf maxd mint
+7 v minf maxd maxp
+7 v minf maxd minp
+7 v minf maxd t
+7 v minf maxd f
+7 v minf minp maxd
+7 v minf minp mind
+7 v minf minp maxf
+7 v minf minp maxt
+7 v minf minp mint
+7 v minf minp maxp
+7 v minf minp t
+7 v minf minp f
+7 v minf maxp minp
+7 v minf maxp maxd
+7 v minf maxp mind
+7 v minf maxp maxf
+7 v minf maxp maxt
+7 v minf maxp mint
+7 v minf maxp t
+7 v minf maxp f
+7 v minf mint maxp
+7 v minf mint minp
+7 v minf mint maxd
+7 v minf mint mind
+7 v minf mint maxf
+7 v minf mint maxt
+7 v minf mint t
+7 v minf mint f
+7 v minf maxt mint
+7 v minf maxt maxp
+7 v minf maxt minp
+7 v minf maxt maxd
+7 v minf maxt mind
+7 v minf maxt maxf
+7 v minf maxt t
+7 v minf maxt f
+7 v f minf maxt
+7 v f minf mint
+7 v f minf maxp
+7 v f minf minp
+7 v f minf maxd
+7 v f minf mind
+7 v f minf maxf
+7 v f minf t
+7 v f maxf minf
+7 v f maxf maxt
+7 v f maxf mint
+7 v f maxf maxp
+7 v f maxf minp
+7 v f maxf maxd
+7 v f maxf mind
+7 v f maxf t
+7 v f mind maxf
+7 v f mind minf
+7 v f mind maxt
+7 v f mind mint
+7 v f mind maxp
+7 v f mind minp
+7 v f mind maxd
+7 v f mind t
+7 v f maxd mind
+7 v f maxd maxf
+7 v f maxd minf
+7 v f maxd maxt
+7 v f maxd mint
+7 v f maxd maxp
+7 v f maxd minp
+7 v f maxd t
+7 v f minp maxd
+7 v f minp mind
+7 v f minp maxf
+7 v f minp minf
+7 v f minp maxt
+7 v f minp mint
+7 v f minp maxp
+7 v f minp t
+7 v f maxp minp
+7 v f maxp maxd
+7 v f maxp mind
+7 v f maxp maxf
+7 v f maxp minf
+7 v f maxp maxt
+7 v f maxp mint
+7 v f maxp t
+7 v f mint maxp
+7 v f mint minp
+7 v f mint maxd
+7 v f mint mind
+7 v f mint maxf
+7 v f mint minf
+7 v f mint maxt
+7 v f mint t
+7 v f maxt mint
+7 v f maxt maxp
+7 v f maxt minp
+7 v f maxt maxd
+7 v f maxt mind
+7 v f maxt maxf
+7 v f maxt minf
+7 v f maxt t
+7 v t f maxt
+7 v t f mint
+7 v t f maxp
+7 v t f minp
+7 v t f maxd
+7 v t f mind
+7 v t f maxf
+7 v t f minf
+7 v t minf f
+7 v t minf maxt
+7 v t minf mint
+7 v t minf maxp
+7 v t minf minp
+7 v t minf maxd
+7 v t minf mind
+7 v t minf maxf
+7 v t maxf minf
+7 v t maxf f
+7 v t maxf maxt
+7 v t maxf mint
+7 v t maxf maxp
+7 v t maxf minp
+7 v t maxf maxd
+7 v t maxf mind
+7 v t mind maxf
+7 v t mind minf
+7 v t mind f
+7 v t mind maxt
+7 v t mind mint
+7 v t mind maxp
+7 v t mind minp
+7 v t mind maxd
+7 v t maxd mind
+7 v t maxd maxf
+7 v t maxd minf
+7 v t maxd f
+7 v t maxd maxt
+7 v t maxd mint
+7 v t maxd maxp
+7 v t maxd minp
+7 v t minp maxd
+7 v t minp mind
+7 v t minp maxf
+7 v t minp minf
+7 v t minp f
+7 v t minp maxt
+7 v t minp mint
+7 v t minp maxp
+7 v t maxp minp
+7 v t maxp maxd
+7 v t maxp mind
+7 v t maxp maxf
+7 v t maxp minf
+7 v t maxp f
+7 v t maxp maxt
+7 v t maxp mint
+7 v t mint maxp
+7 v t mint minp
+7 v t mint maxd
+7 v t mint mind
+7 v t mint maxf
+7 v t mint minf
+7 v t mint f
+7 v t mint maxt
+7 v t maxt mint
+7 v t maxt maxp
+7 v t maxt minp
+7 v t maxt maxd
+7 v t maxt mind
+7 v t maxt maxf
+7 v t maxt minf
+7 v t maxt f
+8 v maxt
+8 v mint
+8 v maxp
+8 v minp
+8 v maxd
+8 v mind
+8 v maxf
+8 v minf
+8 v f
+8 v t
+8 v maxt t
+8 v maxt f
+8 v maxt minf
+8 v maxt maxf
+8 v maxt mind
+8 v maxt maxd
+8 v maxt minp
+8 v maxt maxp
+8 v maxt mint
+8 v mint maxt
+8 v mint t
+8 v mint f
+8 v mint minf
+8 v mint maxf
+8 v mint mind
+8 v mint maxd
+8 v mint minp
+8 v mint maxp
+8 v maxp mint
+8 v maxp maxt
+8 v maxp t
+8 v maxp f
+8 v maxp minf
+8 v maxp maxf
+8 v maxp mind
+8 v maxp maxd
+8 v maxp minp
+8 v minp maxp
+8 v minp mint
+8 v minp maxt
+8 v minp t
+8 v minp f
+8 v minp minf
+8 v minp maxf
+8 v minp mind
+8 v minp maxd
+8 v maxd minp
+8 v maxd maxp
+8 v maxd mint
+8 v maxd maxt
+8 v maxd t
+8 v maxd f
+8 v maxd minf
+8 v maxd maxf
+8 v maxd mind
+8 v mind maxd
+8 v mind minp
+8 v mind maxp
+8 v mind mint
+8 v mind maxt
+8 v mind t
+8 v mind f
+8 v mind minf
+8 v mind maxf
+8 v maxf mind
+8 v maxf maxd
+8 v maxf minp
+8 v maxf maxp
+8 v maxf mint
+8 v maxf maxt
+8 v maxf t
+8 v maxf f
+8 v maxf minf
+8 v minf maxf
+8 v minf mind
+8 v minf maxd
+8 v minf minp
+8 v minf maxp
+8 v minf mint
+8 v minf maxt
+8 v minf t
+8 v minf f
+8 v f minf
+8 v f maxf
+8 v f mind
+8 v f maxd
+8 v f minp
+8 v f maxp
+8 v f mint
+8 v f maxt
+8 v f t
+8 v t f
+8 v t minf
+8 v t maxf
+8 v t mind
+8 v t maxd
+8 v t minp
+8 v t maxp
+8 v t mint
+8 v t maxt
+8 v mint maxt t
+8 v mint maxt f
+8 v mint maxt minf
+8 v mint maxt maxf
+8 v mint maxt mind
+8 v mint maxt maxd
+8 v mint maxt minp
+8 v mint maxt maxp
+8 v maxp mint maxt
+8 v maxp mint t
+8 v maxp mint f
+8 v maxp mint minf
+8 v maxp mint maxf
+8 v maxp mint mind
+8 v maxp mint maxd
+8 v maxp mint minp
+8 v maxp maxt mint
+8 v maxp maxt t
+8 v maxp maxt f
+8 v maxp maxt minf
+8 v maxp maxt maxf
+8 v maxp maxt mind
+8 v maxp maxt maxd
+8 v maxp maxt minp
+8 v minp maxp maxt
+8 v minp maxp mint
+8 v minp maxp t
+8 v minp maxp f
+8 v minp maxp minf
+8 v minp maxp maxf
+8 v minp maxp mind
+8 v minp maxp maxd
+8 v minp mint maxp
+8 v minp mint maxt
+8 v minp mint t
+8 v minp mint f
+8 v minp mint minf
+8 v minp mint maxf
+8 v minp mint mind
+8 v minp mint maxd
+8 v minp maxt mint
+8 v minp maxt maxp
+8 v minp maxt t
+8 v minp maxt f
+8 v minp maxt minf
+8 v minp maxt maxf
+8 v minp maxt mind
+8 v minp maxt maxd
+8 v maxd minp maxt
+8 v maxd minp mint
+8 v maxd minp maxp
+8 v maxd minp t
+8 v maxd minp f
+8 v maxd minp minf
+8 v maxd minp maxf
+8 v maxd minp mind
+8 v maxd maxp minp
+8 v maxd maxp maxt
+8 v maxd maxp mint
+8 v maxd maxp t
+8 v maxd maxp f
+8 v maxd maxp minf
+8 v maxd maxp maxf
+8 v maxd maxp mind
+8 v maxd mint maxp
+8 v maxd mint minp
+8 v maxd mint maxt
+8 v maxd mint t
+8 v maxd mint f
+8 v maxd mint minf
+8 v maxd mint maxf
+8 v maxd mint mind
+8 v maxd maxt mint
+8 v maxd maxt maxp
+8 v maxd maxt minp
+8 v maxd maxt t
+8 v maxd maxt f
+8 v maxd maxt minf
+8 v maxd maxt maxf
+8 v maxd maxt mind
+8 v mind maxd maxt
+8 v mind maxd mint
+8 v mind maxd maxp
+8 v mind maxd minp
+8 v mind maxd t
+8 v mind maxd f
+8 v mind maxd minf
+8 v mind maxd maxf
+8 v mind minp maxd
+8 v mind minp maxt
+8 v mind minp mint
+8 v mind minp maxp
+8 v mind minp t
+8 v mind minp f
+8 v mind minp minf
+8 v mind minp maxf
+8 v mind maxp minp
+8 v mind maxp maxd
+8 v mind maxp maxt
+8 v mind maxp mint
+8 v mind maxp t
+8 v mind maxp f
+8 v mind maxp minf
+8 v mind maxp maxf
+8 v mind mint maxp
+8 v mind mint minp
+8 v mind mint maxd
+8 v mind mint maxt
+8 v mind mint t
+8 v mind mint f
+8 v mind mint minf
+8 v mind mint maxf
+8 v mind maxt mint
+8 v mind maxt maxp
+8 v mind maxt minp
+8 v mind maxt maxd
+8 v mind maxt t
+8 v mind maxt f
+8 v mind maxt minf
+8 v mind maxt maxf
+8 v maxf mind maxt
+8 v maxf mind mint
+8 v maxf mind maxp
+8 v maxf mind minp
+8 v maxf mind maxd
+8 v maxf mind t
+8 v maxf mind f
+8 v maxf mind minf
+8 v maxf maxd mind
+8 v maxf maxd maxt
+8 v maxf maxd mint
+8 v maxf maxd maxp
+8 v maxf maxd minp
+8 v maxf maxd t
+8 v maxf maxd f
+8 v maxf maxd minf
+8 v maxf minp maxd
+8 v maxf minp mind
+8 v maxf minp maxt
+8 v maxf minp mint
+8 v maxf minp maxp
+8 v maxf minp t
+8 v maxf minp f
+8 v maxf minp minf
+8 v maxf maxp minp
+8 v maxf maxp maxd
+8 v maxf maxp mind
+8 v maxf maxp maxt
+8 v maxf maxp mint
+8 v maxf maxp t
+8 v maxf maxp f
+8 v maxf maxp minf
+8 v maxf mint maxp
+8 v maxf mint minp
+8 v maxf mint maxd
+8 v maxf mint mind
+8 v maxf mint maxt
+8 v maxf mint t
+8 v maxf mint f
+8 v maxf mint minf
+8 v maxf maxt mint
+8 v maxf maxt maxp
+8 v maxf maxt minp
+8 v maxf maxt maxd
+8 v maxf maxt mind
+8 v maxf maxt t
+8 v maxf maxt f
+8 v maxf maxt minf
+8 v minf maxf maxt
+8 v minf maxf mint
+8 v minf maxf maxp
+8 v minf maxf minp
+8 v minf maxf maxd
+8 v minf maxf mind
+8 v minf maxf t
+8 v minf maxf f
+8 v minf mind maxf
+8 v minf mind maxt
+8 v minf mind mint
+8 v minf mind maxp
+8 v minf mind minp
+8 v minf mind maxd
+8 v minf mind t
+8 v minf mind f
+8 v minf maxd mind
+8 v minf maxd maxf
+8 v minf maxd maxt
+8 v minf maxd mint
+8 v minf maxd maxp
+8 v minf maxd minp
+8 v minf maxd t
+8 v minf maxd f
+8 v minf minp maxd
+8 v minf minp mind
+8 v minf minp maxf
+8 v minf minp maxt
+8 v minf minp mint
+8 v minf minp maxp
+8 v minf minp t
+8 v minf minp f
+8 v minf maxp minp
+8 v minf maxp maxd
+8 v minf maxp mind
+8 v minf maxp maxf
+8 v minf maxp maxt
+8 v minf maxp mint
+8 v minf maxp t
+8 v minf maxp f
+8 v minf mint maxp
+8 v minf mint minp
+8 v minf mint maxd
+8 v minf mint mind
+8 v minf mint maxf
+8 v minf mint maxt
+8 v minf mint t
+8 v minf mint f
+8 v minf maxt mint
+8 v minf maxt maxp
+8 v minf maxt minp
+8 v minf maxt maxd
+8 v minf maxt mind
+8 v minf maxt maxf
+8 v minf maxt t
+8 v minf maxt f
+8 v f minf maxt
+8 v f minf mint
+8 v f minf maxp
+8 v f minf minp
+8 v f minf maxd
+8 v f minf mind
+8 v f minf maxf
+8 v f minf t
+8 v f maxf minf
+8 v f maxf maxt
+8 v f maxf mint
+8 v f maxf maxp
+8 v f maxf minp
+8 v f maxf maxd
+8 v f maxf mind
+8 v f maxf t
+8 v f mind maxf
+8 v f mind minf
+8 v f mind maxt
+8 v f mind mint
+8 v f mind maxp
+8 v f mind minp
+8 v f mind maxd
+8 v f mind t
+8 v f maxd mind
+8 v f maxd maxf
+8 v f maxd minf
+8 v f maxd maxt
+8 v f maxd mint
+8 v f maxd maxp
+8 v f maxd minp
+8 v f maxd t
+8 v f minp maxd
+8 v f minp mind
+8 v f minp maxf
+8 v f minp minf
+8 v f minp maxt
+8 v f minp mint
+8 v f minp maxp
+8 v f minp t
+8 v f maxp minp
+8 v f maxp maxd
+8 v f maxp mind
+8 v f maxp maxf
+8 v f maxp minf
+8 v f maxp maxt
+8 v f maxp mint
+8 v f maxp t
+8 v f mint maxp
+8 v f mint minp
+8 v f mint maxd
+8 v f mint mind
+8 v f mint maxf
+8 v f mint minf
+8 v f mint maxt
+8 v f mint t
+8 v f maxt mint
+8 v f maxt maxp
+8 v f maxt minp
+8 v f maxt maxd
+8 v f maxt mind
+8 v f maxt maxf
+8 v f maxt minf
+8 v f maxt t
+8 v t f maxt
+8 v t f mint
+8 v t f maxp
+8 v t f minp
+8 v t f maxd
+8 v t f mind
+8 v t f maxf
+8 v t f minf
+8 v t minf f
+8 v t minf maxt
+8 v t minf mint
+8 v t minf maxp
+8 v t minf minp
+8 v t minf maxd
+8 v t minf mind
+8 v t minf maxf
+8 v t maxf minf
+8 v t maxf f
+8 v t maxf maxt
+8 v t maxf mint
+8 v t maxf maxp
+8 v t maxf minp
+8 v t maxf maxd
+8 v t maxf mind
+8 v t mind maxf
+8 v t mind minf
+8 v t mind f
+8 v t mind maxt
+8 v t mind mint
+8 v t mind maxp
+8 v t mind minp
+8 v t mind maxd
+8 v t maxd mind
+8 v t maxd maxf
+8 v t maxd minf
+8 v t maxd f
+8 v t maxd maxt
+8 v t maxd mint
+8 v t maxd maxp
+8 v t maxd minp
+8 v t minp maxd
+8 v t minp mind
+8 v t minp maxf
+8 v t minp minf
+8 v t minp f
+8 v t minp maxt
+8 v t minp mint
+8 v t minp maxp
+8 v t maxp minp
+8 v t maxp maxd
+8 v t maxp mind
+8 v t maxp maxf
+8 v t maxp minf
+8 v t maxp f
+8 v t maxp maxt
+8 v t maxp mint
+8 v t mint maxp
+8 v t mint minp
+8 v t mint maxd
+8 v t mint mind
+8 v t mint maxf
+8 v t mint minf
+8 v t mint f
+8 v t mint maxt
+8 v t maxt mint
+8 v t maxt maxp
+8 v t maxt minp
+8 v t maxt maxd
+8 v t maxt mind
+8 v t maxt maxf
+8 v t maxt minf
+8 v t maxt f
+9 v maxt
+9 v mint
+9 v maxp
+9 v minp
+9 v maxd
+9 v mind
+9 v maxf
+9 v minf
+9 v f
+9 v t
+9 v maxt t
+9 v maxt f
+9 v maxt minf
+9 v maxt maxf
+9 v maxt mind
+9 v maxt maxd
+9 v maxt minp
+9 v maxt maxp
+9 v maxt mint
+9 v mint maxt
+9 v mint t
+9 v mint f
+9 v mint minf
+9 v mint maxf
+9 v mint mind
+9 v mint maxd
+9 v mint minp
+9 v mint maxp
+9 v maxp mint
+9 v maxp maxt
+9 v maxp t
+9 v maxp f
+9 v maxp minf
+9 v maxp maxf
+9 v maxp mind
+9 v maxp maxd
+9 v maxp minp
+9 v minp maxp
+9 v minp mint
+9 v minp maxt
+9 v minp t
+9 v minp f
+9 v minp minf
+9 v minp maxf
+9 v minp mind
+9 v minp maxd
+9 v maxd minp
+9 v maxd maxp
+9 v maxd mint
+9 v maxd maxt
+9 v maxd t
+9 v maxd f
+9 v maxd minf
+9 v maxd maxf
+9 v maxd mind
+9 v mind maxd
+9 v mind minp
+9 v mind maxp
+9 v mind mint
+9 v mind maxt
+9 v mind t
+9 v mind f
+9 v mind minf
+9 v mind maxf
+9 v maxf mind
+9 v maxf maxd
+9 v maxf minp
+9 v maxf maxp
+9 v maxf mint
+9 v maxf maxt
+9 v maxf t
+9 v maxf f
+9 v maxf minf
+9 v minf maxf
+9 v minf mind
+9 v minf maxd
+9 v minf minp
+9 v minf maxp
+9 v minf mint
+9 v minf maxt
+9 v minf t
+9 v minf f
+9 v f minf
+9 v f maxf
+9 v f mind
+9 v f maxd
+9 v f minp
+9 v f maxp
+9 v f mint
+9 v f maxt
+9 v f t
+9 v t f
+9 v t minf
+9 v t maxf
+9 v t mind
+9 v t maxd
+9 v t minp
+9 v t maxp
+9 v t mint
+9 v t maxt
+9 v mint maxt t
+9 v mint maxt f
+9 v mint maxt minf
+9 v mint maxt maxf
+9 v mint maxt mind
+9 v mint maxt maxd
+9 v mint maxt minp
+9 v mint maxt maxp
+9 v maxp mint maxt
+9 v maxp mint t
+9 v maxp mint f
+9 v maxp mint minf
+9 v maxp mint maxf
+9 v maxp mint mind
+9 v maxp mint maxd
+9 v maxp mint minp
+9 v maxp maxt mint
+9 v maxp maxt t
+9 v maxp maxt f
+9 v maxp maxt minf
+9 v maxp maxt maxf
+9 v maxp maxt mind
+9 v maxp maxt maxd
+9 v maxp maxt minp
+9 v minp maxp maxt
+9 v minp maxp mint
+9 v minp maxp t
+9 v minp maxp f
+9 v minp maxp minf
+9 v minp maxp maxf
+9 v minp maxp mind
+9 v minp maxp maxd
+9 v minp mint maxp
+9 v minp mint maxt
+9 v minp mint t
+9 v minp mint f
+9 v minp mint minf
+9 v minp mint maxf
+9 v minp mint mind
+9 v minp mint maxd
+9 v minp maxt mint
+9 v minp maxt maxp
+9 v minp maxt t
+9 v minp maxt f
+9 v minp maxt minf
+9 v minp maxt maxf
+9 v minp maxt mind
+9 v minp maxt maxd
+9 v maxd minp maxt
+9 v maxd minp mint
+9 v maxd minp maxp
+9 v maxd minp t
+9 v maxd minp f
+9 v maxd minp minf
+9 v maxd minp maxf
+9 v maxd minp mind
+9 v maxd maxp minp
+9 v maxd maxp maxt
+9 v maxd maxp mint
+9 v maxd maxp t
+9 v maxd maxp f
+9 v maxd maxp minf
+9 v maxd maxp maxf
+9 v maxd maxp mind
+9 v maxd mint maxp
+9 v maxd mint minp
+9 v maxd mint maxt
+9 v maxd mint t
+9 v maxd mint f
+9 v maxd mint minf
+9 v maxd mint maxf
+9 v maxd mint mind
+9 v maxd maxt mint
+9 v maxd maxt maxp
+9 v maxd maxt minp
+9 v maxd maxt t
+9 v maxd maxt f
+9 v maxd maxt minf
+9 v maxd maxt maxf
+9 v maxd maxt mind
+9 v mind maxd maxt
+9 v mind maxd mint
+9 v mind maxd maxp
+9 v mind maxd minp
+9 v mind maxd t
+9 v mind maxd f
+9 v mind maxd minf
+9 v mind maxd maxf
+9 v mind minp maxd
+9 v mind minp maxt
+9 v mind minp mint
+9 v mind minp maxp
+9 v mind minp t
+9 v mind minp f
+9 v mind minp minf
+9 v mind minp maxf
+9 v mind maxp minp
+9 v mind maxp maxd
+9 v mind maxp maxt
+9 v mind maxp mint
+9 v mind maxp t
+9 v mind maxp f
+9 v mind maxp minf
+9 v mind maxp maxf
+9 v mind mint maxp
+9 v mind mint minp
+9 v mind mint maxd
+9 v mind mint maxt
+9 v mind mint t
+9 v mind mint f
+9 v mind mint minf
+9 v mind mint maxf
+9 v mind maxt mint
+9 v mind maxt maxp
+9 v mind maxt minp
+9 v mind maxt maxd
+9 v mind maxt t
+9 v mind maxt f
+9 v mind maxt minf
+9 v mind maxt maxf
+9 v maxf mind maxt
+9 v maxf mind mint
+9 v maxf mind maxp
+9 v maxf mind minp
+9 v maxf mind maxd
+9 v maxf mind t
+9 v maxf mind f
+9 v maxf mind minf
+9 v maxf maxd mind
+9 v maxf maxd maxt
+9 v maxf maxd mint
+9 v maxf maxd maxp
+9 v maxf maxd minp
+9 v maxf maxd t
+9 v maxf maxd f
+9 v maxf maxd minf
+9 v maxf minp maxd
+9 v maxf minp mind
+9 v maxf minp maxt
+9 v maxf minp mint
+9 v maxf minp maxp
+9 v maxf minp t
+9 v maxf minp f
+9 v maxf minp minf
+9 v maxf maxp minp
+9 v maxf maxp maxd
+9 v maxf maxp mind
+9 v maxf maxp maxt
+9 v maxf maxp mint
+9 v maxf maxp t
+9 v maxf maxp f
+9 v maxf maxp minf
+9 v maxf mint maxp
+9 v maxf mint minp
+9 v maxf mint maxd
+9 v maxf mint mind
+9 v maxf mint maxt
+9 v maxf mint t
+9 v maxf mint f
+9 v maxf mint minf
+9 v maxf maxt mint
+9 v maxf maxt maxp
+9 v maxf maxt minp
+9 v maxf maxt maxd
+9 v maxf maxt mind
+9 v maxf maxt t
+9 v maxf maxt f
+9 v maxf maxt minf
+9 v minf maxf maxt
+9 v minf maxf mint
+9 v minf maxf maxp
+9 v minf maxf minp
+9 v minf maxf maxd
+9 v minf maxf mind
+9 v minf maxf t
+9 v minf maxf f
+9 v minf mind maxf
+9 v minf mind maxt
+9 v minf mind mint
+9 v minf mind maxp
+9 v minf mind minp
+9 v minf mind maxd
+9 v minf mind t
+9 v minf mind f
+9 v minf maxd mind
+9 v minf maxd maxf
+9 v minf maxd maxt
+9 v minf maxd mint
+9 v minf maxd maxp
+9 v minf maxd minp
+9 v minf maxd t
+9 v minf maxd f
+9 v minf minp maxd
+9 v minf minp mind
+9 v minf minp maxf
+9 v minf minp maxt
+9 v minf minp mint
+9 v minf minp maxp
+9 v minf minp t
+9 v minf minp f
+9 v minf maxp minp
+9 v minf maxp maxd
+9 v minf maxp mind
+9 v minf maxp maxf
+9 v minf maxp maxt
+9 v minf maxp mint
+9 v minf maxp t
+9 v minf maxp f
+9 v minf mint maxp
+9 v minf mint minp
+9 v minf mint maxd
+9 v minf mint mind
+9 v minf mint maxf
+9 v minf mint maxt
+9 v minf mint t
+9 v minf mint f
+9 v minf maxt mint
+9 v minf maxt maxp
+9 v minf maxt minp
+9 v minf maxt maxd
+9 v minf maxt mind
+9 v minf maxt maxf
+9 v minf maxt t
+9 v minf maxt f
+9 v f minf maxt
+9 v f minf mint
+9 v f minf maxp
+9 v f minf minp
+9 v f minf maxd
+9 v f minf mind
+9 v f minf maxf
+9 v f minf t
+9 v f maxf minf
+9 v f maxf maxt
+9 v f maxf mint
+9 v f maxf maxp
+9 v f maxf minp
+9 v f maxf maxd
+9 v f maxf mind
+9 v f maxf t
+9 v f mind maxf
+9 v f mind minf
+9 v f mind maxt
+9 v f mind mint
+9 v f mind maxp
+9 v f mind minp
+9 v f mind maxd
+9 v f mind t
+9 v f maxd mind
+9 v f maxd maxf
+9 v f maxd minf
+9 v f maxd maxt
+9 v f maxd mint
+9 v f maxd maxp
+9 v f maxd minp
+9 v f maxd t
+9 v f minp maxd
+9 v f minp mind
+9 v f minp maxf
+9 v f minp minf
+9 v f minp maxt
+9 v f minp mint
+9 v f minp maxp
+9 v f minp t
+9 v f maxp minp
+9 v f maxp maxd
+9 v f maxp mind
+9 v f maxp maxf
+9 v f maxp minf
+9 v f maxp maxt
+9 v f maxp mint
+9 v f maxp t
+9 v f mint maxp
+9 v f mint minp
+9 v f mint maxd
+9 v f mint mind
+9 v f mint maxf
+9 v f mint minf
+9 v f mint maxt
+9 v f mint t
+9 v f maxt mint
+9 v f maxt maxp
+9 v f maxt minp
+9 v f maxt maxd
+9 v f maxt mind
+9 v f maxt maxf
+9 v f maxt minf
+9 v f maxt t
+9 v t f maxt
+9 v t f mint
+9 v t f maxp
+9 v t f minp
+9 v t f maxd
+9 v t f mind
+9 v t f maxf
+9 v t f minf
+9 v t minf f
+9 v t minf maxt
+9 v t minf mint
+9 v t minf maxp
+9 v t minf minp
+9 v t minf maxd
+9 v t minf mind
+9 v t minf maxf
+9 v t maxf minf
+9 v t maxf f
+9 v t maxf maxt
+9 v t maxf mint
+9 v t maxf maxp
+9 v t maxf minp
+9 v t maxf maxd
+9 v t maxf mind
+9 v t mind maxf
+9 v t mind minf
+9 v t mind f
+9 v t mind maxt
+9 v t mind mint
+9 v t mind maxp
+9 v t mind minp
+9 v t mind maxd
+9 v t maxd mind
+9 v t maxd maxf
+9 v t maxd minf
+9 v t maxd f
+9 v t maxd maxt
+9 v t maxd mint
+9 v t maxd maxp
+9 v t maxd minp
+9 v t minp maxd
+9 v t minp mind
+9 v t minp maxf
+9 v t minp minf
+9 v t minp f
+9 v t minp maxt
+9 v t minp mint
+9 v t minp maxp
+9 v t maxp minp
+9 v t maxp maxd
+9 v t maxp mind
+9 v t maxp maxf
+9 v t maxp minf
+9 v t maxp f
+9 v t maxp maxt
+9 v t maxp mint
+9 v t mint maxp
+9 v t mint minp
+9 v t mint maxd
+9 v t mint mind
+9 v t mint maxf
+9 v t mint minf
+9 v t mint f
+9 v t mint maxt
+9 v t maxt mint
+9 v t maxt maxp
+9 v t maxt minp
+9 v t maxt maxd
+9 v t maxt mind
+9 v t maxt maxf
+9 v t maxt minf
+9 v t maxt f
+10 v maxt
+10 v mint
+10 v maxp
+10 v minp
+10 v maxd
+10 v mind
+10 v maxf
+10 v minf
+10 v f
+10 v t
+10 v maxt t
+10 v maxt f
+10 v maxt minf
+10 v maxt maxf
+10 v maxt mind
+10 v maxt maxd
+10 v maxt minp
+10 v maxt maxp
+10 v maxt mint
+10 v mint maxt
+10 v mint t
+10 v mint f
+10 v mint minf
+10 v mint maxf
+10 v mint mind
+10 v mint maxd
+10 v mint minp
+10 v mint maxp
+10 v maxp mint
+10 v maxp maxt
+10 v maxp t
+10 v maxp f
+10 v maxp minf
+10 v maxp maxf
+10 v maxp mind
+10 v maxp maxd
+10 v maxp minp
+10 v minp maxp
+10 v minp mint
+10 v minp maxt
+10 v minp t
+10 v minp f
+10 v minp minf
+10 v minp maxf
+10 v minp mind
+10 v minp maxd
+10 v maxd minp
+10 v maxd maxp
+10 v maxd mint
+10 v maxd maxt
+10 v maxd t
+10 v maxd f
+10 v maxd minf
+10 v maxd maxf
+10 v maxd mind
+10 v mind maxd
+10 v mind minp
+10 v mind maxp
+10 v mind mint
+10 v mind maxt
+10 v mind t
+10 v mind f
+10 v mind minf
+10 v mind maxf
+10 v maxf mind
+10 v maxf maxd
+10 v maxf minp
+10 v maxf maxp
+10 v maxf mint
+10 v maxf maxt
+10 v maxf t
+10 v maxf f
+10 v maxf minf
+10 v minf maxf
+10 v minf mind
+10 v minf maxd
+10 v minf minp
+10 v minf maxp
+10 v minf mint
+10 v minf maxt
+10 v minf t
+10 v minf f
+10 v f minf
+10 v f maxf
+10 v f mind
+10 v f maxd
+10 v f minp
+10 v f maxp
+10 v f mint
+10 v f maxt
+10 v f t
+10 v t f
+10 v t minf
+10 v t maxf
+10 v t mind
+10 v t maxd
+10 v t minp
+10 v t maxp
+10 v t mint
+10 v t maxt
+10 v mint maxt t
+10 v mint maxt f
+10 v mint maxt minf
+10 v mint maxt maxf
+10 v mint maxt mind
+10 v mint maxt maxd
+10 v mint maxt minp
+10 v mint maxt maxp
+10 v maxp mint maxt
+10 v maxp mint t
+10 v maxp mint f
+10 v maxp mint minf
+10 v maxp mint maxf
+10 v maxp mint mind
+10 v maxp mint maxd
+10 v maxp mint minp
+10 v maxp maxt mint
+10 v maxp maxt t
+10 v maxp maxt f
+10 v maxp maxt minf
+10 v maxp maxt maxf
+10 v maxp maxt mind
+10 v maxp maxt maxd
+10 v maxp maxt minp
+10 v minp maxp maxt
+10 v minp maxp mint
+10 v minp maxp t
+10 v minp maxp f
+10 v minp maxp minf
+10 v minp maxp maxf
+10 v minp maxp mind
+10 v minp maxp maxd
+10 v minp mint maxp
+10 v minp mint maxt
+10 v minp mint t
+10 v minp mint f
+10 v minp mint minf
+10 v minp mint maxf
+10 v minp mint mind
+10 v minp mint maxd
+10 v minp maxt mint
+10 v minp maxt maxp
+10 v minp maxt t
+10 v minp maxt f
+10 v minp maxt minf
+10 v minp maxt maxf
+10 v minp maxt mind
+10 v minp maxt maxd
+10 v maxd minp maxt
+10 v maxd minp mint
+10 v maxd minp maxp
+10 v maxd minp t
+10 v maxd minp f
+10 v maxd minp minf
+10 v maxd minp maxf
+10 v maxd minp mind
+10 v maxd maxp minp
+10 v maxd maxp maxt
+10 v maxd maxp mint
+10 v maxd maxp t
+10 v maxd maxp f
+10 v maxd maxp minf
+10 v maxd maxp maxf
+10 v maxd maxp mind
+10 v maxd mint maxp
+10 v maxd mint minp
+10 v maxd mint maxt
+10 v maxd mint t
+10 v maxd mint f
+10 v maxd mint minf
+10 v maxd mint maxf
+10 v maxd mint mind
+10 v maxd maxt mint
+10 v maxd maxt maxp
+10 v maxd maxt minp
+10 v maxd maxt t
+10 v maxd maxt f
+10 v maxd maxt minf
+10 v maxd maxt maxf
+10 v maxd maxt mind
+10 v mind maxd maxt
+10 v mind maxd mint
+10 v mind maxd maxp
+10 v mind maxd minp
+10 v mind maxd t
+10 v mind maxd f
+10 v mind maxd minf
+10 v mind maxd maxf
+10 v mind minp maxd
+10 v mind minp maxt
+10 v mind minp mint
+10 v mind minp maxp
+10 v mind minp t
+10 v mind minp f
+10 v mind minp minf
+10 v mind minp maxf
+10 v mind maxp minp
+10 v mind maxp maxd
+10 v mind maxp maxt
+10 v mind maxp mint
+10 v mind maxp t
+10 v mind maxp f
+10 v mind maxp minf
+10 v mind maxp maxf
+10 v mind mint maxp
+10 v mind mint minp
+10 v mind mint maxd
+10 v mind mint maxt
+10 v mind mint t
+10 v mind mint f
+10 v mind mint minf
+10 v mind mint maxf
+10 v mind maxt mint
+10 v mind maxt maxp
+10 v mind maxt minp
+10 v mind maxt maxd
+10 v mind maxt t
+10 v mind maxt f
+10 v mind maxt minf
+10 v mind maxt maxf
+10 v maxf mind maxt
+10 v maxf mind mint
+10 v maxf mind maxp
+10 v maxf mind minp
+10 v maxf mind maxd
+10 v maxf mind t
+10 v maxf mind f
+10 v maxf mind minf
+10 v maxf maxd mind
+10 v maxf maxd maxt
+10 v maxf maxd mint
+10 v maxf maxd maxp
+10 v maxf maxd minp
+10 v maxf maxd t
+10 v maxf maxd f
+10 v maxf maxd minf
+10 v maxf minp maxd
+10 v maxf minp mind
+10 v maxf minp maxt
+10 v maxf minp mint
+10 v maxf minp maxp
+10 v maxf minp t
+10 v maxf minp f
+10 v maxf minp minf
+10 v maxf maxp minp
+10 v maxf maxp maxd
+10 v maxf maxp mind
+10 v maxf maxp maxt
+10 v maxf maxp mint
+10 v maxf maxp t
+10 v maxf maxp f
+10 v maxf maxp minf
+10 v maxf mint maxp
+10 v maxf mint minp
+10 v maxf mint maxd
+10 v maxf mint mind
+10 v maxf mint maxt
+10 v maxf mint t
+10 v maxf mint f
+10 v maxf mint minf
+10 v maxf maxt mint
+10 v maxf maxt maxp
+10 v maxf maxt minp
+10 v maxf maxt maxd
+10 v maxf maxt mind
+10 v maxf maxt t
+10 v maxf maxt f
+10 v maxf maxt minf
+10 v minf maxf maxt
+10 v minf maxf mint
+10 v minf maxf maxp
+10 v minf maxf minp
+10 v minf maxf maxd
+10 v minf maxf mind
+10 v minf maxf t
+10 v minf maxf f
+10 v minf mind maxf
+10 v minf mind maxt
+10 v minf mind mint
+10 v minf mind maxp
+10 v minf mind minp
+10 v minf mind maxd
+10 v minf mind t
+10 v minf mind f
+10 v minf maxd mind
+10 v minf maxd maxf
+10 v minf maxd maxt
+10 v minf maxd mint
+10 v minf maxd maxp
+10 v minf maxd minp
+10 v minf maxd t
+10 v minf maxd f
+10 v minf minp maxd
+10 v minf minp mind
+10 v minf minp maxf
+10 v minf minp maxt
+10 v minf minp mint
+10 v minf minp maxp
+10 v minf minp t
+10 v minf minp f
+10 v minf maxp minp
+10 v minf maxp maxd
+10 v minf maxp mind
+10 v minf maxp maxf
+10 v minf maxp maxt
+10 v minf maxp mint
+10 v minf maxp t
+10 v minf maxp f
+10 v minf mint maxp
+10 v minf mint minp
+10 v minf mint maxd
+10 v minf mint mind
+10 v minf mint maxf
+10 v minf mint maxt
+10 v minf mint t
+10 v minf mint f
+10 v minf maxt mint
+10 v minf maxt maxp
+10 v minf maxt minp
+10 v minf maxt maxd
+10 v minf maxt mind
+10 v minf maxt maxf
+10 v minf maxt t
+10 v minf maxt f
+10 v f minf maxt
+10 v f minf mint
+10 v f minf maxp
+10 v f minf minp
+10 v f minf maxd
+10 v f minf mind
+10 v f minf maxf
+10 v f minf t
+10 v f maxf minf
+10 v f maxf maxt
+10 v f maxf mint
+10 v f maxf maxp
+10 v f maxf minp
+10 v f maxf maxd
+10 v f maxf mind
+10 v f maxf t
+10 v f mind maxf
+10 v f mind minf
+10 v f mind maxt
+10 v f mind mint
+10 v f mind maxp
+10 v f mind minp
+10 v f mind maxd
+10 v f mind t
+10 v f maxd mind
+10 v f maxd maxf
+10 v f maxd minf
+10 v f maxd maxt
+10 v f maxd mint
+10 v f maxd maxp
+10 v f maxd minp
+10 v f maxd t
+10 v f minp maxd
+10 v f minp mind
+10 v f minp maxf
+10 v f minp minf
+10 v f minp maxt
+10 v f minp mint
+10 v f minp maxp
+10 v f minp t
+10 v f maxp minp
+10 v f maxp maxd
+10 v f maxp mind
+10 v f maxp maxf
+10 v f maxp minf
+10 v f maxp maxt
+10 v f maxp mint
+10 v f maxp t
+10 v f mint maxp
+10 v f mint minp
+10 v f mint maxd
+10 v f mint mind
+10 v f mint maxf
+10 v f mint minf
+10 v f mint maxt
+10 v f mint t
+10 v f maxt mint
+10 v f maxt maxp
+10 v f maxt minp
+10 v f maxt maxd
+10 v f maxt mind
+10 v f maxt maxf
+10 v f maxt minf
+10 v f maxt t
+10 v t f maxt
+10 v t f mint
+10 v t f maxp
+10 v t f minp
+10 v t f maxd
+10 v t f mind
+10 v t f maxf
+10 v t f minf
+10 v t minf f
+10 v t minf maxt
+10 v t minf mint
+10 v t minf maxp
+10 v t minf minp
+10 v t minf maxd
+10 v t minf mind
+10 v t minf maxf
+10 v t maxf minf
+10 v t maxf f
+10 v t maxf maxt
+10 v t maxf mint
+10 v t maxf maxp
+10 v t maxf minp
+10 v t maxf maxd
+10 v t maxf mind
+10 v t mind maxf
+10 v t mind minf
+10 v t mind f
+10 v t mind maxt
+10 v t mind mint
+10 v t mind maxp
+10 v t mind minp
+10 v t mind maxd
+10 v t maxd mind
+10 v t maxd maxf
+10 v t maxd minf
+10 v t maxd f
+10 v t maxd maxt
+10 v t maxd mint
+10 v t maxd maxp
+10 v t maxd minp
+10 v t minp maxd
+10 v t minp mind
+10 v t minp maxf
+10 v t minp minf
+10 v t minp f
+10 v t minp maxt
+10 v t minp mint
+10 v t minp maxp
+10 v t maxp minp
+10 v t maxp maxd
+10 v t maxp mind
+10 v t maxp maxf
+10 v t maxp minf
+10 v t maxp f
+10 v t maxp maxt
+10 v t maxp mint
+10 v t mint maxp
+10 v t mint minp
+10 v t mint maxd
+10 v t mint mind
+10 v t mint maxf
+10 v t mint minf
+10 v t mint f
+10 v t mint maxt
+10 v t maxt mint
+10 v t maxt maxp
+10 v t maxt minp
+10 v t maxt maxd
+10 v t maxt mind
+10 v t maxt maxf
+10 v t maxt minf
+10 v t maxt f
+11 v maxt
+11 v mint
+11 v maxp
+11 v minp
+11 v maxd
+11 v mind
+11 v maxf
+11 v minf
+11 v f
+11 v t
+11 v maxt t
+11 v maxt f
+11 v maxt minf
+11 v maxt maxf
+11 v maxt mind
+11 v maxt maxd
+11 v maxt minp
+11 v maxt maxp
+11 v maxt mint
+11 v mint maxt
+11 v mint t
+11 v mint f
+11 v mint minf
+11 v mint maxf
+11 v mint mind
+11 v mint maxd
+11 v mint minp
+11 v mint maxp
+11 v maxp mint
+11 v maxp maxt
+11 v maxp t
+11 v maxp f
+11 v maxp minf
+11 v maxp maxf
+11 v maxp mind
+11 v maxp maxd
+11 v maxp minp
+11 v minp maxp
+11 v minp mint
+11 v minp maxt
+11 v minp t
+11 v minp f
+11 v minp minf
+11 v minp maxf
+11 v minp mind
+11 v minp maxd
+11 v maxd minp
+11 v maxd maxp
+11 v maxd mint
+11 v maxd maxt
+11 v maxd t
+11 v maxd f
+11 v maxd minf
+11 v maxd maxf
+11 v maxd mind
+11 v mind maxd
+11 v mind minp
+11 v mind maxp
+11 v mind mint
+11 v mind maxt
+11 v mind t
+11 v mind f
+11 v mind minf
+11 v mind maxf
+11 v maxf mind
+11 v maxf maxd
+11 v maxf minp
+11 v maxf maxp
+11 v maxf mint
+11 v maxf maxt
+11 v maxf t
+11 v maxf f
+11 v maxf minf
+11 v minf maxf
+11 v minf mind
+11 v minf maxd
+11 v minf minp
+11 v minf maxp
+11 v minf mint
+11 v minf maxt
+11 v minf t
+11 v minf f
+11 v f minf
+11 v f maxf
+11 v f mind
+11 v f maxd
+11 v f minp
+11 v f maxp
+11 v f mint
+11 v f maxt
+11 v f t
+11 v t f
+11 v t minf
+11 v t maxf
+11 v t mind
+11 v t maxd
+11 v t minp
+11 v t maxp
+11 v t mint
+11 v t maxt
+11 v mint maxt t
+11 v mint maxt f
+11 v mint maxt minf
+11 v mint maxt maxf
+11 v mint maxt mind
+11 v mint maxt maxd
+11 v mint maxt minp
+11 v mint maxt maxp
+11 v maxp mint maxt
+11 v maxp mint t
+11 v maxp mint f
+11 v maxp mint minf
+11 v maxp mint maxf
+11 v maxp mint mind
+11 v maxp mint maxd
+11 v maxp mint minp
+11 v maxp maxt mint
+11 v maxp maxt t
+11 v maxp maxt f
+11 v maxp maxt minf
+11 v maxp maxt maxf
+11 v maxp maxt mind
+11 v maxp maxt maxd
+11 v maxp maxt minp
+11 v minp maxp maxt
+11 v minp maxp mint
+11 v minp maxp t
+11 v minp maxp f
+11 v minp maxp minf
+11 v minp maxp maxf
+11 v minp maxp mind
+11 v minp maxp maxd
+11 v minp mint maxp
+11 v minp mint maxt
+11 v minp mint t
+11 v minp mint f
+11 v minp mint minf
+11 v minp mint maxf
+11 v minp mint mind
+11 v minp mint maxd
+11 v minp maxt mint
+11 v minp maxt maxp
+11 v minp maxt t
+11 v minp maxt f
+11 v minp maxt minf
+11 v minp maxt maxf
+11 v minp maxt mind
+11 v minp maxt maxd
+11 v maxd minp maxt
+11 v maxd minp mint
+11 v maxd minp maxp
+11 v maxd minp t
+11 v maxd minp f
+11 v maxd minp minf
+11 v maxd minp maxf
+11 v maxd minp mind
+11 v maxd maxp minp
+11 v maxd maxp maxt
+11 v maxd maxp mint
+11 v maxd maxp t
+11 v maxd maxp f
+11 v maxd maxp minf
+11 v maxd maxp maxf
+11 v maxd maxp mind
+11 v maxd mint maxp
+11 v maxd mint minp
+11 v maxd mint maxt
+11 v maxd mint t
+11 v maxd mint f
+11 v maxd mint minf
+11 v maxd mint maxf
+11 v maxd mint mind
+11 v maxd maxt mint
+11 v maxd maxt maxp
+11 v maxd maxt minp
+11 v maxd maxt t
+11 v maxd maxt f
+11 v maxd maxt minf
+11 v maxd maxt maxf
+11 v maxd maxt mind
+11 v mind maxd maxt
+11 v mind maxd mint
+11 v mind maxd maxp
+11 v mind maxd minp
+11 v mind maxd t
+11 v mind maxd f
+11 v mind maxd minf
+11 v mind maxd maxf
+11 v mind minp maxd
+11 v mind minp maxt
+11 v mind minp mint
+11 v mind minp maxp
+11 v mind minp t
+11 v mind minp f
+11 v mind minp minf
+11 v mind minp maxf
+11 v mind maxp minp
+11 v mind maxp maxd
+11 v mind maxp maxt
+11 v mind maxp mint
+11 v mind maxp t
+11 v mind maxp f
+11 v mind maxp minf
+11 v mind maxp maxf
+11 v mind mint maxp
+11 v mind mint minp
+11 v mind mint maxd
+11 v mind mint maxt
+11 v mind mint t
+11 v mind mint f
+11 v mind mint minf
+11 v mind mint maxf
+11 v mind maxt mint
+11 v mind maxt maxp
+11 v mind maxt minp
+11 v mind maxt maxd
+11 v mind maxt t
+11 v mind maxt f
+11 v mind maxt minf
+11 v mind maxt maxf
+11 v maxf mind maxt
+11 v maxf mind mint
+11 v maxf mind maxp
+11 v maxf mind minp
+11 v maxf mind maxd
+11 v maxf mind t
+11 v maxf mind f
+11 v maxf mind minf
+11 v maxf maxd mind
+11 v maxf maxd maxt
+11 v maxf maxd mint
+11 v maxf maxd maxp
+11 v maxf maxd minp
+11 v maxf maxd t
+11 v maxf maxd f
+11 v maxf maxd minf
+11 v maxf minp maxd
+11 v maxf minp mind
+11 v maxf minp maxt
+11 v maxf minp mint
+11 v maxf minp maxp
+11 v maxf minp t
+11 v maxf minp f
+11 v maxf minp minf
+11 v maxf maxp minp
+11 v maxf maxp maxd
+11 v maxf maxp mind
+11 v maxf maxp maxt
+11 v maxf maxp mint
+11 v maxf maxp t
+11 v maxf maxp f
+11 v maxf maxp minf
+11 v maxf mint maxp
+11 v maxf mint minp
+11 v maxf mint maxd
+11 v maxf mint mind
+11 v maxf mint maxt
+11 v maxf mint t
+11 v maxf mint f
+11 v maxf mint minf
+11 v maxf maxt mint
+11 v maxf maxt maxp
+11 v maxf maxt minp
+11 v maxf maxt maxd
+11 v maxf maxt mind
+11 v maxf maxt t
+11 v maxf maxt f
+11 v maxf maxt minf
+11 v minf maxf maxt
+11 v minf maxf mint
+11 v minf maxf maxp
+11 v minf maxf minp
+11 v minf maxf maxd
+11 v minf maxf mind
+11 v minf maxf t
+11 v minf maxf f
+11 v minf mind maxf
+11 v minf mind maxt
+11 v minf mind mint
+11 v minf mind maxp
+11 v minf mind minp
+11 v minf mind maxd
+11 v minf mind t
+11 v minf mind f
+11 v minf maxd mind
+11 v minf maxd maxf
+11 v minf maxd maxt
+11 v minf maxd mint
+11 v minf maxd maxp
+11 v minf maxd minp
+11 v minf maxd t
+11 v minf maxd f
+11 v minf minp maxd
+11 v minf minp mind
+11 v minf minp maxf
+11 v minf minp maxt
+11 v minf minp mint
+11 v minf minp maxp
+11 v minf minp t
+11 v minf minp f
+11 v minf maxp minp
+11 v minf maxp maxd
+11 v minf maxp mind
+11 v minf maxp maxf
+11 v minf maxp maxt
+11 v minf maxp mint
+11 v minf maxp t
+11 v minf maxp f
+11 v minf mint maxp
+11 v minf mint minp
+11 v minf mint maxd
+11 v minf mint mind
+11 v minf mint maxf
+11 v minf mint maxt
+11 v minf mint t
+11 v minf mint f
+11 v minf maxt mint
+11 v minf maxt maxp
+11 v minf maxt minp
+11 v minf maxt maxd
+11 v minf maxt mind
+11 v minf maxt maxf
+11 v minf maxt t
+11 v minf maxt f
+11 v f minf maxt
+11 v f minf mint
+11 v f minf maxp
+11 v f minf minp
+11 v f minf maxd
+11 v f minf mind
+11 v f minf maxf
+11 v f minf t
+11 v f maxf minf
+11 v f maxf maxt
+11 v f maxf mint
+11 v f maxf maxp
+11 v f maxf minp
+11 v f maxf maxd
+11 v f maxf mind
+11 v f maxf t
+11 v f mind maxf
+11 v f mind minf
+11 v f mind maxt
+11 v f mind mint
+11 v f mind maxp
+11 v f mind minp
+11 v f mind maxd
+11 v f mind t
+11 v f maxd mind
+11 v f maxd maxf
+11 v f maxd minf
+11 v f maxd maxt
+11 v f maxd mint
+11 v f maxd maxp
+11 v f maxd minp
+11 v f maxd t
+11 v f minp maxd
+11 v f minp mind
+11 v f minp maxf
+11 v f minp minf
+11 v f minp maxt
+11 v f minp mint
+11 v f minp maxp
+11 v f minp t
+11 v f maxp minp
+11 v f maxp maxd
+11 v f maxp mind
+11 v f maxp maxf
+11 v f maxp minf
+11 v f maxp maxt
+11 v f maxp mint
+11 v f maxp t
+11 v f mint maxp
+11 v f mint minp
+11 v f mint maxd
+11 v f mint mind
+11 v f mint maxf
+11 v f mint minf
+11 v f mint maxt
+11 v f mint t
+11 v f maxt mint
+11 v f maxt maxp
+11 v f maxt minp
+11 v f maxt maxd
+11 v f maxt mind
+11 v f maxt maxf
+11 v f maxt minf
+11 v f maxt t
+11 v t f maxt
+11 v t f mint
+11 v t f maxp
+11 v t f minp
+11 v t f maxd
+11 v t f mind
+11 v t f maxf
+11 v t f minf
+11 v t minf f
+11 v t minf maxt
+11 v t minf mint
+11 v t minf maxp
+11 v t minf minp
+11 v t minf maxd
+11 v t minf mind
+11 v t minf maxf
+11 v t maxf minf
+11 v t maxf f
+11 v t maxf maxt
+11 v t maxf mint
+11 v t maxf maxp
+11 v t maxf minp
+11 v t maxf maxd
+11 v t maxf mind
+11 v t mind maxf
+11 v t mind minf
+11 v t mind f
+11 v t mind maxt
+11 v t mind mint
+11 v t mind maxp
+11 v t mind minp
+11 v t mind maxd
+11 v t maxd mind
+11 v t maxd maxf
+11 v t maxd minf
+11 v t maxd f
+11 v t maxd maxt
+11 v t maxd mint
+11 v t maxd maxp
+11 v t maxd minp
+11 v t minp maxd
+11 v t minp mind
+11 v t minp maxf
+11 v t minp minf
+11 v t minp f
+11 v t minp maxt
+11 v t minp mint
+11 v t minp maxp
+11 v t maxp minp
+11 v t maxp maxd
+11 v t maxp mind
+11 v t maxp maxf
+11 v t maxp minf
+11 v t maxp f
+11 v t maxp maxt
+11 v t maxp mint
+11 v t mint maxp
+11 v t mint minp
+11 v t mint maxd
+11 v t mint mind
+11 v t mint maxf
+11 v t mint minf
+11 v t mint f
+11 v t mint maxt
+11 v t maxt mint
+11 v t maxt maxp
+11 v t maxt minp
+11 v t maxt maxd
+11 v t maxt mind
+11 v t maxt maxf
+11 v t maxt minf
+11 v t maxt f
+12 v maxt
+12 v mint
+12 v maxp
+12 v minp
+12 v maxd
+12 v mind
+12 v maxf
+12 v minf
+12 v f
+12 v t
+12 v maxt t
+12 v maxt f
+12 v maxt minf
+12 v maxt maxf
+12 v maxt mind
+12 v maxt maxd
+12 v maxt minp
+12 v maxt maxp
+12 v maxt mint
+12 v mint maxt
+12 v mint t
+12 v mint f
+12 v mint minf
+12 v mint maxf
+12 v mint mind
+12 v mint maxd
+12 v mint minp
+12 v mint maxp
+12 v maxp mint
+12 v maxp maxt
+12 v maxp t
+12 v maxp f
+12 v maxp minf
+12 v maxp maxf
+12 v maxp mind
+12 v maxp maxd
+12 v maxp minp
+12 v minp maxp
+12 v minp mint
+12 v minp maxt
+12 v minp t
+12 v minp f
+12 v minp minf
+12 v minp maxf
+12 v minp mind
+12 v minp maxd
+12 v maxd minp
+12 v maxd maxp
+12 v maxd mint
+12 v maxd maxt
+12 v maxd t
+12 v maxd f
+12 v maxd minf
+12 v maxd maxf
+12 v maxd mind
+12 v mind maxd
+12 v mind minp
+12 v mind maxp
+12 v mind mint
+12 v mind maxt
+12 v mind t
+12 v mind f
+12 v mind minf
+12 v mind maxf
+12 v maxf mind
+12 v maxf maxd
+12 v maxf minp
+12 v maxf maxp
+12 v maxf mint
+12 v maxf maxt
+12 v maxf t
+12 v maxf f
+12 v maxf minf
+12 v minf maxf
+12 v minf mind
+12 v minf maxd
+12 v minf minp
+12 v minf maxp
+12 v minf mint
+12 v minf maxt
+12 v minf t
+12 v minf f
+12 v f minf
+12 v f maxf
+12 v f mind
+12 v f maxd
+12 v f minp
+12 v f maxp
+12 v f mint
+12 v f maxt
+12 v f t
+12 v t f
+12 v t minf
+12 v t maxf
+12 v t mind
+12 v t maxd
+12 v t minp
+12 v t maxp
+12 v t mint
+12 v t maxt
+12 v mint maxt t
+12 v mint maxt f
+12 v mint maxt minf
+12 v mint maxt maxf
+12 v mint maxt mind
+12 v mint maxt maxd
+12 v mint maxt minp
+12 v mint maxt maxp
+12 v maxp mint maxt
+12 v maxp mint t
+12 v maxp mint f
+12 v maxp mint minf
+12 v maxp mint maxf
+12 v maxp mint mind
+12 v maxp mint maxd
+12 v maxp mint minp
+12 v maxp maxt mint
+12 v maxp maxt t
+12 v maxp maxt f
+12 v maxp maxt minf
+12 v maxp maxt maxf
+12 v maxp maxt mind
+12 v maxp maxt maxd
+12 v maxp maxt minp
+12 v minp maxp maxt
+12 v minp maxp mint
+12 v minp maxp t
+12 v minp maxp f
+12 v minp maxp minf
+12 v minp maxp maxf
+12 v minp maxp mind
+12 v minp maxp maxd
+12 v minp mint maxp
+12 v minp mint maxt
+12 v minp mint t
+12 v minp mint f
+12 v minp mint minf
+12 v minp mint maxf
+12 v minp mint mind
+12 v minp mint maxd
+12 v minp maxt mint
+12 v minp maxt maxp
+12 v minp maxt t
+12 v minp maxt f
+12 v minp maxt minf
+12 v minp maxt maxf
+12 v minp maxt mind
+12 v minp maxt maxd
+12 v maxd minp maxt
+12 v maxd minp mint
+12 v maxd minp maxp
+12 v maxd minp t
+12 v maxd minp f
+12 v maxd minp minf
+12 v maxd minp maxf
+12 v maxd minp mind
+12 v maxd maxp minp
+12 v maxd maxp maxt
+12 v maxd maxp mint
+12 v maxd maxp t
+12 v maxd maxp f
+12 v maxd maxp minf
+12 v maxd maxp maxf
+12 v maxd maxp mind
+12 v maxd mint maxp
+12 v maxd mint minp
+12 v maxd mint maxt
+12 v maxd mint t
+12 v maxd mint f
+12 v maxd mint minf
+12 v maxd mint maxf
+12 v maxd mint mind
+12 v maxd maxt mint
+12 v maxd maxt maxp
+12 v maxd maxt minp
+12 v maxd maxt t
+12 v maxd maxt f
+12 v maxd maxt minf
+12 v maxd maxt maxf
+12 v maxd maxt mind
+12 v mind maxd maxt
+12 v mind maxd mint
+12 v mind maxd maxp
+12 v mind maxd minp
+12 v mind maxd t
+12 v mind maxd f
+12 v mind maxd minf
+12 v mind maxd maxf
+12 v mind minp maxd
+12 v mind minp maxt
+12 v mind minp mint
+12 v mind minp maxp
+12 v mind minp t
+12 v mind minp f
+12 v mind minp minf
+12 v mind minp maxf
+12 v mind maxp minp
+12 v mind maxp maxd
+12 v mind maxp maxt
+12 v mind maxp mint
+12 v mind maxp t
+12 v mind maxp f
+12 v mind maxp minf
+12 v mind maxp maxf
+12 v mind mint maxp
+12 v mind mint minp
+12 v mind mint maxd
+12 v mind mint maxt
+12 v mind mint t
+12 v mind mint f
+12 v mind mint minf
+12 v mind mint maxf
+12 v mind maxt mint
+12 v mind maxt maxp
+12 v mind maxt minp
+12 v mind maxt maxd
+12 v mind maxt t
+12 v mind maxt f
+12 v mind maxt minf
+12 v mind maxt maxf
+12 v maxf mind maxt
+12 v maxf mind mint
+12 v maxf mind maxp
+12 v maxf mind minp
+12 v maxf mind maxd
+12 v maxf mind t
+12 v maxf mind f
+12 v maxf mind minf
+12 v maxf maxd mind
+12 v maxf maxd maxt
+12 v maxf maxd mint
+12 v maxf maxd maxp
+12 v maxf maxd minp
+12 v maxf maxd t
+12 v maxf maxd f
+12 v maxf maxd minf
+12 v maxf minp maxd
+12 v maxf minp mind
+12 v maxf minp maxt
+12 v maxf minp mint
+12 v maxf minp maxp
+12 v maxf minp t
+12 v maxf minp f
+12 v maxf minp minf
+12 v maxf maxp minp
+12 v maxf maxp maxd
+12 v maxf maxp mind
+12 v maxf maxp maxt
+12 v maxf maxp mint
+12 v maxf maxp t
+12 v maxf maxp f
+12 v maxf maxp minf
+12 v maxf mint maxp
+12 v maxf mint minp
+12 v maxf mint maxd
+12 v maxf mint mind
+12 v maxf mint maxt
+12 v maxf mint t
+12 v maxf mint f
+12 v maxf mint minf
+12 v maxf maxt mint
+12 v maxf maxt maxp
+12 v maxf maxt minp
+12 v maxf maxt maxd
+12 v maxf maxt mind
+12 v maxf maxt t
+12 v maxf maxt f
+12 v maxf maxt minf
+12 v minf maxf maxt
+12 v minf maxf mint
+12 v minf maxf maxp
+12 v minf maxf minp
+12 v minf maxf maxd
+12 v minf maxf mind
+12 v minf maxf t
+12 v minf maxf f
+12 v minf mind maxf
+12 v minf mind maxt
+12 v minf mind mint
+12 v minf mind maxp
+12 v minf mind minp
+12 v minf mind maxd
+12 v minf mind t
+12 v minf mind f
+12 v minf maxd mind
+12 v minf maxd maxf
+12 v minf maxd maxt
+12 v minf maxd mint
+12 v minf maxd maxp
+12 v minf maxd minp
+12 v minf maxd t
+12 v minf maxd f
+12 v minf minp maxd
+12 v minf minp mind
+12 v minf minp maxf
+12 v minf minp maxt
+12 v minf minp mint
+12 v minf minp maxp
+12 v minf minp t
+12 v minf minp f
+12 v minf maxp minp
+12 v minf maxp maxd
+12 v minf maxp mind
+12 v minf maxp maxf
+12 v minf maxp maxt
+12 v minf maxp mint
+12 v minf maxp t
+12 v minf maxp f
+12 v minf mint maxp
+12 v minf mint minp
+12 v minf mint maxd
+12 v minf mint mind
+12 v minf mint maxf
+12 v minf mint maxt
+12 v minf mint t
+12 v minf mint f
+12 v minf maxt mint
+12 v minf maxt maxp
+12 v minf maxt minp
+12 v minf maxt maxd
+12 v minf maxt mind
+12 v minf maxt maxf
+12 v minf maxt t
+12 v minf maxt f
+12 v f minf maxt
+12 v f minf mint
+12 v f minf maxp
+12 v f minf minp
+12 v f minf maxd
+12 v f minf mind
+12 v f minf maxf
+12 v f minf t
+12 v f maxf minf
+12 v f maxf maxt
+12 v f maxf mint
+12 v f maxf maxp
+12 v f maxf minp
+12 v f maxf maxd
+12 v f maxf mind
+12 v f maxf t
+12 v f mind maxf
+12 v f mind minf
+12 v f mind maxt
+12 v f mind mint
+12 v f mind maxp
+12 v f mind minp
+12 v f mind maxd
+12 v f mind t
+12 v f maxd mind
+12 v f maxd maxf
+12 v f maxd minf
+12 v f maxd maxt
+12 v f maxd mint
+12 v f maxd maxp
+12 v f maxd minp
+12 v f maxd t
+12 v f minp maxd
+12 v f minp mind
+12 v f minp maxf
+12 v f minp minf
+12 v f minp maxt
+12 v f minp mint
+12 v f minp maxp
+12 v f minp t
+12 v f maxp minp
+12 v f maxp maxd
+12 v f maxp mind
+12 v f maxp maxf
+12 v f maxp minf
+12 v f maxp maxt
+12 v f maxp mint
+12 v f maxp t
+12 v f mint maxp
+12 v f mint minp
+12 v f mint maxd
+12 v f mint mind
+12 v f mint maxf
+12 v f mint minf
+12 v f mint maxt
+12 v f mint t
+12 v f maxt mint
+12 v f maxt maxp
+12 v f maxt minp
+12 v f maxt maxd
+12 v f maxt mind
+12 v f maxt maxf
+12 v f maxt minf
+12 v f maxt t
+12 v t f maxt
+12 v t f mint
+12 v t f maxp
+12 v t f minp
+12 v t f maxd
+12 v t f mind
+12 v t f maxf
+12 v t f minf
+12 v t minf f
+12 v t minf maxt
+12 v t minf mint
+12 v t minf maxp
+12 v t minf minp
+12 v t minf maxd
+12 v t minf mind
+12 v t minf maxf
+12 v t maxf minf
+12 v t maxf f
+12 v t maxf maxt
+12 v t maxf mint
+12 v t maxf maxp
+12 v t maxf minp
+12 v t maxf maxd
+12 v t maxf mind
+12 v t mind maxf
+12 v t mind minf
+12 v t mind f
+12 v t mind maxt
+12 v t mind mint
+12 v t mind maxp
+12 v t mind minp
+12 v t mind maxd
+12 v t maxd mind
+12 v t maxd maxf
+12 v t maxd minf
+12 v t maxd f
+12 v t maxd maxt
+12 v t maxd mint
+12 v t maxd maxp
+12 v t maxd minp
+12 v t minp maxd
+12 v t minp mind
+12 v t minp maxf
+12 v t minp minf
+12 v t minp f
+12 v t minp maxt
+12 v t minp mint
+12 v t minp maxp
+12 v t maxp minp
+12 v t maxp maxd
+12 v t maxp mind
+12 v t maxp maxf
+12 v t maxp minf
+12 v t maxp f
+12 v t maxp maxt
+12 v t maxp mint
+12 v t mint maxp
+12 v t mint minp
+12 v t mint maxd
+12 v t mint mind
+12 v t mint maxf
+12 v t mint minf
+12 v t mint f
+12 v t mint maxt
+12 v t maxt mint
+12 v t maxt maxp
+12 v t maxt minp
+12 v t maxt maxd
+12 v t maxt mind
+12 v t maxt maxf
+12 v t maxt minf
+12 v t maxt f
+13 v maxt
+13 v mint
+13 v maxp
+13 v minp
+13 v maxd
+13 v mind
+13 v maxf
+13 v minf
+13 v f
+13 v t
+13 v maxt t
+13 v maxt f
+13 v maxt minf
+13 v maxt maxf
+13 v maxt mind
+13 v maxt maxd
+13 v maxt minp
+13 v maxt maxp
+13 v maxt mint
+13 v mint maxt
+13 v mint t
+13 v mint f
+13 v mint minf
+13 v mint maxf
+13 v mint mind
+13 v mint maxd
+13 v mint minp
+13 v mint maxp
+13 v maxp mint
+13 v maxp maxt
+13 v maxp t
+13 v maxp f
+13 v maxp minf
+13 v maxp maxf
+13 v maxp mind
+13 v maxp maxd
+13 v maxp minp
+13 v minp maxp
+13 v minp mint
+13 v minp maxt
+13 v minp t
+13 v minp f
+13 v minp minf
+13 v minp maxf
+13 v minp mind
+13 v minp maxd
+13 v maxd minp
+13 v maxd maxp
+13 v maxd mint
+13 v maxd maxt
+13 v maxd t
+13 v maxd f
+13 v maxd minf
+13 v maxd maxf
+13 v maxd mind
+13 v mind maxd
+13 v mind minp
+13 v mind maxp
+13 v mind mint
+13 v mind maxt
+13 v mind t
+13 v mind f
+13 v mind minf
+13 v mind maxf
+13 v maxf mind
+13 v maxf maxd
+13 v maxf minp
+13 v maxf maxp
+13 v maxf mint
+13 v maxf maxt
+13 v maxf t
+13 v maxf f
+13 v maxf minf
+13 v minf maxf
+13 v minf mind
+13 v minf maxd
+13 v minf minp
+13 v minf maxp
+13 v minf mint
+13 v minf maxt
+13 v minf t
+13 v minf f
+13 v f minf
+13 v f maxf
+13 v f mind
+13 v f maxd
+13 v f minp
+13 v f maxp
+13 v f mint
+13 v f maxt
+13 v f t
+13 v t f
+13 v t minf
+13 v t maxf
+13 v t mind
+13 v t maxd
+13 v t minp
+13 v t maxp
+13 v t mint
+13 v t maxt
+13 v mint maxt t
+13 v mint maxt f
+13 v mint maxt minf
+13 v mint maxt maxf
+13 v mint maxt mind
+13 v mint maxt maxd
+13 v mint maxt minp
+13 v mint maxt maxp
+13 v maxp mint maxt
+13 v maxp mint t
+13 v maxp mint f
+13 v maxp mint minf
+13 v maxp mint maxf
+13 v maxp mint mind
+13 v maxp mint maxd
+13 v maxp mint minp
+13 v maxp maxt mint
+13 v maxp maxt t
+13 v maxp maxt f
+13 v maxp maxt minf
+13 v maxp maxt maxf
+13 v maxp maxt mind
+13 v maxp maxt maxd
+13 v maxp maxt minp
+13 v minp maxp maxt
+13 v minp maxp mint
+13 v minp maxp t
+13 v minp maxp f
+13 v minp maxp minf
+13 v minp maxp maxf
+13 v minp maxp mind
+13 v minp maxp maxd
+13 v minp mint maxp
+13 v minp mint maxt
+13 v minp mint t
+13 v minp mint f
+13 v minp mint minf
+13 v minp mint maxf
+13 v minp mint mind
+13 v minp mint maxd
+13 v minp maxt mint
+13 v minp maxt maxp
+13 v minp maxt t
+13 v minp maxt f
+13 v minp maxt minf
+13 v minp maxt maxf
+13 v minp maxt mind
+13 v minp maxt maxd
+13 v maxd minp maxt
+13 v maxd minp mint
+13 v maxd minp maxp
+13 v maxd minp t
+13 v maxd minp f
+13 v maxd minp minf
+13 v maxd minp maxf
+13 v maxd minp mind
+13 v maxd maxp minp
+13 v maxd maxp maxt
+13 v maxd maxp mint
+13 v maxd maxp t
+13 v maxd maxp f
+13 v maxd maxp minf
+13 v maxd maxp maxf
+13 v maxd maxp mind
+13 v maxd mint maxp
+13 v maxd mint minp
+13 v maxd mint maxt
+13 v maxd mint t
+13 v maxd mint f
+13 v maxd mint minf
+13 v maxd mint maxf
+13 v maxd mint mind
+13 v maxd maxt mint
+13 v maxd maxt maxp
+13 v maxd maxt minp
+13 v maxd maxt t
+13 v maxd maxt f
+13 v maxd maxt minf
+13 v maxd maxt maxf
+13 v maxd maxt mind
+13 v mind maxd maxt
+13 v mind maxd mint
+13 v mind maxd maxp
+13 v mind maxd minp
+13 v mind maxd t
+13 v mind maxd f
+13 v mind maxd minf
+13 v mind maxd maxf
+13 v mind minp maxd
+13 v mind minp maxt
+13 v mind minp mint
+13 v mind minp maxp
+13 v mind minp t
+13 v mind minp f
+13 v mind minp minf
+13 v mind minp maxf
+13 v mind maxp minp
+13 v mind maxp maxd
+13 v mind maxp maxt
+13 v mind maxp mint
+13 v mind maxp t
+13 v mind maxp f
+13 v mind maxp minf
+13 v mind maxp maxf
+13 v mind mint maxp
+13 v mind mint minp
+13 v mind mint maxd
+13 v mind mint maxt
+13 v mind mint t
+13 v mind mint f
+13 v mind mint minf
+13 v mind mint maxf
+13 v mind maxt mint
+13 v mind maxt maxp
+13 v mind maxt minp
+13 v mind maxt maxd
+13 v mind maxt t
+13 v mind maxt f
+13 v mind maxt minf
+13 v mind maxt maxf
+13 v maxf mind maxt
+13 v maxf mind mint
+13 v maxf mind maxp
+13 v maxf mind minp
+13 v maxf mind maxd
+13 v maxf mind t
+13 v maxf mind f
+13 v maxf mind minf
+13 v maxf maxd mind
+13 v maxf maxd maxt
+13 v maxf maxd mint
+13 v maxf maxd maxp
+13 v maxf maxd minp
+13 v maxf maxd t
+13 v maxf maxd f
+13 v maxf maxd minf
+13 v maxf minp maxd
+13 v maxf minp mind
+13 v maxf minp maxt
+13 v maxf minp mint
+13 v maxf minp maxp
+13 v maxf minp t
+13 v maxf minp f
+13 v maxf minp minf
+13 v maxf maxp minp
+13 v maxf maxp maxd
+13 v maxf maxp mind
+13 v maxf maxp maxt
+13 v maxf maxp mint
+13 v maxf maxp t
+13 v maxf maxp f
+13 v maxf maxp minf
+13 v maxf mint maxp
+13 v maxf mint minp
+13 v maxf mint maxd
+13 v maxf mint mind
+13 v maxf mint maxt
+13 v maxf mint t
+13 v maxf mint f
+13 v maxf mint minf
+13 v maxf maxt mint
+13 v maxf maxt maxp
+13 v maxf maxt minp
+13 v maxf maxt maxd
+13 v maxf maxt mind
+13 v maxf maxt t
+13 v maxf maxt f
+13 v maxf maxt minf
+13 v minf maxf maxt
+13 v minf maxf mint
+13 v minf maxf maxp
+13 v minf maxf minp
+13 v minf maxf maxd
+13 v minf maxf mind
+13 v minf maxf t
+13 v minf maxf f
+13 v minf mind maxf
+13 v minf mind maxt
+13 v minf mind mint
+13 v minf mind maxp
+13 v minf mind minp
+13 v minf mind maxd
+13 v minf mind t
+13 v minf mind f
+13 v minf maxd mind
+13 v minf maxd maxf
+13 v minf maxd maxt
+13 v minf maxd mint
+13 v minf maxd maxp
+13 v minf maxd minp
+13 v minf maxd t
+13 v minf maxd f
+13 v minf minp maxd
+13 v minf minp mind
+13 v minf minp maxf
+13 v minf minp maxt
+13 v minf minp mint
+13 v minf minp maxp
+13 v minf minp t
+13 v minf minp f
+13 v minf maxp minp
+13 v minf maxp maxd
+13 v minf maxp mind
+13 v minf maxp maxf
+13 v minf maxp maxt
+13 v minf maxp mint
+13 v minf maxp t
+13 v minf maxp f
+13 v minf mint maxp
+13 v minf mint minp
+13 v minf mint maxd
+13 v minf mint mind
+13 v minf mint maxf
+13 v minf mint maxt
+13 v minf mint t
+13 v minf mint f
+13 v minf maxt mint
+13 v minf maxt maxp
+13 v minf maxt minp
+13 v minf maxt maxd
+13 v minf maxt mind
+13 v minf maxt maxf
+13 v minf maxt t
+13 v minf maxt f
+13 v f minf maxt
+13 v f minf mint
+13 v f minf maxp
+13 v f minf minp
+13 v f minf maxd
+13 v f minf mind
+13 v f minf maxf
+13 v f minf t
+13 v f maxf minf
+13 v f maxf maxt
+13 v f maxf mint
+13 v f maxf maxp
+13 v f maxf minp
+13 v f maxf maxd
+13 v f maxf mind
+13 v f maxf t
+13 v f mind maxf
+13 v f mind minf
+13 v f mind maxt
+13 v f mind mint
+13 v f mind maxp
+13 v f mind minp
+13 v f mind maxd
+13 v f mind t
+13 v f maxd mind
+13 v f maxd maxf
+13 v f maxd minf
+13 v f maxd maxt
+13 v f maxd mint
+13 v f maxd maxp
+13 v f maxd minp
+13 v f maxd t
+13 v f minp maxd
+13 v f minp mind
+13 v f minp maxf
+13 v f minp minf
+13 v f minp maxt
+13 v f minp mint
+13 v f minp maxp
+13 v f minp t
+13 v f maxp minp
+13 v f maxp maxd
+13 v f maxp mind
+13 v f maxp maxf
+13 v f maxp minf
+13 v f maxp maxt
+13 v f maxp mint
+13 v f maxp t
+13 v f mint maxp
+13 v f mint minp
+13 v f mint maxd
+13 v f mint mind
+13 v f mint maxf
+13 v f mint minf
+13 v f mint maxt
+13 v f mint t
+13 v f maxt mint
+13 v f maxt maxp
+13 v f maxt minp
+13 v f maxt maxd
+13 v f maxt mind
+13 v f maxt maxf
+13 v f maxt minf
+13 v f maxt t
+13 v t f maxt
+13 v t f mint
+13 v t f maxp
+13 v t f minp
+13 v t f maxd
+13 v t f mind
+13 v t f maxf
+13 v t f minf
+13 v t minf f
+13 v t minf maxt
+13 v t minf mint
+13 v t minf maxp
+13 v t minf minp
+13 v t minf maxd
+13 v t minf mind
+13 v t minf maxf
+13 v t maxf minf
+13 v t maxf f
+13 v t maxf maxt
+13 v t maxf mint
+13 v t maxf maxp
+13 v t maxf minp
+13 v t maxf maxd
+13 v t maxf mind
+13 v t mind maxf
+13 v t mind minf
+13 v t mind f
+13 v t mind maxt
+13 v t mind mint
+13 v t mind maxp
+13 v t mind minp
+13 v t mind maxd
+13 v t maxd mind
+13 v t maxd maxf
+13 v t maxd minf
+13 v t maxd f
+13 v t maxd maxt
+13 v t maxd mint
+13 v t maxd maxp
+13 v t maxd minp
+13 v t minp maxd
+13 v t minp mind
+13 v t minp maxf
+13 v t minp minf
+13 v t minp f
+13 v t minp maxt
+13 v t minp mint
+13 v t minp maxp
+13 v t maxp minp
+13 v t maxp maxd
+13 v t maxp mind
+13 v t maxp maxf
+13 v t maxp minf
+13 v t maxp f
+13 v t maxp maxt
+13 v t maxp mint
+13 v t mint maxp
+13 v t mint minp
+13 v t mint maxd
+13 v t mint mind
+13 v t mint maxf
+13 v t mint minf
+13 v t mint f
+13 v t mint maxt
+13 v t maxt mint
+13 v t maxt maxp
+13 v t maxt minp
+13 v t maxt maxd
+13 v t maxt mind
+13 v t maxt maxf
+13 v t maxt minf
+13 v t maxt f
+14 v maxt
+14 v mint
+14 v maxp
+14 v minp
+14 v maxd
+14 v mind
+14 v maxf
+14 v minf
+14 v f
+14 v t
+14 v maxt t
+14 v maxt f
+14 v maxt minf
+14 v maxt maxf
+14 v maxt mind
+14 v maxt maxd
+14 v maxt minp
+14 v maxt maxp
+14 v maxt mint
+14 v mint maxt
+14 v mint t
+14 v mint f
+14 v mint minf
+14 v mint maxf
+14 v mint mind
+14 v mint maxd
+14 v mint minp
+14 v mint maxp
+14 v maxp mint
+14 v maxp maxt
+14 v maxp t
+14 v maxp f
+14 v maxp minf
+14 v maxp maxf
+14 v maxp mind
+14 v maxp maxd
+14 v maxp minp
+14 v minp maxp
+14 v minp mint
+14 v minp maxt
+14 v minp t
+14 v minp f
+14 v minp minf
+14 v minp maxf
+14 v minp mind
+14 v minp maxd
+14 v maxd minp
+14 v maxd maxp
+14 v maxd mint
+14 v maxd maxt
+14 v maxd t
+14 v maxd f
+14 v maxd minf
+14 v maxd maxf
+14 v maxd mind
+14 v mind maxd
+14 v mind minp
+14 v mind maxp
+14 v mind mint
+14 v mind maxt
+14 v mind t
+14 v mind f
+14 v mind minf
+14 v mind maxf
+14 v maxf mind
+14 v maxf maxd
+14 v maxf minp
+14 v maxf maxp
+14 v maxf mint
+14 v maxf maxt
+14 v maxf t
+14 v maxf f
+14 v maxf minf
+14 v minf maxf
+14 v minf mind
+14 v minf maxd
+14 v minf minp
+14 v minf maxp
+14 v minf mint
+14 v minf maxt
+14 v minf t
+14 v minf f
+14 v f minf
+14 v f maxf
+14 v f mind
+14 v f maxd
+14 v f minp
+14 v f maxp
+14 v f mint
+14 v f maxt
+14 v f t
+14 v t f
+14 v t minf
+14 v t maxf
+14 v t mind
+14 v t maxd
+14 v t minp
+14 v t maxp
+14 v t mint
+14 v t maxt
+14 v mint maxt t
+14 v mint maxt f
+14 v mint maxt minf
+14 v mint maxt maxf
+14 v mint maxt mind
+14 v mint maxt maxd
+14 v mint maxt minp
+14 v mint maxt maxp
+14 v maxp mint maxt
+14 v maxp mint t
+14 v maxp mint f
+14 v maxp mint minf
+14 v maxp mint maxf
+14 v maxp mint mind
+14 v maxp mint maxd
+14 v maxp mint minp
+14 v maxp maxt mint
+14 v maxp maxt t
+14 v maxp maxt f
+14 v maxp maxt minf
+14 v maxp maxt maxf
+14 v maxp maxt mind
+14 v maxp maxt maxd
+14 v maxp maxt minp
+14 v minp maxp maxt
+14 v minp maxp mint
+14 v minp maxp t
+14 v minp maxp f
+14 v minp maxp minf
+14 v minp maxp maxf
+14 v minp maxp mind
+14 v minp maxp maxd
+14 v minp mint maxp
+14 v minp mint maxt
+14 v minp mint t
+14 v minp mint f
+14 v minp mint minf
+14 v minp mint maxf
+14 v minp mint mind
+14 v minp mint maxd
+14 v minp maxt mint
+14 v minp maxt maxp
+14 v minp maxt t
+14 v minp maxt f
+14 v minp maxt minf
+14 v minp maxt maxf
+14 v minp maxt mind
+14 v minp maxt maxd
+14 v maxd minp maxt
+14 v maxd minp mint
+14 v maxd minp maxp
+14 v maxd minp t
+14 v maxd minp f
+14 v maxd minp minf
+14 v maxd minp maxf
+14 v maxd minp mind
+14 v maxd maxp minp
+14 v maxd maxp maxt
+14 v maxd maxp mint
+14 v maxd maxp t
+14 v maxd maxp f
+14 v maxd maxp minf
+14 v maxd maxp maxf
+14 v maxd maxp mind
+14 v maxd mint maxp
+14 v maxd mint minp
+14 v maxd mint maxt
+14 v maxd mint t
+14 v maxd mint f
+14 v maxd mint minf
+14 v maxd mint maxf
+14 v maxd mint mind
+14 v maxd maxt mint
+14 v maxd maxt maxp
+14 v maxd maxt minp
+14 v maxd maxt t
+14 v maxd maxt f
+14 v maxd maxt minf
+14 v maxd maxt maxf
+14 v maxd maxt mind
+14 v mind maxd maxt
+14 v mind maxd mint
+14 v mind maxd maxp
+14 v mind maxd minp
+14 v mind maxd t
+14 v mind maxd f
+14 v mind maxd minf
+14 v mind maxd maxf
+14 v mind minp maxd
+14 v mind minp maxt
+14 v mind minp mint
+14 v mind minp maxp
+14 v mind minp t
+14 v mind minp f
+14 v mind minp minf
+14 v mind minp maxf
+14 v mind maxp minp
+14 v mind maxp maxd
+14 v mind maxp maxt
+14 v mind maxp mint
+14 v mind maxp t
+14 v mind maxp f
+14 v mind maxp minf
+14 v mind maxp maxf
+14 v mind mint maxp
+14 v mind mint minp
+14 v mind mint maxd
+14 v mind mint maxt
+14 v mind mint t
+14 v mind mint f
+14 v mind mint minf
+14 v mind mint maxf
+14 v mind maxt mint
+14 v mind maxt maxp
+14 v mind maxt minp
+14 v mind maxt maxd
+14 v mind maxt t
+14 v mind maxt f
+14 v mind maxt minf
+14 v mind maxt maxf
+14 v maxf mind maxt
+14 v maxf mind mint
+14 v maxf mind maxp
+14 v maxf mind minp
+14 v maxf mind maxd
+14 v maxf mind t
+14 v maxf mind f
+14 v maxf mind minf
+14 v maxf maxd mind
+14 v maxf maxd maxt
+14 v maxf maxd mint
+14 v maxf maxd maxp
+14 v maxf maxd minp
+14 v maxf maxd t
+14 v maxf maxd f
+14 v maxf maxd minf
+14 v maxf minp maxd
+14 v maxf minp mind
+14 v maxf minp maxt
+14 v maxf minp mint
+14 v maxf minp maxp
+14 v maxf minp t
+14 v maxf minp f
+14 v maxf minp minf
+14 v maxf maxp minp
+14 v maxf maxp maxd
+14 v maxf maxp mind
+14 v maxf maxp maxt
+14 v maxf maxp mint
+14 v maxf maxp t
+14 v maxf maxp f
+14 v maxf maxp minf
+14 v maxf mint maxp
+14 v maxf mint minp
+14 v maxf mint maxd
+14 v maxf mint mind
+14 v maxf mint maxt
+14 v maxf mint t
+14 v maxf mint f
+14 v maxf mint minf
+14 v maxf maxt mint
+14 v maxf maxt maxp
+14 v maxf maxt minp
+14 v maxf maxt maxd
+14 v maxf maxt mind
+14 v maxf maxt t
+14 v maxf maxt f
+14 v maxf maxt minf
+14 v minf maxf maxt
+14 v minf maxf mint
+14 v minf maxf maxp
+14 v minf maxf minp
+14 v minf maxf maxd
+14 v minf maxf mind
+14 v minf maxf t
+14 v minf maxf f
+14 v minf mind maxf
+14 v minf mind maxt
+14 v minf mind mint
+14 v minf mind maxp
+14 v minf mind minp
+14 v minf mind maxd
+14 v minf mind t
+14 v minf mind f
+14 v minf maxd mind
+14 v minf maxd maxf
+14 v minf maxd maxt
+14 v minf maxd mint
+14 v minf maxd maxp
+14 v minf maxd minp
+14 v minf maxd t
+14 v minf maxd f
+14 v minf minp maxd
+14 v minf minp mind
+14 v minf minp maxf
+14 v minf minp maxt
+14 v minf minp mint
+14 v minf minp maxp
+14 v minf minp t
+14 v minf minp f
+14 v minf maxp minp
+14 v minf maxp maxd
+14 v minf maxp mind
+14 v minf maxp maxf
+14 v minf maxp maxt
+14 v minf maxp mint
+14 v minf maxp t
+14 v minf maxp f
+14 v minf mint maxp
+14 v minf mint minp
+14 v minf mint maxd
+14 v minf mint mind
+14 v minf mint maxf
+14 v minf mint maxt
+14 v minf mint t
+14 v minf mint f
+14 v minf maxt mint
+14 v minf maxt maxp
+14 v minf maxt minp
+14 v minf maxt maxd
+14 v minf maxt mind
+14 v minf maxt maxf
+14 v minf maxt t
+14 v minf maxt f
+14 v f minf maxt
+14 v f minf mint
+14 v f minf maxp
+14 v f minf minp
+14 v f minf maxd
+14 v f minf mind
+14 v f minf maxf
+14 v f minf t
+14 v f maxf minf
+14 v f maxf maxt
+14 v f maxf mint
+14 v f maxf maxp
+14 v f maxf minp
+14 v f maxf maxd
+14 v f maxf mind
+14 v f maxf t
+14 v f mind maxf
+14 v f mind minf
+14 v f mind maxt
+14 v f mind mint
+14 v f mind maxp
+14 v f mind minp
+14 v f mind maxd
+14 v f mind t
+14 v f maxd mind
+14 v f maxd maxf
+14 v f maxd minf
+14 v f maxd maxt
+14 v f maxd mint
+14 v f maxd maxp
+14 v f maxd minp
+14 v f maxd t
+14 v f minp maxd
+14 v f minp mind
+14 v f minp maxf
+14 v f minp minf
+14 v f minp maxt
+14 v f minp mint
+14 v f minp maxp
+14 v f minp t
+14 v f maxp minp
+14 v f maxp maxd
+14 v f maxp mind
+14 v f maxp maxf
+14 v f maxp minf
+14 v f maxp maxt
+14 v f maxp mint
+14 v f maxp t
+14 v f mint maxp
+14 v f mint minp
+14 v f mint maxd
+14 v f mint mind
+14 v f mint maxf
+14 v f mint minf
+14 v f mint maxt
+14 v f mint t
+14 v f maxt mint
+14 v f maxt maxp
+14 v f maxt minp
+14 v f maxt maxd
+14 v f maxt mind
+14 v f maxt maxf
+14 v f maxt minf
+14 v f maxt t
+14 v t f maxt
+14 v t f mint
+14 v t f maxp
+14 v t f minp
+14 v t f maxd
+14 v t f mind
+14 v t f maxf
+14 v t f minf
+14 v t minf f
+14 v t minf maxt
+14 v t minf mint
+14 v t minf maxp
+14 v t minf minp
+14 v t minf maxd
+14 v t minf mind
+14 v t minf maxf
+14 v t maxf minf
+14 v t maxf f
+14 v t maxf maxt
+14 v t maxf mint
+14 v t maxf maxp
+14 v t maxf minp
+14 v t maxf maxd
+14 v t maxf mind
+14 v t mind maxf
+14 v t mind minf
+14 v t mind f
+14 v t mind maxt
+14 v t mind mint
+14 v t mind maxp
+14 v t mind minp
+14 v t mind maxd
+14 v t maxd mind
+14 v t maxd maxf
+14 v t maxd minf
+14 v t maxd f
+14 v t maxd maxt
+14 v t maxd mint
+14 v t maxd maxp
+14 v t maxd minp
+14 v t minp maxd
+14 v t minp mind
+14 v t minp maxf
+14 v t minp minf
+14 v t minp f
+14 v t minp maxt
+14 v t minp mint
+14 v t minp maxp
+14 v t maxp minp
+14 v t maxp maxd
+14 v t maxp mind
+14 v t maxp maxf
+14 v t maxp minf
+14 v t maxp f
+14 v t maxp maxt
+14 v t maxp mint
+14 v t mint maxp
+14 v t mint minp
+14 v t mint maxd
+14 v t mint mind
+14 v t mint maxf
+14 v t mint minf
+14 v t mint f
+14 v t mint maxt
+14 v t maxt mint
+14 v t maxt maxp
+14 v t maxt minp
+14 v t maxt maxd
+14 v t maxt mind
+14 v t maxt maxf
+14 v t maxt minf
+14 v t maxt f
+15 v maxt
+15 v mint
+15 v maxp
+15 v minp
+15 v maxd
+15 v mind
+15 v maxf
+15 v minf
+15 v f
+15 v t
+15 v maxt t
+15 v maxt f
+15 v maxt minf
+15 v maxt maxf
+15 v maxt mind
+15 v maxt maxd
+15 v maxt minp
+15 v maxt maxp
+15 v maxt mint
+15 v mint maxt
+15 v mint t
+15 v mint f
+15 v mint minf
+15 v mint maxf
+15 v mint mind
+15 v mint maxd
+15 v mint minp
+15 v mint maxp
+15 v maxp mint
+15 v maxp maxt
+15 v maxp t
+15 v maxp f
+15 v maxp minf
+15 v maxp maxf
+15 v maxp mind
+15 v maxp maxd
+15 v maxp minp
+15 v minp maxp
+15 v minp mint
+15 v minp maxt
+15 v minp t
+15 v minp f
+15 v minp minf
+15 v minp maxf
+15 v minp mind
+15 v minp maxd
+15 v maxd minp
+15 v maxd maxp
+15 v maxd mint
+15 v maxd maxt
+15 v maxd t
+15 v maxd f
+15 v maxd minf
+15 v maxd maxf
+15 v maxd mind
+15 v mind maxd
+15 v mind minp
+15 v mind maxp
+15 v mind mint
+15 v mind maxt
+15 v mind t
+15 v mind f
+15 v mind minf
+15 v mind maxf
+15 v maxf mind
+15 v maxf maxd
+15 v maxf minp
+15 v maxf maxp
+15 v maxf mint
+15 v maxf maxt
+15 v maxf t
+15 v maxf f
+15 v maxf minf
+15 v minf maxf
+15 v minf mind
+15 v minf maxd
+15 v minf minp
+15 v minf maxp
+15 v minf mint
+15 v minf maxt
+15 v minf t
+15 v minf f
+15 v f minf
+15 v f maxf
+15 v f mind
+15 v f maxd
+15 v f minp
+15 v f maxp
+15 v f mint
+15 v f maxt
+15 v f t
+15 v t f
+15 v t minf
+15 v t maxf
+15 v t mind
+15 v t maxd
+15 v t minp
+15 v t maxp
+15 v t mint
+15 v t maxt
+15 v mint maxt t
+15 v mint maxt f
+15 v mint maxt minf
+15 v mint maxt maxf
+15 v mint maxt mind
+15 v mint maxt maxd
+15 v mint maxt minp
+15 v mint maxt maxp
+15 v maxp mint maxt
+15 v maxp mint t
+15 v maxp mint f
+15 v maxp mint minf
+15 v maxp mint maxf
+15 v maxp mint mind
+15 v maxp mint maxd
+15 v maxp mint minp
+15 v maxp maxt mint
+15 v maxp maxt t
+15 v maxp maxt f
+15 v maxp maxt minf
+15 v maxp maxt maxf
+15 v maxp maxt mind
+15 v maxp maxt maxd
+15 v maxp maxt minp
+15 v minp maxp maxt
+15 v minp maxp mint
+15 v minp maxp t
+15 v minp maxp f
+15 v minp maxp minf
+15 v minp maxp maxf
+15 v minp maxp mind
+15 v minp maxp maxd
+15 v minp mint maxp
+15 v minp mint maxt
+15 v minp mint t
+15 v minp mint f
+15 v minp mint minf
+15 v minp mint maxf
+15 v minp mint mind
+15 v minp mint maxd
+15 v minp maxt mint
+15 v minp maxt maxp
+15 v minp maxt t
+15 v minp maxt f
+15 v minp maxt minf
+15 v minp maxt maxf
+15 v minp maxt mind
+15 v minp maxt maxd
+15 v maxd minp maxt
+15 v maxd minp mint
+15 v maxd minp maxp
+15 v maxd minp t
+15 v maxd minp f
+15 v maxd minp minf
+15 v maxd minp maxf
+15 v maxd minp mind
+15 v maxd maxp minp
+15 v maxd maxp maxt
+15 v maxd maxp mint
+15 v maxd maxp t
+15 v maxd maxp f
+15 v maxd maxp minf
+15 v maxd maxp maxf
+15 v maxd maxp mind
+15 v maxd mint maxp
+15 v maxd mint minp
+15 v maxd mint maxt
+15 v maxd mint t
+15 v maxd mint f
+15 v maxd mint minf
+15 v maxd mint maxf
+15 v maxd mint mind
+15 v maxd maxt mint
+15 v maxd maxt maxp
+15 v maxd maxt minp
+15 v maxd maxt t
+15 v maxd maxt f
+15 v maxd maxt minf
+15 v maxd maxt maxf
+15 v maxd maxt mind
+15 v mind maxd maxt
+15 v mind maxd mint
+15 v mind maxd maxp
+15 v mind maxd minp
+15 v mind maxd t
+15 v mind maxd f
+15 v mind maxd minf
+15 v mind maxd maxf
+15 v mind minp maxd
+15 v mind minp maxt
+15 v mind minp mint
+15 v mind minp maxp
+15 v mind minp t
+15 v mind minp f
+15 v mind minp minf
+15 v mind minp maxf
+15 v mind maxp minp
+15 v mind maxp maxd
+15 v mind maxp maxt
+15 v mind maxp mint
+15 v mind maxp t
+15 v mind maxp f
+15 v mind maxp minf
+15 v mind maxp maxf
+15 v mind mint maxp
+15 v mind mint minp
+15 v mind mint maxd
+15 v mind mint maxt
+15 v mind mint t
+15 v mind mint f
+15 v mind mint minf
+15 v mind mint maxf
+15 v mind maxt mint
+15 v mind maxt maxp
+15 v mind maxt minp
+15 v mind maxt maxd
+15 v mind maxt t
+15 v mind maxt f
+15 v mind maxt minf
+15 v mind maxt maxf
+15 v maxf mind maxt
+15 v maxf mind mint
+15 v maxf mind maxp
+15 v maxf mind minp
+15 v maxf mind maxd
+15 v maxf mind t
+15 v maxf mind f
+15 v maxf mind minf
+15 v maxf maxd mind
+15 v maxf maxd maxt
+15 v maxf maxd mint
+15 v maxf maxd maxp
+15 v maxf maxd minp
+15 v maxf maxd t
+15 v maxf maxd f
+15 v maxf maxd minf
+15 v maxf minp maxd
+15 v maxf minp mind
+15 v maxf minp maxt
+15 v maxf minp mint
+15 v maxf minp maxp
+15 v maxf minp t
+15 v maxf minp f
+15 v maxf minp minf
+15 v maxf maxp minp
+15 v maxf maxp maxd
+15 v maxf maxp mind
+15 v maxf maxp maxt
+15 v maxf maxp mint
+15 v maxf maxp t
+15 v maxf maxp f
+15 v maxf maxp minf
+15 v maxf mint maxp
+15 v maxf mint minp
+15 v maxf mint maxd
+15 v maxf mint mind
+15 v maxf mint maxt
+15 v maxf mint t
+15 v maxf mint f
+15 v maxf mint minf
+15 v maxf maxt mint
+15 v maxf maxt maxp
+15 v maxf maxt minp
+15 v maxf maxt maxd
+15 v maxf maxt mind
+15 v maxf maxt t
+15 v maxf maxt f
+15 v maxf maxt minf
+15 v minf maxf maxt
+15 v minf maxf mint
+15 v minf maxf maxp
+15 v minf maxf minp
+15 v minf maxf maxd
+15 v minf maxf mind
+15 v minf maxf t
+15 v minf maxf f
+15 v minf mind maxf
+15 v minf mind maxt
+15 v minf mind mint
+15 v minf mind maxp
+15 v minf mind minp
+15 v minf mind maxd
+15 v minf mind t
+15 v minf mind f
+15 v minf maxd mind
+15 v minf maxd maxf
+15 v minf maxd maxt
+15 v minf maxd mint
+15 v minf maxd maxp
+15 v minf maxd minp
+15 v minf maxd t
+15 v minf maxd f
+15 v minf minp maxd
+15 v minf minp mind
+15 v minf minp maxf
+15 v minf minp maxt
+15 v minf minp mint
+15 v minf minp maxp
+15 v minf minp t
+15 v minf minp f
+15 v minf maxp minp
+15 v minf maxp maxd
+15 v minf maxp mind
+15 v minf maxp maxf
+15 v minf maxp maxt
+15 v minf maxp mint
+15 v minf maxp t
+15 v minf maxp f
+15 v minf mint maxp
+15 v minf mint minp
+15 v minf mint maxd
+15 v minf mint mind
+15 v minf mint maxf
+15 v minf mint maxt
+15 v minf mint t
+15 v minf mint f
+15 v minf maxt mint
+15 v minf maxt maxp
+15 v minf maxt minp
+15 v minf maxt maxd
+15 v minf maxt mind
+15 v minf maxt maxf
+15 v minf maxt t
+15 v minf maxt f
+15 v f minf maxt
+15 v f minf mint
+15 v f minf maxp
+15 v f minf minp
+15 v f minf maxd
+15 v f minf mind
+15 v f minf maxf
+15 v f minf t
+15 v f maxf minf
+15 v f maxf maxt
+15 v f maxf mint
+15 v f maxf maxp
+15 v f maxf minp
+15 v f maxf maxd
+15 v f maxf mind
+15 v f maxf t
+15 v f mind maxf
+15 v f mind minf
+15 v f mind maxt
+15 v f mind mint
+15 v f mind maxp
+15 v f mind minp
+15 v f mind maxd
+15 v f mind t
+15 v f maxd mind
+15 v f maxd maxf
+15 v f maxd minf
+15 v f maxd maxt
+15 v f maxd mint
+15 v f maxd maxp
+15 v f maxd minp
+15 v f maxd t
+15 v f minp maxd
+15 v f minp mind
+15 v f minp maxf
+15 v f minp minf
+15 v f minp maxt
+15 v f minp mint
+15 v f minp maxp
+15 v f minp t
+15 v f maxp minp
+15 v f maxp maxd
+15 v f maxp mind
+15 v f maxp maxf
+15 v f maxp minf
+15 v f maxp maxt
+15 v f maxp mint
+15 v f maxp t
+15 v f mint maxp
+15 v f mint minp
+15 v f mint maxd
+15 v f mint mind
+15 v f mint maxf
+15 v f mint minf
+15 v f mint maxt
+15 v f mint t
+15 v f maxt mint
+15 v f maxt maxp
+15 v f maxt minp
+15 v f maxt maxd
+15 v f maxt mind
+15 v f maxt maxf
+15 v f maxt minf
+15 v f maxt t
+15 v t f maxt
+15 v t f mint
+15 v t f maxp
+15 v t f minp
+15 v t f maxd
+15 v t f mind
+15 v t f maxf
+15 v t f minf
+15 v t minf f
+15 v t minf maxt
+15 v t minf mint
+15 v t minf maxp
+15 v t minf minp
+15 v t minf maxd
+15 v t minf mind
+15 v t minf maxf
+15 v t maxf minf
+15 v t maxf f
+15 v t maxf maxt
+15 v t maxf mint
+15 v t maxf maxp
+15 v t maxf minp
+15 v t maxf maxd
+15 v t maxf mind
+15 v t mind maxf
+15 v t mind minf
+15 v t mind f
+15 v t mind maxt
+15 v t mind mint
+15 v t mind maxp
+15 v t mind minp
+15 v t mind maxd
+15 v t maxd mind
+15 v t maxd maxf
+15 v t maxd minf
+15 v t maxd f
+15 v t maxd maxt
+15 v t maxd mint
+15 v t maxd maxp
+15 v t maxd minp
+15 v t minp maxd
+15 v t minp mind
+15 v t minp maxf
+15 v t minp minf
+15 v t minp f
+15 v t minp maxt
+15 v t minp mint
+15 v t minp maxp
+15 v t maxp minp
+15 v t maxp maxd
+15 v t maxp mind
+15 v t maxp maxf
+15 v t maxp minf
+15 v t maxp f
+15 v t maxp maxt
+15 v t maxp mint
+15 v t mint maxp
+15 v t mint minp
+15 v t mint maxd
+15 v t mint mind
+15 v t mint maxf
+15 v t mint minf
+15 v t mint f
+15 v t mint maxt
+15 v t maxt mint
+15 v t maxt maxp
+15 v t maxt minp
+15 v t maxt maxd
+15 v t maxt mind
+15 v t maxt maxf
+15 v t maxt minf
+15 v t maxt f
+16 v maxt
+16 v mint
+16 v maxp
+16 v minp
+16 v maxd
+16 v mind
+16 v maxf
+16 v minf
+16 v f
+16 v t
+16 v maxt t
+16 v maxt f
+16 v maxt minf
+16 v maxt maxf
+16 v maxt mind
+16 v maxt maxd
+16 v maxt minp
+16 v maxt maxp
+16 v maxt mint
+16 v mint maxt
+16 v mint t
+16 v mint f
+16 v mint minf
+16 v mint maxf
+16 v mint mind
+16 v mint maxd
+16 v mint minp
+16 v mint maxp
+16 v maxp mint
+16 v maxp maxt
+16 v maxp t
+16 v maxp f
+16 v maxp minf
+16 v maxp maxf
+16 v maxp mind
+16 v maxp maxd
+16 v maxp minp
+16 v minp maxp
+16 v minp mint
+16 v minp maxt
+16 v minp t
+16 v minp f
+16 v minp minf
+16 v minp maxf
+16 v minp mind
+16 v minp maxd
+16 v maxd minp
+16 v maxd maxp
+16 v maxd mint
+16 v maxd maxt
+16 v maxd t
+16 v maxd f
+16 v maxd minf
+16 v maxd maxf
+16 v maxd mind
+16 v mind maxd
+16 v mind minp
+16 v mind maxp
+16 v mind mint
+16 v mind maxt
+16 v mind t
+16 v mind f
+16 v mind minf
+16 v mind maxf
+16 v maxf mind
+16 v maxf maxd
+16 v maxf minp
+16 v maxf maxp
+16 v maxf mint
+16 v maxf maxt
+16 v maxf t
+16 v maxf f
+16 v maxf minf
+16 v minf maxf
+16 v minf mind
+16 v minf maxd
+16 v minf minp
+16 v minf maxp
+16 v minf mint
+16 v minf maxt
+16 v minf t
+16 v minf f
+16 v f minf
+16 v f maxf
+16 v f mind
+16 v f maxd
+16 v f minp
+16 v f maxp
+16 v f mint
+16 v f maxt
+16 v f t
+16 v t f
+16 v t minf
+16 v t maxf
+16 v t mind
+16 v t maxd
+16 v t minp
+16 v t maxp
+16 v t mint
+16 v t maxt
+16 v mint maxt t
+16 v mint maxt f
+16 v mint maxt minf
+16 v mint maxt maxf
+16 v mint maxt mind
+16 v mint maxt maxd
+16 v mint maxt minp
+16 v mint maxt maxp
+16 v maxp mint maxt
+16 v maxp mint t
+16 v maxp mint f
+16 v maxp mint minf
+16 v maxp mint maxf
+16 v maxp mint mind
+16 v maxp mint maxd
+16 v maxp mint minp
+16 v maxp maxt mint
+16 v maxp maxt t
+16 v maxp maxt f
+16 v maxp maxt minf
+16 v maxp maxt maxf
+16 v maxp maxt mind
+16 v maxp maxt maxd
+16 v maxp maxt minp
+16 v minp maxp maxt
+16 v minp maxp mint
+16 v minp maxp t
+16 v minp maxp f
+16 v minp maxp minf
+16 v minp maxp maxf
+16 v minp maxp mind
+16 v minp maxp maxd
+16 v minp mint maxp
+16 v minp mint maxt
+16 v minp mint t
+16 v minp mint f
+16 v minp mint minf
+16 v minp mint maxf
+16 v minp mint mind
+16 v minp mint maxd
+16 v minp maxt mint
+16 v minp maxt maxp
+16 v minp maxt t
+16 v minp maxt f
+16 v minp maxt minf
+16 v minp maxt maxf
+16 v minp maxt mind
+16 v minp maxt maxd
+16 v maxd minp maxt
+16 v maxd minp mint
+16 v maxd minp maxp
+16 v maxd minp t
+16 v maxd minp f
+16 v maxd minp minf
+16 v maxd minp maxf
+16 v maxd minp mind
+16 v maxd maxp minp
+16 v maxd maxp maxt
+16 v maxd maxp mint
+16 v maxd maxp t
+16 v maxd maxp f
+16 v maxd maxp minf
+16 v maxd maxp maxf
+16 v maxd maxp mind
+16 v maxd mint maxp
+16 v maxd mint minp
+16 v maxd mint maxt
+16 v maxd mint t
+16 v maxd mint f
+16 v maxd mint minf
+16 v maxd mint maxf
+16 v maxd mint mind
+16 v maxd maxt mint
+16 v maxd maxt maxp
+16 v maxd maxt minp
+16 v maxd maxt t
+16 v maxd maxt f
+16 v maxd maxt minf
+16 v maxd maxt maxf
+16 v maxd maxt mind
+16 v mind maxd maxt
+16 v mind maxd mint
+16 v mind maxd maxp
+16 v mind maxd minp
+16 v mind maxd t
+16 v mind maxd f
+16 v mind maxd minf
+16 v mind maxd maxf
+16 v mind minp maxd
+16 v mind minp maxt
+16 v mind minp mint
+16 v mind minp maxp
+16 v mind minp t
+16 v mind minp f
+16 v mind minp minf
+16 v mind minp maxf
+16 v mind maxp minp
+16 v mind maxp maxd
+16 v mind maxp maxt
+16 v mind maxp mint
+16 v mind maxp t
+16 v mind maxp f
+16 v mind maxp minf
+16 v mind maxp maxf
+16 v mind mint maxp
+16 v mind mint minp
+16 v mind mint maxd
+16 v mind mint maxt
+16 v mind mint t
+16 v mind mint f
+16 v mind mint minf
+16 v mind mint maxf
+16 v mind maxt mint
+16 v mind maxt maxp
+16 v mind maxt minp
+16 v mind maxt maxd
+16 v mind maxt t
+16 v mind maxt f
+16 v mind maxt minf
+16 v mind maxt maxf
+16 v maxf mind maxt
+16 v maxf mind mint
+16 v maxf mind maxp
+16 v maxf mind minp
+16 v maxf mind maxd
+16 v maxf mind t
+16 v maxf mind f
+16 v maxf mind minf
+16 v maxf maxd mind
+16 v maxf maxd maxt
+16 v maxf maxd mint
+16 v maxf maxd maxp
+16 v maxf maxd minp
+16 v maxf maxd t
+16 v maxf maxd f
+16 v maxf maxd minf
+16 v maxf minp maxd
+16 v maxf minp mind
+16 v maxf minp maxt
+16 v maxf minp mint
+16 v maxf minp maxp
+16 v maxf minp t
+16 v maxf minp f
+16 v maxf minp minf
+16 v maxf maxp minp
+16 v maxf maxp maxd
+16 v maxf maxp mind
+16 v maxf maxp maxt
+16 v maxf maxp mint
+16 v maxf maxp t
+16 v maxf maxp f
+16 v maxf maxp minf
+16 v maxf mint maxp
+16 v maxf mint minp
+16 v maxf mint maxd
+16 v maxf mint mind
+16 v maxf mint maxt
+16 v maxf mint t
+16 v maxf mint f
+16 v maxf mint minf
+16 v maxf maxt mint
+16 v maxf maxt maxp
+16 v maxf maxt minp
+16 v maxf maxt maxd
+16 v maxf maxt mind
+16 v maxf maxt t
+16 v maxf maxt f
+16 v maxf maxt minf
+16 v minf maxf maxt
+16 v minf maxf mint
+16 v minf maxf maxp
+16 v minf maxf minp
+16 v minf maxf maxd
+16 v minf maxf mind
+16 v minf maxf t
+16 v minf maxf f
+16 v minf mind maxf
+16 v minf mind maxt
+16 v minf mind mint
+16 v minf mind maxp
+16 v minf mind minp
+16 v minf mind maxd
+16 v minf mind t
+16 v minf mind f
+16 v minf maxd mind
+16 v minf maxd maxf
+16 v minf maxd maxt
+16 v minf maxd mint
+16 v minf maxd maxp
+16 v minf maxd minp
+16 v minf maxd t
+16 v minf maxd f
+16 v minf minp maxd
+16 v minf minp mind
+16 v minf minp maxf
+16 v minf minp maxt
+16 v minf minp mint
+16 v minf minp maxp
+16 v minf minp t
+16 v minf minp f
+16 v minf maxp minp
+16 v minf maxp maxd
+16 v minf maxp mind
+16 v minf maxp maxf
+16 v minf maxp maxt
+16 v minf maxp mint
+16 v minf maxp t
+16 v minf maxp f
+16 v minf mint maxp
+16 v minf mint minp
+16 v minf mint maxd
+16 v minf mint mind
+16 v minf mint maxf
+16 v minf mint maxt
+16 v minf mint t
+16 v minf mint f
+16 v minf maxt mint
+16 v minf maxt maxp
+16 v minf maxt minp
+16 v minf maxt maxd
+16 v minf maxt mind
+16 v minf maxt maxf
+16 v minf maxt t
+16 v minf maxt f
+16 v f minf maxt
+16 v f minf mint
+16 v f minf maxp
+16 v f minf minp
+16 v f minf maxd
+16 v f minf mind
+16 v f minf maxf
+16 v f minf t
+16 v f maxf minf
+16 v f maxf maxt
+16 v f maxf mint
+16 v f maxf maxp
+16 v f maxf minp
+16 v f maxf maxd
+16 v f maxf mind
+16 v f maxf t
+16 v f mind maxf
+16 v f mind minf
+16 v f mind maxt
+16 v f mind mint
+16 v f mind maxp
+16 v f mind minp
+16 v f mind maxd
+16 v f mind t
+16 v f maxd mind
+16 v f maxd maxf
+16 v f maxd minf
+16 v f maxd maxt
+16 v f maxd mint
+16 v f maxd maxp
+16 v f maxd minp
+16 v f maxd t
+16 v f minp maxd
+16 v f minp mind
+16 v f minp maxf
+16 v f minp minf
+16 v f minp maxt
+16 v f minp mint
+16 v f minp maxp
+16 v f minp t
+16 v f maxp minp
+16 v f maxp maxd
+16 v f maxp mind
+16 v f maxp maxf
+16 v f maxp minf
+16 v f maxp maxt
+16 v f maxp mint
+16 v f maxp t
+16 v f mint maxp
+16 v f mint minp
+16 v f mint maxd
+16 v f mint mind
+16 v f mint maxf
+16 v f mint minf
+16 v f mint maxt
+16 v f mint t
+16 v f maxt mint
+16 v f maxt maxp
+16 v f maxt minp
+16 v f maxt maxd
+16 v f maxt mind
+16 v f maxt maxf
+16 v f maxt minf
+16 v f maxt t
+16 v t f maxt
+16 v t f mint
+16 v t f maxp
+16 v t f minp
+16 v t f maxd
+16 v t f mind
+16 v t f maxf
+16 v t f minf
+16 v t minf f
+16 v t minf maxt
+16 v t minf mint
+16 v t minf maxp
+16 v t minf minp
+16 v t minf maxd
+16 v t minf mind
+16 v t minf maxf
+16 v t maxf minf
+16 v t maxf f
+16 v t maxf maxt
+16 v t maxf mint
+16 v t maxf maxp
+16 v t maxf minp
+16 v t maxf maxd
+16 v t maxf mind
+16 v t mind maxf
+16 v t mind minf
+16 v t mind f
+16 v t mind maxt
+16 v t mind mint
+16 v t mind maxp
+16 v t mind minp
+16 v t mind maxd
+16 v t maxd mind
+16 v t maxd maxf
+16 v t maxd minf
+16 v t maxd f
+16 v t maxd maxt
+16 v t maxd mint
+16 v t maxd maxp
+16 v t maxd minp
+16 v t minp maxd
+16 v t minp mind
+16 v t minp maxf
+16 v t minp minf
+16 v t minp f
+16 v t minp maxt
+16 v t minp mint
+16 v t minp maxp
+16 v t maxp minp
+16 v t maxp maxd
+16 v t maxp mind
+16 v t maxp maxf
+16 v t maxp minf
+16 v t maxp f
+16 v t maxp maxt
+16 v t maxp mint
+16 v t mint maxp
+16 v t mint minp
+16 v t mint maxd
+16 v t mint mind
+16 v t mint maxf
+16 v t mint minf
+16 v t mint f
+16 v t mint maxt
+16 v t maxt mint
+16 v t maxt maxp
+16 v t maxt minp
+16 v t maxt maxd
+16 v t maxt mind
+16 v t maxt maxf
+16 v t maxt minf
+16 v t maxt f
+17 v maxt
+17 v mint
+17 v maxp
+17 v minp
+17 v maxd
+17 v mind
+17 v maxf
+17 v minf
+17 v f
+17 v t
+17 v maxt t
+17 v maxt f
+17 v maxt minf
+17 v maxt maxf
+17 v maxt mind
+17 v maxt maxd
+17 v maxt minp
+17 v maxt maxp
+17 v maxt mint
+17 v mint maxt
+17 v mint t
+17 v mint f
+17 v mint minf
+17 v mint maxf
+17 v mint mind
+17 v mint maxd
+17 v mint minp
+17 v mint maxp
+17 v maxp mint
+17 v maxp maxt
+17 v maxp t
+17 v maxp f
+17 v maxp minf
+17 v maxp maxf
+17 v maxp mind
+17 v maxp maxd
+17 v maxp minp
+17 v minp maxp
+17 v minp mint
+17 v minp maxt
+17 v minp t
+17 v minp f
+17 v minp minf
+17 v minp maxf
+17 v minp mind
+17 v minp maxd
+17 v maxd minp
+17 v maxd maxp
+17 v maxd mint
+17 v maxd maxt
+17 v maxd t
+17 v maxd f
+17 v maxd minf
+17 v maxd maxf
+17 v maxd mind
+17 v mind maxd
+17 v mind minp
+17 v mind maxp
+17 v mind mint
+17 v mind maxt
+17 v mind t
+17 v mind f
+17 v mind minf
+17 v mind maxf
+17 v maxf mind
+17 v maxf maxd
+17 v maxf minp
+17 v maxf maxp
+17 v maxf mint
+17 v maxf maxt
+17 v maxf t
+17 v maxf f
+17 v maxf minf
+17 v minf maxf
+17 v minf mind
+17 v minf maxd
+17 v minf minp
+17 v minf maxp
+17 v minf mint
+17 v minf maxt
+17 v minf t
+17 v minf f
+17 v f minf
+17 v f maxf
+17 v f mind
+17 v f maxd
+17 v f minp
+17 v f maxp
+17 v f mint
+17 v f maxt
+17 v f t
+17 v t f
+17 v t minf
+17 v t maxf
+17 v t mind
+17 v t maxd
+17 v t minp
+17 v t maxp
+17 v t mint
+17 v t maxt
+17 v mint maxt t
+17 v mint maxt f
+17 v mint maxt minf
+17 v mint maxt maxf
+17 v mint maxt mind
+17 v mint maxt maxd
+17 v mint maxt minp
+17 v mint maxt maxp
+17 v maxp mint maxt
+17 v maxp mint t
+17 v maxp mint f
+17 v maxp mint minf
+17 v maxp mint maxf
+17 v maxp mint mind
+17 v maxp mint maxd
+17 v maxp mint minp
+17 v maxp maxt mint
+17 v maxp maxt t
+17 v maxp maxt f
+17 v maxp maxt minf
+17 v maxp maxt maxf
+17 v maxp maxt mind
+17 v maxp maxt maxd
+17 v maxp maxt minp
+17 v minp maxp maxt
+17 v minp maxp mint
+17 v minp maxp t
+17 v minp maxp f
+17 v minp maxp minf
+17 v minp maxp maxf
+17 v minp maxp mind
+17 v minp maxp maxd
+17 v minp mint maxp
+17 v minp mint maxt
+17 v minp mint t
+17 v minp mint f
+17 v minp mint minf
+17 v minp mint maxf
+17 v minp mint mind
+17 v minp mint maxd
+17 v minp maxt mint
+17 v minp maxt maxp
+17 v minp maxt t
+17 v minp maxt f
+17 v minp maxt minf
+17 v minp maxt maxf
+17 v minp maxt mind
+17 v minp maxt maxd
+17 v maxd minp maxt
+17 v maxd minp mint
+17 v maxd minp maxp
+17 v maxd minp t
+17 v maxd minp f
+17 v maxd minp minf
+17 v maxd minp maxf
+17 v maxd minp mind
+17 v maxd maxp minp
+17 v maxd maxp maxt
+17 v maxd maxp mint
+17 v maxd maxp t
+17 v maxd maxp f
+17 v maxd maxp minf
+17 v maxd maxp maxf
+17 v maxd maxp mind
+17 v maxd mint maxp
+17 v maxd mint minp
+17 v maxd mint maxt
+17 v maxd mint t
+17 v maxd mint f
+17 v maxd mint minf
+17 v maxd mint maxf
+17 v maxd mint mind
+17 v maxd maxt mint
+17 v maxd maxt maxp
+17 v maxd maxt minp
+17 v maxd maxt t
+17 v maxd maxt f
+17 v maxd maxt minf
+17 v maxd maxt maxf
+17 v maxd maxt mind
+17 v mind maxd maxt
+17 v mind maxd mint
+17 v mind maxd maxp
+17 v mind maxd minp
+17 v mind maxd t
+17 v mind maxd f
+17 v mind maxd minf
+17 v mind maxd maxf
+17 v mind minp maxd
+17 v mind minp maxt
+17 v mind minp mint
+17 v mind minp maxp
+17 v mind minp t
+17 v mind minp f
+17 v mind minp minf
+17 v mind minp maxf
+17 v mind maxp minp
+17 v mind maxp maxd
+17 v mind maxp maxt
+17 v mind maxp mint
+17 v mind maxp t
+17 v mind maxp f
+17 v mind maxp minf
+17 v mind maxp maxf
+17 v mind mint maxp
+17 v mind mint minp
+17 v mind mint maxd
+17 v mind mint maxt
+17 v mind mint t
+17 v mind mint f
+17 v mind mint minf
+17 v mind mint maxf
+17 v mind maxt mint
+17 v mind maxt maxp
+17 v mind maxt minp
+17 v mind maxt maxd
+17 v mind maxt t
+17 v mind maxt f
+17 v mind maxt minf
+17 v mind maxt maxf
+17 v maxf mind maxt
+17 v maxf mind mint
+17 v maxf mind maxp
+17 v maxf mind minp
+17 v maxf mind maxd
+17 v maxf mind t
+17 v maxf mind f
+17 v maxf mind minf
+17 v maxf maxd mind
+17 v maxf maxd maxt
+17 v maxf maxd mint
+17 v maxf maxd maxp
+17 v maxf maxd minp
+17 v maxf maxd t
+17 v maxf maxd f
+17 v maxf maxd minf
+17 v maxf minp maxd
+17 v maxf minp mind
+17 v maxf minp maxt
+17 v maxf minp mint
+17 v maxf minp maxp
+17 v maxf minp t
+17 v maxf minp f
+17 v maxf minp minf
+17 v maxf maxp minp
+17 v maxf maxp maxd
+17 v maxf maxp mind
+17 v maxf maxp maxt
+17 v maxf maxp mint
+17 v maxf maxp t
+17 v maxf maxp f
+17 v maxf maxp minf
+17 v maxf mint maxp
+17 v maxf mint minp
+17 v maxf mint maxd
+17 v maxf mint mind
+17 v maxf mint maxt
+17 v maxf mint t
+17 v maxf mint f
+17 v maxf mint minf
+17 v maxf maxt mint
+17 v maxf maxt maxp
+17 v maxf maxt minp
+17 v maxf maxt maxd
+17 v maxf maxt mind
+17 v maxf maxt t
+17 v maxf maxt f
+17 v maxf maxt minf
+17 v minf maxf maxt
+17 v minf maxf mint
+17 v minf maxf maxp
+17 v minf maxf minp
+17 v minf maxf maxd
+17 v minf maxf mind
+17 v minf maxf t
+17 v minf maxf f
+17 v minf mind maxf
+17 v minf mind maxt
+17 v minf mind mint
+17 v minf mind maxp
+17 v minf mind minp
+17 v minf mind maxd
+17 v minf mind t
+17 v minf mind f
+17 v minf maxd mind
+17 v minf maxd maxf
+17 v minf maxd maxt
+17 v minf maxd mint
+17 v minf maxd maxp
+17 v minf maxd minp
+17 v minf maxd t
+17 v minf maxd f
+17 v minf minp maxd
+17 v minf minp mind
+17 v minf minp maxf
+17 v minf minp maxt
+17 v minf minp mint
+17 v minf minp maxp
+17 v minf minp t
+17 v minf minp f
+17 v minf maxp minp
+17 v minf maxp maxd
+17 v minf maxp mind
+17 v minf maxp maxf
+17 v minf maxp maxt
+17 v minf maxp mint
+17 v minf maxp t
+17 v minf maxp f
+17 v minf mint maxp
+17 v minf mint minp
+17 v minf mint maxd
+17 v minf mint mind
+17 v minf mint maxf
+17 v minf mint maxt
+17 v minf mint t
+17 v minf mint f
+17 v minf maxt mint
+17 v minf maxt maxp
+17 v minf maxt minp
+17 v minf maxt maxd
+17 v minf maxt mind
+17 v minf maxt maxf
+17 v minf maxt t
+17 v minf maxt f
+17 v f minf maxt
+17 v f minf mint
+17 v f minf maxp
+17 v f minf minp
+17 v f minf maxd
+17 v f minf mind
+17 v f minf maxf
+17 v f minf t
+17 v f maxf minf
+17 v f maxf maxt
+17 v f maxf mint
+17 v f maxf maxp
+17 v f maxf minp
+17 v f maxf maxd
+17 v f maxf mind
+17 v f maxf t
+17 v f mind maxf
+17 v f mind minf
+17 v f mind maxt
+17 v f mind mint
+17 v f mind maxp
+17 v f mind minp
+17 v f mind maxd
+17 v f mind t
+17 v f maxd mind
+17 v f maxd maxf
+17 v f maxd minf
+17 v f maxd maxt
+17 v f maxd mint
+17 v f maxd maxp
+17 v f maxd minp
+17 v f maxd t
+17 v f minp maxd
+17 v f minp mind
+17 v f minp maxf
+17 v f minp minf
+17 v f minp maxt
+17 v f minp mint
+17 v f minp maxp
+17 v f minp t
+17 v f maxp minp
+17 v f maxp maxd
+17 v f maxp mind
+17 v f maxp maxf
+17 v f maxp minf
+17 v f maxp maxt
+17 v f maxp mint
+17 v f maxp t
+17 v f mint maxp
+17 v f mint minp
+17 v f mint maxd
+17 v f mint mind
+17 v f mint maxf
+17 v f mint minf
+17 v f mint maxt
+17 v f mint t
+17 v f maxt mint
+17 v f maxt maxp
+17 v f maxt minp
+17 v f maxt maxd
+17 v f maxt mind
+17 v f maxt maxf
+17 v f maxt minf
+17 v f maxt t
+17 v t f maxt
+17 v t f mint
+17 v t f maxp
+17 v t f minp
+17 v t f maxd
+17 v t f mind
+17 v t f maxf
+17 v t f minf
+17 v t minf f
+17 v t minf maxt
+17 v t minf mint
+17 v t minf maxp
+17 v t minf minp
+17 v t minf maxd
+17 v t minf mind
+17 v t minf maxf
+17 v t maxf minf
+17 v t maxf f
+17 v t maxf maxt
+17 v t maxf mint
+17 v t maxf maxp
+17 v t maxf minp
+17 v t maxf maxd
+17 v t maxf mind
+17 v t mind maxf
+17 v t mind minf
+17 v t mind f
+17 v t mind maxt
+17 v t mind mint
+17 v t mind maxp
+17 v t mind minp
+17 v t mind maxd
+17 v t maxd mind
+17 v t maxd maxf
+17 v t maxd minf
+17 v t maxd f
+17 v t maxd maxt
+17 v t maxd mint
+17 v t maxd maxp
+17 v t maxd minp
+17 v t minp maxd
+17 v t minp mind
+17 v t minp maxf
+17 v t minp minf
+17 v t minp f
+17 v t minp maxt
+17 v t minp mint
+17 v t minp maxp
+17 v t maxp minp
+17 v t maxp maxd
+17 v t maxp mind
+17 v t maxp maxf
+17 v t maxp minf
+17 v t maxp f
+17 v t maxp maxt
+17 v t maxp mint
+17 v t mint maxp
+17 v t mint minp
+17 v t mint maxd
+17 v t mint mind
+17 v t mint maxf
+17 v t mint minf
+17 v t mint f
+17 v t mint maxt
+17 v t maxt mint
+17 v t maxt maxp
+17 v t maxt minp
+17 v t maxt maxd
+17 v t maxt mind
+17 v t maxt maxf
+17 v t maxt minf
+17 v t maxt f
+18 v maxt
+18 v mint
+18 v maxp
+18 v minp
+18 v maxd
+18 v mind
+18 v maxf
+18 v minf
+18 v f
+18 v t
+18 v maxt t
+18 v maxt f
+18 v maxt minf
+18 v maxt maxf
+18 v maxt mind
+18 v maxt maxd
+18 v maxt minp
+18 v maxt maxp
+18 v maxt mint
+18 v mint maxt
+18 v mint t
+18 v mint f
+18 v mint minf
+18 v mint maxf
+18 v mint mind
+18 v mint maxd
+18 v mint minp
+18 v mint maxp
+18 v maxp mint
+18 v maxp maxt
+18 v maxp t
+18 v maxp f
+18 v maxp minf
+18 v maxp maxf
+18 v maxp mind
+18 v maxp maxd
+18 v maxp minp
+18 v minp maxp
+18 v minp mint
+18 v minp maxt
+18 v minp t
+18 v minp f
+18 v minp minf
+18 v minp maxf
+18 v minp mind
+18 v minp maxd
+18 v maxd minp
+18 v maxd maxp
+18 v maxd mint
+18 v maxd maxt
+18 v maxd t
+18 v maxd f
+18 v maxd minf
+18 v maxd maxf
+18 v maxd mind
+18 v mind maxd
+18 v mind minp
+18 v mind maxp
+18 v mind mint
+18 v mind maxt
+18 v mind t
+18 v mind f
+18 v mind minf
+18 v mind maxf
+18 v maxf mind
+18 v maxf maxd
+18 v maxf minp
+18 v maxf maxp
+18 v maxf mint
+18 v maxf maxt
+18 v maxf t
+18 v maxf f
+18 v maxf minf
+18 v minf maxf
+18 v minf mind
+18 v minf maxd
+18 v minf minp
+18 v minf maxp
+18 v minf mint
+18 v minf maxt
+18 v minf t
+18 v minf f
+18 v f minf
+18 v f maxf
+18 v f mind
+18 v f maxd
+18 v f minp
+18 v f maxp
+18 v f mint
+18 v f maxt
+18 v f t
+18 v t f
+18 v t minf
+18 v t maxf
+18 v t mind
+18 v t maxd
+18 v t minp
+18 v t maxp
+18 v t mint
+18 v t maxt
+18 v mint maxt t
+18 v mint maxt f
+18 v mint maxt minf
+18 v mint maxt maxf
+18 v mint maxt mind
+18 v mint maxt maxd
+18 v mint maxt minp
+18 v mint maxt maxp
+18 v maxp mint maxt
+18 v maxp mint t
+18 v maxp mint f
+18 v maxp mint minf
+18 v maxp mint maxf
+18 v maxp mint mind
+18 v maxp mint maxd
+18 v maxp mint minp
+18 v maxp maxt mint
+18 v maxp maxt t
+18 v maxp maxt f
+18 v maxp maxt minf
+18 v maxp maxt maxf
+18 v maxp maxt mind
+18 v maxp maxt maxd
+18 v maxp maxt minp
+18 v minp maxp maxt
+18 v minp maxp mint
+18 v minp maxp t
+18 v minp maxp f
+18 v minp maxp minf
+18 v minp maxp maxf
+18 v minp maxp mind
+18 v minp maxp maxd
+18 v minp mint maxp
+18 v minp mint maxt
+18 v minp mint t
+18 v minp mint f
+18 v minp mint minf
+18 v minp mint maxf
+18 v minp mint mind
+18 v minp mint maxd
+18 v minp maxt mint
+18 v minp maxt maxp
+18 v minp maxt t
+18 v minp maxt f
+18 v minp maxt minf
+18 v minp maxt maxf
+18 v minp maxt mind
+18 v minp maxt maxd
+18 v maxd minp maxt
+18 v maxd minp mint
+18 v maxd minp maxp
+18 v maxd minp t
+18 v maxd minp f
+18 v maxd minp minf
+18 v maxd minp maxf
+18 v maxd minp mind
+18 v maxd maxp minp
+18 v maxd maxp maxt
+18 v maxd maxp mint
+18 v maxd maxp t
+18 v maxd maxp f
+18 v maxd maxp minf
+18 v maxd maxp maxf
+18 v maxd maxp mind
+18 v maxd mint maxp
+18 v maxd mint minp
+18 v maxd mint maxt
+18 v maxd mint t
+18 v maxd mint f
+18 v maxd mint minf
+18 v maxd mint maxf
+18 v maxd mint mind
+18 v maxd maxt mint
+18 v maxd maxt maxp
+18 v maxd maxt minp
+18 v maxd maxt t
+18 v maxd maxt f
+18 v maxd maxt minf
+18 v maxd maxt maxf
+18 v maxd maxt mind
+18 v mind maxd maxt
+18 v mind maxd mint
+18 v mind maxd maxp
+18 v mind maxd minp
+18 v mind maxd t
+18 v mind maxd f
+18 v mind maxd minf
+18 v mind maxd maxf
+18 v mind minp maxd
+18 v mind minp maxt
+18 v mind minp mint
+18 v mind minp maxp
+18 v mind minp t
+18 v mind minp f
+18 v mind minp minf
+18 v mind minp maxf
+18 v mind maxp minp
+18 v mind maxp maxd
+18 v mind maxp maxt
+18 v mind maxp mint
+18 v mind maxp t
+18 v mind maxp f
+18 v mind maxp minf
+18 v mind maxp maxf
+18 v mind mint maxp
+18 v mind mint minp
+18 v mind mint maxd
+18 v mind mint maxt
+18 v mind mint t
+18 v mind mint f
+18 v mind mint minf
+18 v mind mint maxf
+18 v mind maxt mint
+18 v mind maxt maxp
+18 v mind maxt minp
+18 v mind maxt maxd
+18 v mind maxt t
+18 v mind maxt f
+18 v mind maxt minf
+18 v mind maxt maxf
+18 v maxf mind maxt
+18 v maxf mind mint
+18 v maxf mind maxp
+18 v maxf mind minp
+18 v maxf mind maxd
+18 v maxf mind t
+18 v maxf mind f
+18 v maxf mind minf
+18 v maxf maxd mind
+18 v maxf maxd maxt
+18 v maxf maxd mint
+18 v maxf maxd maxp
+18 v maxf maxd minp
+18 v maxf maxd t
+18 v maxf maxd f
+18 v maxf maxd minf
+18 v maxf minp maxd
+18 v maxf minp mind
+18 v maxf minp maxt
+18 v maxf minp mint
+18 v maxf minp maxp
+18 v maxf minp t
+18 v maxf minp f
+18 v maxf minp minf
+18 v maxf maxp minp
+18 v maxf maxp maxd
+18 v maxf maxp mind
+18 v maxf maxp maxt
+18 v maxf maxp mint
+18 v maxf maxp t
+18 v maxf maxp f
+18 v maxf maxp minf
+18 v maxf mint maxp
+18 v maxf mint minp
+18 v maxf mint maxd
+18 v maxf mint mind
+18 v maxf mint maxt
+18 v maxf mint t
+18 v maxf mint f
+18 v maxf mint minf
+18 v maxf maxt mint
+18 v maxf maxt maxp
+18 v maxf maxt minp
+18 v maxf maxt maxd
+18 v maxf maxt mind
+18 v maxf maxt t
+18 v maxf maxt f
+18 v maxf maxt minf
+18 v minf maxf maxt
+18 v minf maxf mint
+18 v minf maxf maxp
+18 v minf maxf minp
+18 v minf maxf maxd
+18 v minf maxf mind
+18 v minf maxf t
+18 v minf maxf f
+18 v minf mind maxf
+18 v minf mind maxt
+18 v minf mind mint
+18 v minf mind maxp
+18 v minf mind minp
+18 v minf mind maxd
+18 v minf mind t
+18 v minf mind f
+18 v minf maxd mind
+18 v minf maxd maxf
+18 v minf maxd maxt
+18 v minf maxd mint
+18 v minf maxd maxp
+18 v minf maxd minp
+18 v minf maxd t
+18 v minf maxd f
+18 v minf minp maxd
+18 v minf minp mind
+18 v minf minp maxf
+18 v minf minp maxt
+18 v minf minp mint
+18 v minf minp maxp
+18 v minf minp t
+18 v minf minp f
+18 v minf maxp minp
+18 v minf maxp maxd
+18 v minf maxp mind
+18 v minf maxp maxf
+18 v minf maxp maxt
+18 v minf maxp mint
+18 v minf maxp t
+18 v minf maxp f
+18 v minf mint maxp
+18 v minf mint minp
+18 v minf mint maxd
+18 v minf mint mind
+18 v minf mint maxf
+18 v minf mint maxt
+18 v minf mint t
+18 v minf mint f
+18 v minf maxt mint
+18 v minf maxt maxp
+18 v minf maxt minp
+18 v minf maxt maxd
+18 v minf maxt mind
+18 v minf maxt maxf
+18 v minf maxt t
+18 v minf maxt f
+18 v f minf maxt
+18 v f minf mint
+18 v f minf maxp
+18 v f minf minp
+18 v f minf maxd
+18 v f minf mind
+18 v f minf maxf
+18 v f minf t
+18 v f maxf minf
+18 v f maxf maxt
+18 v f maxf mint
+18 v f maxf maxp
+18 v f maxf minp
+18 v f maxf maxd
+18 v f maxf mind
+18 v f maxf t
+18 v f mind maxf
+18 v f mind minf
+18 v f mind maxt
+18 v f mind mint
+18 v f mind maxp
+18 v f mind minp
+18 v f mind maxd
+18 v f mind t
+18 v f maxd mind
+18 v f maxd maxf
+18 v f maxd minf
+18 v f maxd maxt
+18 v f maxd mint
+18 v f maxd maxp
+18 v f maxd minp
+18 v f maxd t
+18 v f minp maxd
+18 v f minp mind
+18 v f minp maxf
+18 v f minp minf
+18 v f minp maxt
+18 v f minp mint
+18 v f minp maxp
+18 v f minp t
+18 v f maxp minp
+18 v f maxp maxd
+18 v f maxp mind
+18 v f maxp maxf
+18 v f maxp minf
+18 v f maxp maxt
+18 v f maxp mint
+18 v f maxp t
+18 v f mint maxp
+18 v f mint minp
+18 v f mint maxd
+18 v f mint mind
+18 v f mint maxf
+18 v f mint minf
+18 v f mint maxt
+18 v f mint t
+18 v f maxt mint
+18 v f maxt maxp
+18 v f maxt minp
+18 v f maxt maxd
+18 v f maxt mind
+18 v f maxt maxf
+18 v f maxt minf
+18 v f maxt t
+18 v t f maxt
+18 v t f mint
+18 v t f maxp
+18 v t f minp
+18 v t f maxd
+18 v t f mind
+18 v t f maxf
+18 v t f minf
+18 v t minf f
+18 v t minf maxt
+18 v t minf mint
+18 v t minf maxp
+18 v t minf minp
+18 v t minf maxd
+18 v t minf mind
+18 v t minf maxf
+18 v t maxf minf
+18 v t maxf f
+18 v t maxf maxt
+18 v t maxf mint
+18 v t maxf maxp
+18 v t maxf minp
+18 v t maxf maxd
+18 v t maxf mind
+18 v t mind maxf
+18 v t mind minf
+18 v t mind f
+18 v t mind maxt
+18 v t mind mint
+18 v t mind maxp
+18 v t mind minp
+18 v t mind maxd
+18 v t maxd mind
+18 v t maxd maxf
+18 v t maxd minf
+18 v t maxd f
+18 v t maxd maxt
+18 v t maxd mint
+18 v t maxd maxp
+18 v t maxd minp
+18 v t minp maxd
+18 v t minp mind
+18 v t minp maxf
+18 v t minp minf
+18 v t minp f
+18 v t minp maxt
+18 v t minp mint
+18 v t minp maxp
+18 v t maxp minp
+18 v t maxp maxd
+18 v t maxp mind
+18 v t maxp maxf
+18 v t maxp minf
+18 v t maxp f
+18 v t maxp maxt
+18 v t maxp mint
+18 v t mint maxp
+18 v t mint minp
+18 v t mint maxd
+18 v t mint mind
+18 v t mint maxf
+18 v t mint minf
+18 v t mint f
+18 v t mint maxt
+18 v t maxt mint
+18 v t maxt maxp
+18 v t maxt minp
+18 v t maxt maxd
+18 v t maxt mind
+18 v t maxt maxf
+18 v t maxt min
+18 v t maxt f

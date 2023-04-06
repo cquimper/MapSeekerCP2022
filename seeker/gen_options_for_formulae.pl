@@ -46,12 +46,145 @@ option_poly_max_coef(model_seeker,  4) :- !.
 option_poly_max_coef(_,             2).      
 
 gen_options_bool(X2, X1) :- 
-    option_bool_min_cst(X2, _X4),
-    option_bool_max_cst(X2, _X5),
+    option_bool_min_cst(X2, X4),    
+    option_bool_max_cst(X2, X5),    
+    X3 = [t(cond(attr_eq_attr),                                   no_negation,    2),
+                 t(cond(attr_leq_attr),                                  no_negation,    2),
+                 t(cond(attr_eq_coef(coef(X4,X5))),                    no_negation,    3),
+                 t(cond(attr_leq_coef(coef(X4,X5))),                   no_negation,    3),
+                 t(cond(attr_geq_coef(coef(X4,X5))),                   no_negation,    3),
+                 t(cond(attr_in_interval(1,X5)),                        no_restriction, 1),
+                 t(cond(attr_eq_unary([prod(2,X5)])),                   no_negation,    1),
+                 t(cond(attr_leq_unary([prod(2,X5)])),                  no_negation,    1),
+                 t(cond(unary_leq_attr([prod(2,X5)])),                  no_negation,    1),
+                 t(cond(minus_mod_eq0),                                  no_negation,    1),
+                 t(cond(sum_leq_attr),                                   no_negation,    1),
+                 t(cond(ceil_leq_floor),                                 no_negation,    1),
+                 t(cond(unary_term_eq_coef([mod(2,X5)],  coef(0,X5))), no_negation,    1),
+                 t(cond(unary_term_leq_coef([mod(2,X5)], coef(0,X5))), no_negation,    1),
+                 t(cond(unary_term_geq_coef([mod(2,X5)], coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_eq_coef([plus],       coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_eq_coef([minus],      coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_eq_coef([min],        coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_eq_coef([max],        coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_eq_coef([prod],       coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_eq_coef([abs],        coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_eq_coef([floor],      coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_eq_coef([ceil],       coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_eq_coef([mod],        coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_eq_coef([mfloor],     coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_eq_coef([cmod],       coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_eq_coef([dmod],       coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_eq_coef([fmod],       coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_leq_coef([plus],      coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_leq_coef([minus],     coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_leq_coef([min],       coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_leq_coef([max],       coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_leq_coef([prod],      coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_leq_coef([abs],       coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_leq_coef([floor],     coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_leq_coef([ceil],      coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_leq_coef([mod],       coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_leq_coef([mfloor],    coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_leq_coef([cmod],      coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_leq_coef([dmod],      coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_leq_coef([fmod],      coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_geq_coef([plus],      coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_geq_coef([minus],     coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_geq_coef([min],       coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_geq_coef([max],       coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_geq_coef([prod],      coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_geq_coef([abs],       coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_geq_coef([floor],     coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_geq_coef([ceil],      coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_geq_coef([mod],       coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_geq_coef([mfloor],    coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_geq_coef([cmod],      coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_geq_coef([dmod],      coef(0,X5))), no_negation,    1),
+                 t(cond(binary_term_geq_coef([fmod],      coef(0,X5))), no_negation,    1)],
+
+   
+   
+   
+   
     (X2 \== model_seeker ->
-        X1 = []
+        X1 = [[bool([neg(0), op([and]),      nb_terms(1,1), conds(X3), use_mods(2)])], 
+                       [bool([neg(1), op([and]),      nb_terms(1,1), conds(X3), use_mods(2)])],
+
+                       [bool([neg(0), op([and]),      nb_terms(2,2), conds(X3), use_mods(0)])], 
+                       [bool([neg(0), op([or]),       nb_terms(2,2), conds(X3), use_mods(0)])],
+                       [bool([neg(0), op([sum]),      nb_terms(2,2), conds(X3), use_mods(0)])],
+                       [bool([neg(0), op([allequal]), nb_terms(2,2), conds(X3), use_mods(0)])],
+                       [bool([neg(1), op([and]),      nb_terms(2,2), conds(X3), use_mods(0)])],
+                       [bool([neg(1), op([or]),       nb_terms(2,2), conds(X3), use_mods(0)])],
+                       [bool([neg(1), op([sum]),      nb_terms(2,2), conds(X3), use_mods(0)])],
+                       [bool([neg(1), op([allequal]), nb_terms(2,2), conds(X3), use_mods(0)])],
+                       
+                       [bool([neg(0), op([and]),      nb_terms(2,2), conds(X3), use_mods(1)])], 
+                       [bool([neg(0), op([or]),       nb_terms(2,2), conds(X3), use_mods(1)])],
+                       [bool([neg(0), op([sum]),      nb_terms(2,2), conds(X3), use_mods(1)])],
+                       [bool([neg(0), op([allequal]), nb_terms(2,2), conds(X3), use_mods(1)])],
+                       [bool([neg(1), op([and]),      nb_terms(2,2), conds(X3), use_mods(1)])],
+                       [bool([neg(1), op([or]),       nb_terms(2,2), conds(X3), use_mods(1)])],
+                       [bool([neg(1), op([sum]),      nb_terms(2,2), conds(X3), use_mods(1)])],
+                       [bool([neg(1), op([allequal]), nb_terms(2,2), conds(X3), use_mods(1)])],
+
+                       [bool([neg(0), op([and]),      nb_terms(3,3), conds(X3), use_mods(0)])], 
+                       [bool([neg(0), op([or]),       nb_terms(3,3), conds(X3), use_mods(0)])],
+                       [bool([neg(0), op([sum]),      nb_terms(3,3), conds(X3), use_mods(0)])],
+                       [bool([neg(0), op([allequal]), nb_terms(3,3), conds(X3), use_mods(0)])],
+                       [bool([neg(0), op([card1]),    nb_terms(3,3), conds(X3), use_mods(0)])], 
+                       [bool([neg(0), op([xor]),      nb_terms(3,3), conds(X3), use_mods(0)])], 
+                       [bool([neg(0), op([voting]),   nb_terms(3,3), conds(X3), use_mods(0)])],
+                       [bool([neg(1), op([and]),      nb_terms(3,3), conds(X3), use_mods(0)])],
+                       [bool([neg(1), op([or]),       nb_terms(3,3), conds(X3), use_mods(0)])],
+                       [bool([neg(1), op([sum]),      nb_terms(3,3), conds(X3), use_mods(0)])],
+                       [bool([neg(1), op([allequal]), nb_terms(3,3), conds(X3), use_mods(0)])],
+                       [bool([neg(1), op([card1]),    nb_terms(3,3), conds(X3), use_mods(0)])], 
+                       [bool([neg(1), op([xor]),      nb_terms(3,3), conds(X3), use_mods(0)])], 
+                       [bool([neg(1), op([voting]),   nb_terms(3,3), conds(X3), use_mods(0)])],
+
+                       [bool([neg(0), op([and]),      nb_terms(3,3), conds(X3), use_mods(1)])], 
+                       [bool([neg(0), op([or]),       nb_terms(3,3), conds(X3), use_mods(1)])],
+                       [bool([neg(0), op([sum]),      nb_terms(3,3), conds(X3), use_mods(1)])],
+                       [bool([neg(0), op([allequal]), nb_terms(3,3), conds(X3), use_mods(1)])],
+                       [bool([neg(0), op([card1]),    nb_terms(3,3), conds(X3), use_mods(1)])], 
+                       [bool([neg(0), op([xor]),      nb_terms(3,3), conds(X3), use_mods(1)])], 
+                       [bool([neg(0), op([voting]),   nb_terms(3,3), conds(X3), use_mods(1)])],
+                       [bool([neg(1), op([and]),      nb_terms(3,3), conds(X3), use_mods(1)])],
+                       [bool([neg(1), op([or]),       nb_terms(3,3), conds(X3), use_mods(1)])],
+                       [bool([neg(1), op([sum]),      nb_terms(3,3), conds(X3), use_mods(1)])],
+                       [bool([neg(1), op([allequal]), nb_terms(3,3), conds(X3), use_mods(1)])],
+                       [bool([neg(1), op([card1]),    nb_terms(3,3), conds(X3), use_mods(1)])], 
+                       [bool([neg(1), op([xor]),      nb_terms(3,3), conds(X3), use_mods(1)])], 
+                       [bool([neg(1), op([voting]),   nb_terms(3,3), conds(X3), use_mods(1)])]]
     ; 
-        X1 = []
+        X1 = [[bool([neg(0), op([and]),      nb_terms(1,1), conds(X3), use_mods(0)])],
+                       [bool([neg(1), op([and]),      nb_terms(1,1), conds(X3), use_mods(0)])],
+
+                       [bool([neg(0), op([and]),      nb_terms(2,2), conds(X3), use_mods(0)])],
+                       [bool([neg(0), op([or]),       nb_terms(2,2), conds(X3), use_mods(0)])],
+                       [bool([neg(0), op([sum]),      nb_terms(2,2), conds(X3), use_mods(0)])],
+                       [bool([neg(0), op([allequal]), nb_terms(2,2), conds(X3), use_mods(0)])],
+                       [bool([neg(1), op([and]),      nb_terms(2,2), conds(X3), use_mods(0)])],
+                       [bool([neg(1), op([or]),       nb_terms(2,2), conds(X3), use_mods(0)])],
+                       [bool([neg(1), op([sum]),      nb_terms(2,2), conds(X3), use_mods(0)])],
+                       [bool([neg(1), op([allequal]), nb_terms(2,2), conds(X3), use_mods(0)])],
+                       
+                       [bool([neg(0), op([and]),      nb_terms(3,3), conds(X3), use_mods(0)])],
+                       [bool([neg(0), op([or]),       nb_terms(3,3), conds(X3), use_mods(0)])],
+                       [bool([neg(0), op([sum]),      nb_terms(3,3), conds(X3), use_mods(0)])],
+                       [bool([neg(0), op([allequal]), nb_terms(3,3), conds(X3), use_mods(0)])],
+                       [bool([neg(0), op([card1]),    nb_terms(3,3), conds(X3), use_mods(0)])], 
+                       [bool([neg(0), op([xor]),      nb_terms(3,3), conds(X3), use_mods(0)])],
+                       [bool([neg(0), op([voting]),   nb_terms(3,3), conds(X3), use_mods(0)])],
+                       [bool([neg(1), op([and]),      nb_terms(3,3), conds(X3), use_mods(0)])],
+                       [bool([neg(1), op([or]),       nb_terms(3,3), conds(X3), use_mods(0)])],
+                       [bool([neg(1), op([sum]),      nb_terms(3,3), conds(X3), use_mods(0)])],
+                       [bool([neg(1), op([allequal]), nb_terms(3,3), conds(X3), use_mods(0)])],
+                       [bool([neg(1), op([card1]),    nb_terms(3,3), conds(X3), use_mods(0)])], 
+                       [bool([neg(1), op([xor]),      nb_terms(3,3), conds(X3), use_mods(0)])],
+                       [bool([neg(1), op([voting]),   nb_terms(3,3), conds(X3), use_mods(0)])]]
     ).
 
 gen_options_cond(X10, X4) :-
@@ -232,38 +365,39 @@ gen_options_cond(X10, X4) :-
                       member(X19-X22, X3),
                       X11 is X17+X18+X19),               X4).
 
-gen_options_lists(X18, col(X21,X19), X22, X11, X12, X17, X1, X16, X20) :- 
-    (X18 \== model_seeker ->
-        gen_options_lists_by_type(cond_ex, X18, col(X21,X19), X22, X11, X12, X17, X1, X13),
-        gen_options_lists_by_type(cond,    X18, col(X21,X19), X22, X11, X12, X17, X1, X14),
-        
-        ((X13 = [], X14 = []) ->
-            X20 = []
+gen_options_lists(X16, col(X19,X17), X20, X9, X10, X15, X1, X14, X18) :- 
+    (X16 \== model_seeker ->
+        gen_options_lists_by_type(bool,    X16, col(X19,X17), X20, X9, X10, X15, X1, X11),
+        gen_options_lists_by_type(cond,    X16, col(X19,X17), X20, X9, X10, X15, X1, X12),
+        ((X11 = [], X12 = []) ->
+            X18 = []
         ;
-            gen_value_sets_wrt_boolean_operators(X18, X17, col(X21,X19), [], [], X20) 
+            gen_value_sets_wrt_boolean_operators(X16, X15, col(X19,X17), [], [], X18) 
         ),
-        gen_options_lists_by_type(formula(none,none), X18, col(X21,X19), X22, X11, X12, X17, X1, X15),
-        append([X13,                  
-                X14,                  
-                X15], X16)   
+        gen_options_lists_by_type(formula(none,none), X16, col(X19,X17), X20, X9, X10, X15, X1, X13),
+        append([X11,                  
+                X12,                  
+                X13], X14)   
     ;
-        gen_options_lists_by_type(cond,    X18, col(X21,X19), X22, X11, X12, X17, X1, X10),
-        ((X10 = []) ->
-            X20 = []
+        gen_options_lists_by_type(bool,    X16, col(X19,X17), X20, X9, X10, X15, X1, X7),
+        gen_options_lists_by_type(cond,    X16, col(X19,X17), X20, X9, X10, X15, X1, X8),
+        ((X7 = [], X8 = []) ->
+            X18 = []
         ;
-            gen_value_sets_wrt_boolean_operators(X18, X17, col(X21,X19), [], [], X20)
+            gen_value_sets_wrt_boolean_operators(X16, X15, col(X19,X17), [], [], X18)
         ),
-        gen_options_lists_by_type(formula(1,1), X18, col(X21,X19), X22, X11, X12, X17, X1, X4),
-        gen_options_lists_by_type(formula(2,2), X18, col(X21,X19), X22, X11, X12, X17, X1, X5),
-        gen_options_lists_by_type(formula(3,3), X18, col(X21,X19), X22, X11, X12, X17, X1, X6),
-        gen_options_lists_by_type(formula(4,4), X18, col(X21,X19), X22, X11, X12, X17, X1, X7),
-        gen_options_lists_by_type(formula(5,5), X18, col(X21,X19), X22, X11, X12, X17, X1, X8),
-        append([X4,
+        gen_options_lists_by_type(formula(1,1), X16, col(X19,X17), X20, X9, X10, X15, X1, X2),
+        gen_options_lists_by_type(formula(2,2), X16, col(X19,X17), X20, X9, X10, X15, X1, X3),
+        gen_options_lists_by_type(formula(3,3), X16, col(X19,X17), X20, X9, X10, X15, X1, X4),
+        gen_options_lists_by_type(formula(4,4), X16, col(X19,X17), X20, X9, X10, X15, X1, X5),
+        gen_options_lists_by_type(formula(5,5), X16, col(X19,X17), X20, X9, X10, X15, X1, X6),
+        append([X7,
+                X2,
+                X3,
+                X8,
+                X4,
                 X5,
-                X10,
-                X6,
-                X7,
-                X8], X16)
+                X6], X14)
     ).
 
 gen_options_lists_by_type(bool, _, col(X6,X5), _, _, _, _, _, []) :-
@@ -346,30 +480,6 @@ gen_options_lists_by_type(X17, X14, col(X20,X15), X23, X4, X5, X9, X1, X7) :-
         ),
         cartesian_product_without_sort(X12, X6, X7)
     ).
-gen_options_lists_by_type(cluster, X10, col(X16,X11), _, X3, X4, X8, _,
-                  X7) :-
-                                                            
-                                                            
-                                                            
-    !,                                                      
-    tab_get_vals_fd(col(X16,X11), X15),          
-                                                            
-                                                            
-                                                            
-    filter_vals_fd(X15, X4, X8, X5),
-                                                            
-                                                            
-                                                            
-    build_tree_wrt_common_prefix(X5, X2),
-    gen_value_sets_wrt_boolean_operators_for_prefix_tree(X2, X10, col(X16,X11)), 
-    X3 = X9-_,                        
-    findall([bool([neg(X13), op(X12), nb_terms(X19,X20), conds(X18), use_mods(X14)])],
-            (member([bool([neg(X13), op(X22), nb_terms(X19,X20), conds(X18), use_mods(X14)])], X9),
-             delete(X22, sum, X12),                     
-             X12 = [_|_]                              
-            ),
-            X6),                                
-    X7 = [[cluster([tree(X2), options(X6)])]].
 
 gen_options_lists_by_type(formula(X64,X65), X69, col(X89,X70), X95, _, X40, X60, X15, X56) :- 
     length(X60, X57),
@@ -664,13 +774,22 @@ gen_filtered_fd(X8, col(X11,X9), X12, X3, X5, X7) :-
                                        X4, X5, X7)
        )
    ).
+
 gen_filtered_fd(model_seeker, col(X9,X6), _, _, _, X5) :- 
-   tab_get_ranked_fd(col(X9,X6), X7), 
-   findall(mandatory_attr(X11), member(_-X11, X7), X4),
+   tab_get_fd(col(X9,X6), X12), 
+   findall(X14,
+           (member(X13, X12),
+            length(X13,X14)),
+           X8),
+   max_member(X11, X8),
+   findall(mandatory_attr(X13),
+           (member(X13, X12),
+            length(X13,X11)),
+           X4),
    length(X4, X2),
-   X8 is min(X2, 20),                
+   X7 is min(X2, 20),                
    
-   prefix_length(X4, X5, X8).
+   prefix_length(X4, X5, X7).
 
 add_primaries_just_before_first_non_primary([], X1, [mandatory_attr(X1)]) :- !.
 add_primaries_just_before_first_non_primary([X2|X3], X1, [X2|X4]) :-

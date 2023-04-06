@@ -90,6 +90,22 @@ formula_pattern_create_term_case2([X20|X24], X2, X1, X3, [X19|X25]) :-
 formula_pattern_create_term_case2([], [], [], [], []).
 
 
+formula_pattern_create_term_bool(X3, X5) :-
+    formula_pattern(mandatory_attr(X7), X3),                              
+    formula_pattern(neg(X9),              X3),                              
+    formula_pattern(shift(X8),          X3),                              
+                                                                                             
+    formula_pattern(op(X13),                 X3),                              
+                                                                                             
+    formula_pattern(nb_terms(X10),         X3),                              
+    formula_pattern(conds(X14),              X3),                              
+    findall(X11, member(X11, X7),                            X2), 
+    findall(X15,  (member(X16,   X7), tab_get_name(X16, X15)), X6),      
+    length(X7, X4),                                                        
+    length(X1, X4),                                            
+    formula_pattern_create_bool_conds(X14, X12, X13, X1),
+    X5 = t(X2, X6, X1, bool(X9,X8,X13,X10,X12)). 
+
 formula_pattern_create_bool_conds([], [], _, _) :- !.
 formula_pattern_create_bool_conds([X22|X24], X14, X18, X1) :-
     X22 = cond(X19, X20, _, _, _,

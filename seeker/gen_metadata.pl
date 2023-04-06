@@ -23,6 +23,7 @@
 :- use_module(gen_candidate_tables).
 :- use_module(rank_fd).
 :- use_module(gen_clusters_val_fds).
+:- use_module(data_monotonicity). 
 
 top(0) :- 
     top(model_seeker,0), top(model_seeker,-1).

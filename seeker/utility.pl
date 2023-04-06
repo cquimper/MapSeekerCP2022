@@ -94,7 +94,8 @@
                    get_non_zero_exponents/3,
                    count_distinct_vals/3,
                    unify_variables/4,   
-                   collect_temporal_attrs/9]). 
+                   collect_temporal_attrs/9,  
+                   call_imply_cond_ctr/3]).
 
 :- use_module(library(timeout)).
 :- use_module(library(lists)).
@@ -900,3 +901,9 @@ collect_temporal_attrs(X11, X12, X13, X14, X1, X5, X3, X7, X2) :-
         collect_temporal_attrs(X10,X12,X13,X14,X1,X5,X3,X7,X4),
         X2 = [X11|X4]                                    
     ).                                                            
+
+call_imply_cond_ctr(X1, X2, X3) :-
+    integer(X1), !,
+    (X1 = X2 -> call(X3) ; true).
+call_imply_cond_ctr(X1,_,_) :-
+    write(execute_cond_ctr(X1)),nl,halt.

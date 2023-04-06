@@ -8,8 +8,9 @@
 %    IS"  basis,  WITHOUT  WARRANTY  OF  ANY  KIND,  either  express or
 %    implied.
 %
-% Purpose: Utilities for ranking functional dependencies in order of preference when generating metadata for each input table.
+% Purpose: a set of utility predicates used for the ranking of functional dependencies
 % Author : Ramiz Gindullin, IMT Atlantique
+
 :- module(rank_fd, [rank_fds/6]).
 
 :- use_module(library(lists)).

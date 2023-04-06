@@ -28,13 +28,19 @@
 :- use_module(library(lists)).
 :- use_module(library(clpfd)).
 :- use_module(gen_poly_formula).
+:- use_module(gen_bool_formula).
 :- use_module(gen_cond_formula).
 :- use_module(utility).
 :- use_module(table_access).
 :- use_module(instrument_code).
 
+
+
+
 max_main_formula(3). 
 
+                                                                                          
+                                                                                          
                                                                                           
 default_option(cond,            [attr_eq_coef,attr_eq_attr,attr_leq_coef,attr_leq_attr]). 
 default_option(then,            [cst,attr]).                                              
@@ -176,19 +182,12 @@ formula_pattern_create(formula, [np(_),
 formula_generator(X7, X6, X3, X5, X11, X10, X13, X4, X1,
                   X12, X9) :-
     member(X8, X6),                 
-    (memberchk(cond_ex(_), X8) ->
-        X2 = cond_ex
-    ;
-     memberchk(bool(_), X8) -> 
+    (memberchk(bool(_), X8) -> 
         X2 = bool
     ;
      memberchk(cond(_), X8) ->
         keep_conditional_formula(X11, X13),   
         X2 = cond
-    ;
-     memberchk(cluster(_), X8) ->
-        keep_cluster_formula(X11, X13),       
-        X2 = cluster
     ;
         keep_unconditional_formula(X11, X13), 
         X2 = formula                
@@ -217,6 +216,90 @@ record_type_found_formula(X1, X3, X2) :-
     (is_boolean_formula(X1)       -> assert(type_found_formula(X3,boolean,X2))       ;
      is_unconditional_formula(X1) -> assert(type_found_formula(X3,unconditional,X2)) ;
                                                  assert(type_found_formula(X3,conditional,X2))   ).
+
+
+
+
+
+formula_generator1(bool, X50, X51, X30, X37, X57, X66, X34, X15, 
+                   X63, X56) :- !,
+    X31            = [],                                        
+    X1 = [],                                        
+    X38              = [],                                        
+    get_option(mandatory_attr, X51, X22),                 
+    get_option(bool,           X51, X23),                 
+    X35 = [mandatory_attr(X22)|X23],         
+    formula_generator_bool_conds(X35, X30,               
+                                 X37,                             
+                                 t(X52,X44,X39,X2),
+                                 X12),
+    formula_pattern_create(bool, X12),
+    (get_option(cluster,           X51, [[X58],X59]) ->         
+        X15 = [cluster([X58],X59)|X12]       
+    ;                                                                   
+     get_option(then_else,         X51, X45) ->                
+        X15 = [then_else(X45)|X12]          
+    ;
+        X15 = X12
+    ),
+    memberchk(conds(X60), X15),
+    pos_bool_cond_entry(lcondattr,      X25),
+    pos_bool_cond_entry(lcondextravars, X10),
+    get_entries_of_all_boolean_conditions(X60, X25,      X40),
+    get_entries_of_all_boolean_conditions(X60, X10, X16),
+    flatten(X40, X24),                                  
+    flatten(X16, X9),                        
+    append(X24, X9, X46),                
+    length(X22, X64),
+    X61 is X64+1,
+    length(X60, X68),                                                   
+    (X2 = 1 ->                                       
+        X17 = 1                                              
+    ;
+        (get_option(cluster, X51, _) ->                             
+            X17 is min(X68,2)                                  
+        ;                                                               
+            X17 is min(X68,3)                                  
+        )
+    ),
+    gen_occ_vars(2, X61, X17, X53, X26),      
+    length(X24, X11),
+    X54 is X11-X64,
+    X65 in 0..X54,                                                 
+    global_cardinality(X24, [1-X65|X53]),                
+    gen_sum_term(X26, var, X36),                        
+    call(X36 #= X52 + 2*X44 + 3*X39),             
+
+
+    instrument_code(instrument_in_formula_generator, X50),
+    search_a_single_formula_for_all_table_entries(X50, X15, col(X57,X66)),
+    X55 = 12000000,                                                   
+    (get_option(then_else,         X51, X45) ->                
+        X45 = [then(X32, X47, X41, X18, _,
+                    _, _, _, _),
+                    else(X33, X48, X42, X20, _,
+                    _, _, _, _)],
+        formula_pattern(op(X62),                 X15),
+        avoid_simplifiable_conditional(X60, X22, X62,
+                                        X32, X33,
+                                        X41,   X42,
+                                        X47,    X48),
+        append([X31,X41,X42],       X27),
+        append([X46,X18,X20],X43),
+        (user:max_cost(X67) -> X63 in 0..X67 ; X67 = X34, X63 in 0..X67),
+        get_bool_cost_vars(X15, X28),                   
+        get_option(cost_then_else, X51, X29),
+        X49 in 0..X67,
+        gen_cost_sum_abs(X28, X49),
+        X63 #= X29 + X49,
+        time_out(minimize(label(X27, X1,
+                                X43, X38), X63, [all]), X55, X56)
+    ;
+        (user:max_cost(X67) -> X63 in 0..X67 ; X67 = X34, X63 in 0..X67),
+        get_bool_cost_vars(X15, X28),                   
+        gen_cost_sum_abs(X28, X63),
+        time_out(minimize(label(X31, X1, X46, X38), X63, [all]), X55, X56)
+    ).
 
 formula_generator1(cond, X52, X53, X26, _, X61, X69, X32, X12,
                    X64, X60) :- !,
@@ -276,6 +359,7 @@ formula_generator1(cond, X52, X53, X26, _, X61, X69, X32, X12,
     X64 #>= 2,                                                         
     X59 = 1000,                                                     
     time_out(minimize(label(X27, X1, X48, X34), X64, [all]), X59, X60).
+
 
 formula_generator1(formula, X42, X43, _, _, X52, X64, X20, X10,
                    X58, X47) :-
@@ -471,75 +555,6 @@ labelcoefs([geq(X2)|X3]) :-
     X2 = X1,
     labelcoefs(X3).
 
-fill_zeros([]) :- !.
-fill_zeros([X1|_]) :-
-    integer(X1), !.
-fill_zeros([0|X1]) :-
-    fill_zeros(X1).
-
-inc_nth_pos_list(1, [X|X2], [X3|X2]) :- !,
-    X3 is X + 1.
-inc_nth_pos_list(X2, [X|X4], [X|X5]) :-
-    X1 is X2-1,
-    inc_nth_pos_list(X1, X4, X5).
-
-substract_vectors(X1, X2, X4) :-
-    length(X1, X5),
-    length(X2, X6),
-    X3 is X5-X6,
-    (X3 = 0 -> substract_vectors2(X1, X2, X4)        ;
-     X3 > 0 -> substract_vectors1(X3, X1, X2, X4) ;
-                  write(substract_vectors), nl, halt               ).
-
-substract_vectors1(X3, [X4|X5], X1, [X4|X6]) :-
-    X3 > 0,
-    !,
-    X2 is X3-1,
-    substract_vectors1(X2, X5, X1, X6).
-substract_vectors1(0, X1, X2, X3) :-
-    substract_vectors2(X1, X2, X3).
-
-substract_vectors2([], [], []) :- !.
-substract_vectors2([X2|X4], [X3|X5], [X1|X6]) :-
-    X1 is X2-X3,
-    substract_vectors2(X4, X5, X6).
-
-add_vectors(X1, X2, X5) :-
-    length(X1, X6),
-    length(X2, X7),
-    X4 is X6-X7,
-    (X4 = 0 -> add_vectors2(X1, X2, X5)        ;
-     X4 > 0 -> add_vectors1(X4, X1, X2, X5) ;
-                  X3 is -X4,
-                  add_vectors1(X3, X2, X1, X5)).
-
-add_vectors1(X3, [X4|X5], X1, [X4|X6]) :-
-    X3 > 0,
-    !,
-    X2 is X3-1,
-    add_vectors1(X2, X5, X1, X6).
-add_vectors1(0, X1, X2, X3) :-
-    add_vectors2(X1, X2, X3).
-
-add_vectors2([], [], []) :- !.
-add_vectors2([X2|X4], [X3|X5], [X1|X6]) :-
-    X1 is X2+X3,
-    add_vectors2(X4, X5, X6).
-
-find_max_fd_length([], X1) :-
-    !,
-    X1 is 0.
-find_max_fd_length(X7, X3) :-
-    (foreach(t(X8,_,_,X6), X7),
-     foreach(X5, X2)
-    do  
-        
-     find_max_fd_length(X6, X1),
-     length(X8, X4),
-     (X1 > X4 -> X5 = X1 ; X5 = X4)),
-    max_member(X3, X2).
-
-
 search_a_single_formula_for_all_table_entries(X2, X1, X3) :-
     (formula_pattern(f(_), X1) ->
         search_a_single_formula_for_all_table_entries_formula(X2, X1, X3) 
@@ -554,103 +569,117 @@ search_a_single_formula_for_all_table_entries(X1, _, _) :-
     instrument_code(instrument_fail_without_time_out, X1),
     false.
 
-search_a_single_formula_for_all_table_entries_bool(_, X5, X18) :-
-    formula_pattern(mandatory_attr(X11),          X5),      
-    formula_pattern(neg(X16),                       X5),      
+search_a_single_formula_for_all_table_entries_bool(_, X6, X20) :-
+    formula_pattern(mandatory_attr(X13),          X6),      
+    formula_pattern(neg(X18),                       X6),      
                                                                               
-    formula_pattern(shift(X12),                   X5),      
+    formula_pattern(shift(X14),                   X6),      
                                                                               
-    formula_pattern(op(X19),                          X5),      
-    formula_pattern(nb_terms(X17),                  X5),      
-    formula_pattern(conds(X20),                       X5),      
-    formula_pattern(combined_row_ctrs(X4,                        
-                                      X2,
+    formula_pattern(op(X21),                          X6),      
+    formula_pattern(nb_terms(X19),                  X6),      
+    formula_pattern(conds(X22),                       X6),      
+    formula_pattern(combined_row_ctrs(X5,                        
                                       X3,
-                                      X8),      X5),
-    X18 = col(X21,_),                                                    
-    tab_get_arity(col(X21,_), X22),                                       
-    append(X11, [X18], X6),                                
-    length(X6, X13),                                          
-    length(X9, X13),                                            
-    functor(X10, X21, X22),                                        
-    build_source_target_extraction_terms(X6, X10, X9),
-    (formula_pattern(cluster(X23,X24), X5) ->                 
-        findall(X1, (call(user:X10),                    
-                                    update_table_entry_cluster(X9,    
-                                                               X23,         
-                                                               X24,         
-                                                               X1)),
-                                   X7)
+                                      X4,
+                                      X10),      X6),
+    X20 = col(X23,_),                                                    
+    tab_get_arity(col(X23,_), X24),                                       
+    append(X13, [X20], X8),                                
+    length(X8, X15),                                          
+    length(X11, X15),                                            
+    functor(X12, X23, X24),                                        
+    build_source_target_extraction_terms(X8, X12, X11),
+    (formula_pattern(cluster(X25,X26), X6) ->                 
+        findall(X2, (call(user:X12),                    
+                                    update_table_entry_cluster(X11,    
+                                                               X25,         
+                                                               X26,         
+                                                               X2)),
+                                   X9)
     ;                                                                         
-        findall(X9, call(user:X10),                            
-                            X7)                                     
+        findall(X11, call(user:X12),                            
+                            X9)                                     
     ),
-    (formula_pattern(then_else(X15), X5) ->
+    sort(X9,X7),
+    (formula_pattern(then_else(X17), X6) ->
         true
     ;
-        X15 = []
+        X17 = []
     ),
-    post_bool_on_all_table_entries(X7, X11, X16, X12, X19, X17, X20, 
-                                   combined_row_ctrs(X4, X2, X3, X8),
-                                   X15).
+    post_bool_on_all_table_entries(X7, X13, X18, X14, X21, X19, X22, 
+                                   combined_row_ctrs(X5, X3, X4, X10),
+                                   X17, X1),
+    (formula_pattern(then_else(_), X6) ->
+        minimum(0, X1),                                
+        count(1,X1,#>,0)                               
+                                                                                  
+                                                                                  
+     ;
+        true).
 
-post_bool_on_all_table_entries([], _, _, _, _, _, _, _, _) :- !.
-post_bool_on_all_table_entries([X27|X62], X49, X56, X50, X59, X57, X60,
-                               combined_row_ctrs(X18,X16,X17,X37),
-                               X54) :-
-    (X54 = [] ->                                                             
-        update_table_entry(X27, X56, X50, X59, X57, X38, X12),
-        post_bool_on_one_table_entry(X60, X49, X59, X57, X12, X51),
-        append(X18, X16,  X39),
-        append([[X38],X51,X17], X40),
-        copy_term(X39-X37, X40-X41),
-        post_ctrs(X41)
+post_bool_on_all_table_entries([], _, _, _, _, _, _, _, _, []) :- !.
+post_bool_on_all_table_entries([X30|X65], X52, X59, X53, X62, X60, X63,
+                               combined_row_ctrs(X21,X19,X20,X40),
+                               X57, X2) :-
+    (X57 = [] ->                                                             
+        update_table_entry(X30, X59, X53, X62, X60, X41, X15),
+        post_bool_on_one_table_entry(X63, X52, X62, X60, X15, X54),
+        append(X21, X19,  X42),
+        append([[X41],X54,X20], X43),
+        copy_term(X42-X40, X43-X44),
+        post_ctrs(X44),
+        X2 = []
     ;                                                                              
-        X54 = [then(_, _, _, _, _,
-                    X13, X6, X7, X22),
+        X57 = [then(_, _, _, _, _,
+                    X16, X9, X10, X25),
                     else(_, _, _, _, _,
-                    X14, X8, X9, X24)],
-        remove_last_elem(X27, X3, X55),         
-        length(X3, X61),       
-        length(X13, X4),                       
-        X1 is X4-X61,                   
-        length(X10, X1),                    
-        append(X13, X6, X33),            
+                    X17, X11, X12, X27)],
+        remove_last_elem(X30, X6, X58),         
+        length(X6, X64),       
+        length(X16, X7),                       
+        X4 is X7-X64,                   
+        length(X13, X4),                    
+        append(X16, X9, X36),            
                                                                                    
-        append([X10, X3, X7], X34),
-        X13  = [X44|_],
-        X10 = [X30|_],
-        copy_term(X33-X22, X34-X25),
-        post_ctrs(X25),
-        length(X14, X5),                       
-        X2 is X5-X61,                   
-        length(X11, X2),                    
-        append(X14, X8, X35),            
+        append([X13, X6, X10], X37),
+        X16  = [X47|_],
+        X13 = [X33|_],
+        copy_term(X36-X25, X37-X28),
+        post_ctrs(X28),
+        length(X17, X8),                       
+        X5 is X8-X64,                   
+        length(X14, X5),                    
+        append(X17, X11, X38),            
         
-        append([X11, X3, X9], X36),
-        X14  = [X45|_],
-        X11 = [X31|_],
-        copy_term(X35-X24, X36-X26),
-        post_ctrs(X26),
-        X18 = [X46|_],
+        append([X14, X6, X12], X39),
+        X17  = [X48|_],
+        X14 = [X34|_],
+        copy_term(X38-X27, X39-X29),
+        post_ctrs(X29),
+        X21 = [X49|_],
         
-        remove_last_elem(X15, X3, X32),   
-        post_bool_on_one_table_entry(X60, X49, X59, X57, X15, X51),
+        remove_last_elem(X18, X6, X35),   
+        post_bool_on_one_table_entry(X63, X52, X62, X60, X18, X54),
         
-        append(X18, X16,  X39),
-        append([[X32],X51,X17], X40),
-        copy_term(X39-X37, X40-X41),
-        post_ctrs(X41),
+        append(X21, X19,  X42),
+        append([[X35],X54,X20], X43),
+        copy_term(X42-X40, X43-X44),
+        post_ctrs(X44),
         
-        X47 = [  X46 #=> (X58 #= X44),
-                      #\X46 #=> (X58 #= X45)],
-        copy_term([X58,  X44,  X45,  X46  ]-X47,
-                  [X55,X30,X31,X32]-X48),
-        post_ctrs(X48)
+        X50 = [  X49 #=> (X61 #= X47),
+                      #\X49 #=> (X61 #= X48)],
+        copy_term([X61,  X47,  X48,  X49  ]-X50,
+                  [X58,X33,X34,X35]-X51),
+        post_ctrs(X51),
+     
+        X3 in 0..2,
+        X33 #=  X34 #=> X3 #= 2,                 
+        X33 #\= X34 #=> X3 #= X35,
+        X2 = [X3|X1]
     ),
-    post_bool_on_all_table_entries(X62, X49, X56, X50, X59, X57, X60,
-                                   combined_row_ctrs(X18, X16, X17, X37),
-                                   X54).
+    post_bool_on_all_table_entries(X65, X52, X59, X53, X62, X60, X63,
+                                   combined_row_ctrs(X21, X19, X20, X40),
+                                   X57, X1).
 
 update_table_entry_cluster([X4], X2, X3, [X1]) :-
     !,

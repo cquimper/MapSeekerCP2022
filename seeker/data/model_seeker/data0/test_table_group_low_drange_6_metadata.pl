@@ -1,0 +1,4 @@
+:- multifile table_metadata/31.
+:- dynamic table_metadata/31.
+
+table_metadata(test_table_group_low_drange_6,0,2,8556,name(dmindmax,drange),kind(primary,secondary),inout(input,output),min(0,0),max(3,1),types(int,bool),nval(4,2),median(0.0,0.0),gcd(1,1),sum(795,710),mean(0.09291725105189341,0.08298270219728845),equal(0,0),fd([],[[col(test_table_group_low_drange_6,1)]]),nb_fd(0,1),cmp([geq(col(test_table_group_low_drange_6,1),col(test_table_group_low_drange_6,2))],[leq(col(test_table_group_low_drange_6,2),col(test_table_group_low_drange_6,1))]),nb_cmp(1,1),ctr([],[]),maxocc(7846,7846),maxoccval(0,0),[],[],affinity(none,t(8473,1,-1,0,1,1)),0-3,ranked_fd([],[[4,-0.9999999999985675,1]-[col(test_table_group_low_drange_6,1)]]),distinct_vals([0-7846,1-627,2-81,3-2],[0-7846,1-710]),vals_fds([],[]),monotonicities([],[])).

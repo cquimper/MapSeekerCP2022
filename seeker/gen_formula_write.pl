@@ -11,7 +11,8 @@
 % Purpose: WRITE A FORMULA PATTERN TO THE CONSOLE
 % Author : Nicolas Beldiceanu, IMT Atlantique
 
-:- module(gen_formula_write,[formula_pattern_write/1]).
+:- module(gen_formula_write,[formula_pattern_write/1,           
+                             formula_pattern_write_bool/1]).    
 
 :- use_module(library(lists)).
 :- use_module(utility).
@@ -32,6 +33,242 @@ formula_pattern_write(X1) :-
     ;
         formula_pattern_write_cond(X1)    
     ).
+
+formula_pattern_write_bool(X1) :-
+    formula_pattern(mandatory_attr(X2), X1), 
+    formula_pattern(neg(X4),              X1), 
+    formula_pattern(shift(X3),          X1), 
+    formula_pattern(op(X6),                 X1), 
+    formula_pattern(nb_terms(X5),         X1), 
+    formula_pattern(conds(X7),              X1), 
+    ((X6 = sum, X5 > 1) ->
+        ((X4 = 0, X3 = 0) ->
+            formula_pattern_write_bool_conds(X7, X2, X6, 0)
+        ;
+         (X4 = 0, X3 > 0) ->
+            write(X3), write(' + '),
+            formula_pattern_write_bool_conds(X7, X2, X6, 0)
+        ;
+         (X4 = 1, X3 >= 0) ->
+            X8 is X5+X3,
+            write(X8), write(' - ('),
+            formula_pattern_write_bool_conds(X7, X2, X6, 0),
+            write(')')
+        ;
+            write(formula_pattern_write_bool(X6,X5,X4,X3)), nl, halt
+        )
+    ;
+     (X6 = xor, X5 > 1) ->
+        ((X4 = 0, X3 = 0) ->
+            write('('),
+            formula_pattern_write_bool_conds(X7, X2, X6, 0),
+            write(') mod 2')
+        ;
+         (X4 = 0, X3 > 0) ->
+            write(X3), write(' + ('),
+            formula_pattern_write_bool_conds(X7, X2, X6, 0),
+            write(') mod 2')
+        ;
+         (X4 = 1, X3 >= 0) ->
+            X8 is X3+1,
+            write(X8), write(' - ('),
+            formula_pattern_write_bool_conds(X7, X2, X6, 0),
+            write(') mod 2')
+        ;
+            write(formula_pattern_write_bool(X6,X5,X4,X3)), nl, halt
+        )
+    ;
+     (memberchk(X6,[voting,card1]), X5 > 1) ->
+        ((X4 = 0, X3 = 0) ->
+            write(X6), write('('),
+            formula_pattern_write_bool_conds(X7, X2, X6, 0),
+            write(')')
+        ;
+         (X4 = 0, X3 > 0) ->
+            write(X3), write(' + '), write(X6), write('('),
+            formula_pattern_write_bool_conds(X7, X2, X6, 0),
+            write(')')
+        ;
+         (X4 = 1, X3 = 0) ->
+            write('not '), write(X6), write('('),
+            formula_pattern_write_bool_conds(X7, X2, X6, 0),
+            write(')')
+        ;
+         (X4 = 1, X3 > 0) ->
+            write(X3), write(' + [not '), write(X6), write('('),
+            formula_pattern_write_bool_conds(X7, X2, X6, 0),
+            write(')]')
+        ;
+            write(formula_pattern_write_bool(X6,X5,X4,X3)), nl, halt
+        )
+    ;
+     (memberchk(X6,[or,and,allequal]), X5 > 1) ->
+        ((X4 = 0, X3 = 0) ->
+            write('['),
+            formula_pattern_write_bool_conds(X7, X2, X6, 0),
+            write(']')
+        ;
+         (X4 = 0, X3 > 0) ->
+            write(X3), write(' + ['),
+            formula_pattern_write_bool_conds(X7, X2, X6, 0),
+            write(']')
+        ;
+         (X4 = 1, X3 = 0) ->
+            write('not ['),
+            formula_pattern_write_bool_conds(X7, X2, X6, 0),
+            write(']')
+        ;
+         (X4 = 1, X3 > 0) ->
+            write(X3), write(' + [not ['),
+            formula_pattern_write_bool_conds(X7, X2, X6, 0),
+            write(']]')
+        ;
+            write(formula_pattern_write_bool(X6,X5,X4,X3)), nl, halt
+        )
+    ;
+     (X6 = and, X5 = 1) ->
+        ((X4 = 0, X3 = 0) ->
+            formula_pattern_write_bool_conds(X7, X2, X6, 0)
+        ;
+         (X4 = 0, X3 > 0) ->
+            write(X3), write(' + '),
+            formula_pattern_write_bool_conds(X7, X2, X6, 0)
+        ;
+         (X4 = 1, X3 = 0) ->
+            write('not '),
+            formula_pattern_write_bool_conds(X7, X2, X6, 0)
+        ;
+         (X4 = 1, X3 > 0) ->
+            write(X3), write(' + [not '),
+            formula_pattern_write_bool_conds(X7, X2, X6, 0),
+            write(']')
+        ;
+            write(formula_pattern_write_bool(X6,X5,X4,X3)), nl, halt
+        )
+    ;
+        write(formula_pattern_write_bool(X6,X5)), nl, halt
+    ).
+
+formula_pattern_write_bool_conds([], _, _, _) :- !.
+formula_pattern_write_bool_conds([X28|X31], X13, X25, X26) :-
+    X28 = cond(X27, X14, _, _, _,
+                X18, X19, X20, X16, X15,
+                _, _, _, _, _),
+    functor(X14, X29, _),
+    (X27 = -1 ->
+        X21 = X26
+    ;
+        X21 is X26 + 1,
+        (memberchk(X29, [attr_eq_attr,attr_eq_coef,attr_eq_unary,unary_term_eq_coef,binary_term_eq_coef,minus_mod_eq0]) ->
+            X17 = '='
+        ;
+         memberchk(X29, [attr_leq_attr,attr_leq_coef,attr_leq_unary,unary_leq_attr,unary_term_leq_coef,
+                          binary_term_leq_coef,sum_leq_attr,ceil_leq_floor]) ->
+            X17 = '=<'
+        ;
+            X17 = '>='
+        ),
+        X6 is X18-1,
+        X7 is X19-1,
+        X8 is X20-1,
+        (X6 > 0 -> get_attr_name(X6, X13, X22) ; true), 
+        (X7 > 0 -> get_attr_name(X7, X13, X23) ; true), 
+        (X8 > 0 -> get_attr_name(X8, X13, X24) ; true), 
+        (X26 > 0 ->
+            (X25 = and      -> write(' and ') ;
+             X25 = or       -> write(' or ')  ;
+             X25 = allequal -> write(' = ')   ;
+             X25 = sum      -> write(' + ')   ;
+             X25 = xor      -> write(' + ')   ;
+                                 write(', ')    )
+        ;
+            true
+        ),
+        (X27 = 0 -> write(' not ') ; true),
+        write('['),
+        (memberchk(X29,[attr_eq_attr,attr_leq_attr]) ->               
+            write(X22), write(X17), write(X23)
+        ;
+         memberchk(X29,[attr_eq_coef,attr_leq_coef,attr_geq_coef]) -> 
+            write(X22), write(X17), write(X15)
+        ;
+         X29 = attr_in_interval ->
+            write(X22), write(' in '), write(X16), write('..'), write(X15)
+        ;
+         memberchk(X29,[attr_eq_unary,attr_leq_unary]) ->
+            write(X22), write(X17), write(X16), write('.'), write(X23)
+        ;
+         X29 = unary_leq_attr ->
+            write(X16), write('.'), write(X22), write(X17), write(X23)
+        ;
+         memberchk(X29,[unary_term_eq_coef,unary_term_leq_coef,unary_term_geq_coef]) ->
+            arg(1, X14, X30),
+            (X30 = mod ->
+                write(X22), write(' mod '), write(X16), write(X17), write(X15)
+            ;
+                write(formula_pattern_write_bool_conds(X14)), nl, halt
+            )
+        ;
+         memberchk(X29,[binary_term_eq_coef,binary_term_leq_coef,binary_term_geq_coef]) ->
+            arg(1, X14, X30),
+            (X30 = plus ->
+                write('('), write(X22), write('+'), write(X23), write(')')
+            ;
+             X30 = minus ->
+                write('('), write(X22), write('-'), write(X23), write(')')
+            ;
+             X30 = abs ->
+                write('|'), write(X22), write('-'), write(X23), write('|')
+            ;
+             memberchk(X30, [min, max]) ->
+                write(X30), write('('), write(X22), write(','), write(X23), write(')')
+            ;
+             X30 = prod ->
+                write('('), write(X22), write('.'), write(X23), write(')')
+            ;
+             X30 = floor ->
+                write('('), write(X22), write(' fdiv '), write(X23), write(')')
+            ;
+             X30 = mfloor ->
+                arg(2, X14, X10),
+                write('('), write(X22), write(' fdiv '), write('max('), write(X23), write('-'), write(X10), write(',1))')
+            ;
+             X30 = ceil ->
+                 write('('), write(X22), write(' cdiv '), write(X23), write(')')
+            ;
+             X30 = mod ->
+                write('('), write(X22), write(' mod '), write(X23), write(')')
+            ;
+             X30 = cmod ->
+                write('('), write(X22), write('-'), write(X23), write(' mod '), write(X22), write(')')
+            ;
+             X30 = dmod ->
+                write('('), write(X22), write('-'), write(X22), write(' mod '), write(X23), write(')')
+            ;
+             X30 = fmod ->
+                write('('), write(X22), write(' mod '), write(X23), write('=0 ? '),
+                write(X23), write(' : '), write(X22), write(' mod '), write(X23), write(')')
+            ;
+                write(formula_pattern_write_bool_conds(X14)), nl, halt
+            ),
+            write(X17), write(X15)
+        ;
+         X29 = sum_leq_attr ->
+            write('('), write(X22), write('+'), write(X23), write(')'), write(X17), write(X24)
+        ;
+         X29 = minus_mod_eq0 ->
+            write('(('), write(X24), write('-'), write(X22), write(')'), write(' mod '), write(X23),  write(X17), write('0)')
+        ;
+         X29 = ceil_leq_floor ->
+            write('(('), write(X22), write('-'), write(X24), write(') cdiv '), write(X23), write(')'),
+            write(X17),
+            write('(('), write(X22), write('-'), write(X23), write(') fdiv '), write(X24), write(')')
+        ;
+            write(formula_pattern_write_bool_conds(X14)), nl, halt
+        ),
+        write(']')
+    ),
+    formula_pattern_write_bool_conds(X31, X13, X25, X21).
 
 formula_pattern_write_cond(X1) :-
     formula_pattern(mandatory_attr(X3),                                          X1),

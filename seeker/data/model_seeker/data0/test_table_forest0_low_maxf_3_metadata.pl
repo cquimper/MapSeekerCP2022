@@ -1,0 +1,4 @@
+:- multifile table_metadata/31.
+:- dynamic table_metadata/31.
+
+table_metadata(test_table_forest0_low_maxf_3,0,2,834,name(maxd,maxf),kind(primary,secondary),inout(input,output),min(0,1),max(2,2),types(int,int),nval(3,2),median(2.0,2.0),gcd(1,1),sum(1425,1426),mean(1.70863309352518,1.709832134292566),equal(0,0),fd([],[[col(test_table_forest0_low_maxf_3,1)]]),nb_fd(0,1),cmp([leq(col(test_table_forest0_low_maxf_3,1),col(test_table_forest0_low_maxf_3,2))],[geq(col(test_table_forest0_low_maxf_3,2),col(test_table_forest0_low_maxf_3,1))]),nb_cmp(1,1),ctr([],[]),maxocc(592,592),maxoccval(2,2),[],[],affinity(none,t(833,1,-1,0,1,1)),0-2,ranked_fd([],[[3,-0.9971374640600119,1]-[col(test_table_forest0_low_maxf_3,1)]]),distinct_vals([0-1,1-241,2-592],[1-242,2-592]),vals_fds([],[]),monotonicities([],[])).

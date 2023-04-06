@@ -1,0 +1,4 @@
+:- multifile table_metadata/31.
+:- dynamic table_metadata/31.
+
+table_metadata(test_table_partition0_up_range_7,0,2,210,name(n,oc1),kind(primary,secondary),inout(input,output),min(1,0),max(20,1),types(int,bool),nval(20,2),median(14.5,0.0),gcd(1,1),sum(2870,1),mean(13.666666666666666,0.004761904761904762),equal(0,0),fd([],[[col(test_table_partition0_up_range_7,1)]]),nb_fd(0,1),cmp([geq(col(test_table_partition0_up_range_7,1),col(test_table_partition0_up_range_7,2))],[leq(col(test_table_partition0_up_range_7,2),col(test_table_partition0_up_range_7,1))]),nb_cmp(1,1),ctr([increasing],[alldifferent_except_0,decreasing]),maxocc(20,209),maxoccval(20,0),[],[],affinity(none,none),0-20,ranked_fd([],[[20,-0.6970199121669343,1]-[col(test_table_partition0_up_range_7,1)]]),distinct_vals([],[0-209,1-1]),vals_fds([],[]),monotonicities([],[])).

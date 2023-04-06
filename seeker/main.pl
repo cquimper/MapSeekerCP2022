@@ -18,6 +18,7 @@
 :- use_module(table_access).
 :- use_module(utility).
 :- use_module(stat_utility).
+:- use_module(gen_bool_formula).
 :- use_module(gen_formula).
 :- use_module(gen_formula_term).
 :- use_module(gen_formula_write).
@@ -28,9 +29,12 @@
 
 :- multifile table_metadata/31.
 :- dynamic table_metadata/31.
+:- multifile table_info/6.
+:- dynamic table_info/6.
 
 :- multifile max_cost/1.
 :- dynamic max_cost/1.
+:-dynamic fout/1.
 
 
 average_size(X1) :-                                                             
@@ -43,11 +47,14 @@ average_size(X1) :-
         length(X3, X7),
         X8 is X6 / X7,
         write(t(sum,X6,len,X7,av,X8)), nl,
+
+        
         retractall(size_to_compute_conjectures(_,_,_,_)). 
 
 top(0) :-
     !,
-    top(model_seeker, assistant, 0). 
+    top(model_seeker, assistant, 0),
+retractall(table_info(_,_,_,_,_,_)). 
 top(1) :-
     g8.                              
 
@@ -372,20 +379,29 @@ search_secondaries1([col(X12,X15)|X17], X2, X3, X6, X13, X11, X14, X7, X4) :-
     search_secondaries1(X17, X2, X3, X6, X13, X11, X14, X10, X8).
 
 search_secondaries([], _, _, _, _) :- !.
-search_secondaries([col(X6,X14)|X15], X1, X9, X3, X10) :-
-   tab_get_name(col(X6,X14),X11),
-   tab_get_inputs(X6, X5),     
-   findall(X7, (member(X7,X5),
-                   tab_get_type(X7, X12),
-                   X12 = int               ),                                         
+search_secondaries([col(X11,X22)|X24], X1, X15, X5, X16) :-
+   tab_get_name(col(X11,X22),X17),
+   tab_get_inputs(X11, X9),     
+   findall(X12, (member(X12,X9),
+                   tab_get_type(X12, X18),
+                   memberchk(X18, [int,bool])),                                         
             X2),
-   write('Search formula for column '), write(X14), write(': '), write(X11), nl,
-   statistics(total_runtime,[X8|_]),
-   search_a_formula(100000, model_seeker, X1, [], X2, 0, X9, X6, X14, X3, X10), 
+   write('Search formula for column '), write(X22), write(': '), write(X17), nl,
    statistics(total_runtime,[X13|_]),
-   X4 is X13 - X8,
-   write(X4), write('ms'), nl,
-   search_secondaries(X15, X1, X9, X3, X10).
+   search_a_formula(100000, model_seeker, X1, [], X2, 0, X15, X11, X22, X5, X16), 
+   statistics(total_runtime,[X19|_]),
+   X6 is X19 - X13,
+   write(X6), write('ms'), nl,
+
+   tab_get_arity(col(X11,_),X20), X7 is X20 - 1,
+   tab_get_nb_rows(col(X11,_),X10),
+   call(table_info(X11,X3,X23,_,X14,X8)),
+   call(fout(X21)),
+   format(X21,'performance(~w,~w,~w,~w,~w,~w,~w).~n',[X11,X7-X10,X3,X23,X14,X8,X6]),
+   
+            
+   
+   search_secondaries(X24, X1, X15, X5, X16).
 
 write_col_names([]) :- !, nl.
 write_col_names([col(X1,X3)|X4]) :-
